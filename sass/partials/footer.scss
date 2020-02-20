@@ -1,0 +1,45 @@
+/**
+ * partials/footer
+ * ---
+ */
+
+ .grey{
+  background-color: $font-black;
+  height: 16rem;
+}
+.blue{
+  background-color: $font-blue;
+  height: auto;
+  color: $font-white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.footer-logo{
+  height: 7rem;
+    
+}
+.subscribe{
+  color: $font-yellow;
+  font-size: 2rem;
+}
+
+.footertext{
+    font-size: $font-size-base;
+    margin-top: 3rem;
+}
+.social-media{
+    padding: 1.5rem;
+    color: $font-white;
+}
+
+.centered{
+  display: flex;
+  justify-content: center;
+}
+#copyright{
+  text-align: center;
+}
+.social-media:hover{
+  color: $font-yellow;
+}
