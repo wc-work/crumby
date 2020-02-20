@@ -1,9 +1,9 @@
 			<!-- footer -->
-	<footer class="grey container-fluid">
+			<footer class="grey container-fluid">
 		<div class="row">
 			
   			<div class="col-4 d-flex flex-row">
-    			<img src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="WebCrumbs alt logo. Digital toast with WC in the middle" class="footer-logo mt-5 ml-5">
+    			<img src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="WebCrumbs alt logo. Digital toast with WC in the middle" class="footer-logo mt-5 ml-5 mb-5">
 					
   					</div>
 			<div class="col-4">

@@ -31,15 +31,30 @@
 	<body <?php body_class(); ?>>
 	
 	<nav class="navbar navbar-expand-md navbar-light" role="navigation">
-        <div class="container-fluid">
+        <div class="container-fluid" id="nav-icon">
     <!-- Brand and toggle get grouped for better mobile display -->
+	<div class="col-6">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
-             <span> <img src="<?php echo get_template_directory_uri(); ?>/img/iconfinder-icon.svg" alt="digital bread crumb"> </span>
-            </button>
-        <a class="navbar-brand" href="#">
-            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/wc-site-logo.png" alt="Webcrumbs with digital crumbs on the bottom of the word 'crumbs'">
-			<img class="mobile-logo" src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="Webcrumbs alt logo. Digital bread with WC abbreviation in the middle.">
+			 	<span> 
+				 	<img src="<?php echo get_template_directory_uri(); ?>/img/iconfinder-icon.svg" alt="hamburger menu icon" id="hamburger"> 
+				</span>	
+			</button>
+			
+			<img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/wc-site-logo.png" alt="Webcrumbs with digital crumbs on the bottom of the word 'crumbs'">
+	</div>
+
+	<div class="col-6 d-lg-none d-md-none d-xl-none" id="flex-mlogo">
+        <a href="#">		
+			
+				<img class="mobile-logo" id="flex-logo" src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="Webcrumbs alt logo. Digital bread with WC abbreviation in the middle.">
+			
         </a>
+	</div>
+
+
+
+
+
         <?php
         wp_nav_menu( array(
             'theme_location'    => 'primary',
@@ -54,6 +69,9 @@
         ?>
     </div>
 </nav>
+
+
+
 <?php
 // wp_nav_menu( array(
 //     'theme_location'  => 'primary',
@@ -71,18 +89,6 @@
 
 
 
-
-
-
-
-
-
-
-				<!-- logo -->
-				<div class="logo">
-				
-				</div>
-				<!-- /logo -->
 
 			</header>
 			<!-- /header -->

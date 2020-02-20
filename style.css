@@ -5,7 +5,6 @@
  */
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -64,41 +63,59 @@ nav {
   z-index: 1;
 }
 
+.navbar {
+  margin: 0;
+}
+
 nav a {
   margin-left: 3rem;
 }
 
 .logo {
-  width: 15rem;
+  width: 18rem;
   height: 100%;
 }
 
-@media only screen and (min-width: 576px) {
+.mobile-logo {
+  display: none !important;
+}
+
+#flex-mlogo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  .mobile-logo {
+    display: block !important;
+    height: 5rem;
+  }
+
+  .logo {
+    display: none !important;
+  }
+}
+@media (min-width: 768) {
+  .mobile-logo {
+    display: none;
+  }
+
   .logo {
     display: block;
   }
-
-  .mobile-logo {
-    display: none;
-    height: 5rem;
-  }
 }
-@media only screen and (max-width: 576px) {
-  .logo {
-    display: none;
-  }
-
-  .mobile-logo {
-    display: block;
-    height: 5rem;
-  }
+#nav-icon {
+  display: flex;
+  justify-content: flex-start;
 }
+
 .navbar-light .navbar-nav .nav-link {
   color: #EBBC4E;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: #FDF8E1;
+  background-color: transparent;
 }
 
 .navbar-toggler {
@@ -695,8 +712,15 @@ input[type=value] {
 }
 
 /*# sourceMappingURL=style.css.map */
-.mov {
-  overflow: hidden;
+.yellow {
+  background-color: #EBBC4E;
+  height: 40rem;
+}
+
+.card {
+  background-color: #5DA3B2;
+  height: 35rem;
+  margin-top: 3rem;
 }
 
 .process .grid {
