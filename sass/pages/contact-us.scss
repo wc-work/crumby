@@ -26,7 +26,7 @@
 
 input[type="text"],
 input[type="email"],
-textarea {
+.wpcf7 textarea {
   width: 100%;
   padding: 10px;
   resize: none;
@@ -52,4 +52,9 @@ input[type="value"] {
 
 .wpcf7 label {
   font-size: 2rem;
+}
+
+#wpcf7-f19-o1 {
+  display: flex;
+  justify-content: center;
 }
