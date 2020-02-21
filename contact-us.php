@@ -38,6 +38,7 @@ get_header(); ?>
     </div> <!-- end row -->
 
         <?php echo do_shortcode( '[contact-form-7 id="39" title="Contact form 1"]' ); ?>
-     
+      
+      testing git hub
 </div> <!-- end container -->
 <?php get_footer(); ?>
