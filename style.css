@@ -712,6 +712,24 @@ input[type=value] {
 }
 
 /*# sourceMappingURL=style.css.map */
+.quote1 {
+  height: 7rem;
+  transform: rotate(160deg);
+}
+
+.quote2 {
+  height: 7rem;
+}
+
+.quotes-sec {
+  padding: 5rem;
+}
+.quotes-sec p {
+  font-size: large;
+  color: #5DA3B2;
+  text-align: center;
+}
+
 .yellow {
   background-color: #EBBC4E;
 }

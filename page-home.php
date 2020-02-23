@@ -21,7 +21,21 @@ get_header(); ?>
 		</section> -->
 
 <!-- QUOTE SECTION -->
+<div class="container-fluid quotes-sec">
+	<div class="d-flex justify-content-center">
+		<div>	
+				
+				<img src="<?php echo get_template_directory_uri();?>/img/quote-1.svg" alt="Quote icon" class="quote1">
+		</div>
+		<div>
+			<p>WebCrumbs works to put you in control of your website. We tailor your Wordpress experience to help showcase your authentic style.</p>
+		</div>
+		<div>
+		<img src="<?php echo get_template_directory_uri();?>/img/quote-1.svg" alt="Quote icon" class="quote2">
+		</div>
+	</div>
 
+</div>
 
 
 
