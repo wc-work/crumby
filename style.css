@@ -714,13 +714,45 @@ input[type=value] {
 /*# sourceMappingURL=style.css.map */
 .yellow {
   background-color: #EBBC4E;
-  height: 40rem;
 }
 
-.card {
+.cards {
   background-color: #5DA3B2;
-  height: 35rem;
+  height: 45rem;
   margin-top: 3rem;
+  text-align: center;
+}
+
+.cards-h1 {
+  color: #FDF8E1;
+  text-align: center;
+  padding: 2rem;
+  font-size: 4rem;
+}
+
+.cards-icon {
+  height: 15rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards p {
+  color: #FDF8E1;
+  font-size: x-large;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cards a {
+  background-color: #2C2C2C;
+  color: #EBBC4E;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
+#what {
+  margin-top: 5rem;
 }
 
 .process .grid {

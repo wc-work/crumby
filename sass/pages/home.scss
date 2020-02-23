@@ -174,10 +174,43 @@
 
 .yellow{
     background-color: $font-yellow;
-    height: 40rem;
+    
 }
-.card{
+.cards{
     background-color: $font-blue;
-    height: 35rem;
+    height: 45rem;
     margin-top: 3rem;
+    text-align: center;
+}
+.cards-h1{
+    color: $font-white;
+    text-align: center;
+    padding: 2rem;
+    font-size: 4rem;
+}
+.cards-icon{
+    height: 15rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.cards{
+    p{
+        color: $font-white;
+        font-size: x-large;
+        padding: 2rem;
+        text-align: center;
+    }
+}
+.cards{
+    a{
+        background-color: $font-black;
+        color: $font-yellow;
+        margin-bottom: 2rem;
+        padding: 2rem;
+    }
+}
+#what{
+    margin-top:5rem;
 }

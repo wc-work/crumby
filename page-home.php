@@ -33,11 +33,33 @@ get_header(); ?>
 
 <!-- CARDS -->
 
- <div class="container yellow d-flex">
+ <div class="container yellow">
+	<div class="row">
+		<div class="col-lg col-md">
+			<div class="cards">
+				<h1 class="cards-h1">What?</h1>
+				<img src="<?php echo get_template_directory_uri();?>/img/whatcard-icon.svg" alt="Wordpress logo" class="cards-icon" alt="icon of website grid" class="cards-icon">
+				<p id="what">Simply put, we make websites.</p>
+			</div>
+		</div>
+		<div class="col-lg col-md">
+			<div class="cards">
+				<h1 class="cards-h1">How?</h1>
+				<img src="<?php echo get_template_directory_uri();?>/img/wordpress-icon.svg" alt="Wordpress logo" class="cards-icon">
+				<p>We use Wordpress.</p>
+				<a href="http://wc.v3/process" class="btn btn-lg">Learn More</a>
+			</div>
+		</div>
+		<div class="col-lg col-md">
+			<div class="cards mb-5">
+				<h1 class="cards-h1">Why?</h1>
+				<img src="<?php echo get_template_directory_uri();?>/img/whatcard-icon.svg" alt="Wordpress logo" class="cards-icon" alt="icon of website grid" alt="icon of a bell" class="cards-icon">
+				<p>It's in our values.</p>
+				<a href="http://wc.v3/about-us" class="btn btn-lg">Learn More</a>
+			</div>
+		</div>
+	</div>
 	
-	<div class="col-4 card"></div>
-	<div class="col-4 card"></div>
-	<div class="col-4 card"></div>
 </div> 
 
 
