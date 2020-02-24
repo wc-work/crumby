@@ -5,7 +5,7 @@
  */
 get_header(); ?>
 
-	<!-- <main role="main">
+	<main role="main">
 		<section class="homepage">
   			<div class="boxed">
 
@@ -18,10 +18,10 @@ get_header(); ?>
 					</div>
     			</div>
 			</div>
-		</section> -->
+		</section>
 
 <!-- QUOTE SECTION -->
-<div class="container-fluid quotes-sec">
+<div class="container-fluid quotes-sec mb-5">
 	<div class="d-flex justify-content-center">
 		<div>	
 				
@@ -47,7 +47,7 @@ get_header(); ?>
 
 <!-- CARDS -->
 
- <div class="container yellow">
+ <div class="container yellow mb-5">
 	<div class="row">
 		<div class="col-lg col-md">
 			<div class="cards">
