@@ -940,4 +940,9 @@ input[type=value] {
   font-family: "Noto Sans", sans-serif;
 }
 
+.wp-post-image {
+  height: 100%;
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
