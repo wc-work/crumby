@@ -8,7 +8,9 @@ get_header(); ?>
 	<main role="main">
 		<section class="homepage">
   			<div class="boxed">
-
+				<div class="intro">
+					<img class="header-logo"src="<?php echo get_template_directory_uri();?>/img/main-logo.png" alt="Webcrumbs logo. Digital bread with crumbs falling off of it.">
+				</div>
 				<div id="big-video">
 					<div class="mov-overlay"></div>
 					<div class="mov" 
@@ -20,33 +22,21 @@ get_header(); ?>
 			</div>
 		</section>
 
-<!-- QUOTE SECTION -->
-<div class="container-fluid quotes-sec mb-5">
-	<div class="d-flex justify-content-center">
-		<div>	
-				
-				<img src="<?php echo get_template_directory_uri();?>/img/quote-1.svg" alt="Quote icon" class="quote1">
+		<!-- QUOTE SECTION -->
+ 		<div class="container-fluid quotes-sec mb-5">
+			<div class="d-flex justify-content-center">
+				<div>	
+					<img src="<?php echo get_template_directory_uri();?>/img/quote-1.svg" alt="Quote icon" class="quote1">
+				</div>
+				<div>
+					<p>WebCrumbs works to put you in control of your website. We tailor your Wordpress experience to help showcase your authentic style.</p>
+				</div>
+				<div>
+					<img src="<?php echo get_template_directory_uri();?>/img/quote-1.svg" alt="Quote icon" class="quote2">
+				</div>
+			</div>
 		</div>
-		<div>
-			<p>WebCrumbs works to put you in control of your website. We tailor your Wordpress experience to help showcase your authentic style.</p>
-		</div>
-		<div>
-		<img src="<?php echo get_template_directory_uri();?>/img/quote-1.svg" alt="Quote icon" class="quote2">
-		</div>
-	</div>
-
-</div>
-
-
-
-
-
-
-
-
-
 <!-- CARDS -->
-
  <div class="container yellow mb-5">
 	<div class="row">
 		<div class="col-lg col-md">
@@ -74,11 +64,11 @@ get_header(); ?>
 		</div>
 	</div>
 	
-</div> 
+</div>  
 
 
 		<!-- /section -->
-	</main>
+</main>
 
 
 
