@@ -4,7 +4,7 @@
 * Template Post Type: post
 */
 get_header();  ?>
-<div class="container-fluid post-setup">
+<div class="post-setup">
     <main role="main">
         <!-- section -->
         <section>
@@ -22,6 +22,7 @@ get_header();  ?>
                         <?php endif; ?>
                         <!-- /post thumbnail -->
                       
+                     <div class="container-fluid">        
                         <!-- post details -->
                         <span class="author"><?php _e('By', 'html5blank'); ?> <?php the_author_posts_link(); ?></span> |
                         <span class="date"><?php the_time('F j, Y'); ?></span>
@@ -40,8 +41,6 @@ get_header();  ?>
                         <p><?php _e('Categorised in: ', 'html5blank');
                             the_category(', '); // Separated by commas 
                             ?></p>
-                        <?php edit_post_link(); // Always handy to have Edit Post Links available 
-                        ?>
                     </article>
                     <!-- /article -->
                 <?php endwhile; ?>
@@ -55,6 +54,7 @@ get_header();  ?>
         </section>
         <!-- /section -->
     </main>
-</div><!-- end container -->
+    </div>
+</div><!-- end post-type -->
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
