@@ -5,7 +5,6 @@
  */
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -919,6 +918,16 @@ input[type=value] {
 .process .item28 {
   grid-column: 4/span 2;
   grid-row: 21/span 2;
+}
+
+.blogpost {
+  height: 80vh;
+}
+
+li {
+  list-style-type: none;
+  position: absolute;
+  background-position: center;
 }
 
 /*# sourceMappingURL=style.css.map */
