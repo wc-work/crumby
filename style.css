@@ -945,4 +945,22 @@ input[type=value] {
   width: 100vw;
 }
 
+.featured-img-width {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.thumbnail-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-title {
+  position: absolute;
+}
+
 /*# sourceMappingURL=style.css.map */

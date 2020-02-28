@@ -17,3 +17,19 @@
     height: 30vh;
     width: 100vw; 
 }
+.featured-img-width {
+    width: 100%;
+    height: auto;
+    //max-height: 53vh;
+    object-fit: cover;
+    object-position: center;
+}
+.thumbnail-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.featured-title {
+    position: absolute;
+}
