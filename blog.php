@@ -5,44 +5,47 @@
  */
 get_header(); ?>
 
-		<!-- section -->
+<!-- section -->
 
-	<main role="main">
+<main role="main">
 
-		<section>
+	<section>
 
         <?php 
             // the query
-            $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
-            <?php if ( $wpb_all_query->have_posts() ) : ?>
-            <ul>
-                <!-- the loop -->
-                
-                <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
-                <div class="blogpost" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>);">
-                    <li class="d-flex justify-content-center"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-                    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+        $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
+        <?php if ( $wpb_all_query->have_posts() ) : ?>
+            
+            <!-- the loop -->
+        
+        <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
+            <div class="blogpost col-xs-offset pb-5">
+                <div class="blogimg" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>);">
+                    <div class="title font-weight-bold d-flex text-left pl-5"> <?php the_title(); ?></div>
+                        <div class="pt-5 pl-5">
+                            <button type="button" class="btn btn-primary btn-lg d-flex justify-content-center" href="<?php the_permalink();?>">Read More</button>
+                        </div>
                 </div>
-                <?php endwhile; ?>
+            </div>
+        <?php endwhile; ?>
+                
+            <!-- end of the loop -->
+            
+        <?php wp_reset_postdata(); ?>
+        
+        <?php else : ?>
+            <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+        <?php endif; ?>
 
-                <!-- end of the loop -->
-            </ul>
-                <?php wp_reset_postdata(); ?>
-            <?php else : ?>
-                <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
-            <?php endif; ?>
+		<?php get_template_part('loop'); ?>
 
-			<h1><?php _e( 'WebCrumbs Blog', 'html5blank' ); ?></h1>
+		<?php get_template_part('pagination'); ?>
 
-			<?php get_template_part('loop'); ?>
-
-			<?php get_template_part('pagination'); ?>
-
-		</section>
-		<!-- /section -->
+    </section>
+<!-- /section -->
 
 
-	</main>
+</main>
 
 <?php get_sidebar(); ?>
 

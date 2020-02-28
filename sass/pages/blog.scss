@@ -1,8 +1,20 @@
 .blogpost{
+    color: black; 
+}
+.blogimg{
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 80vh;
 }
-li{
-    list-style-type: none;
-    position: absolute;
-    background-position: center;
+.title{
+    padding-top: 30vh;
+    font-size: 50px;
+    width: 50px;
+}
+.btn{
+    background-color: #5da3b2;
+    color: black;
+    border-color: transparent;
+    height: 65px;
+    width: 16%;
 }
