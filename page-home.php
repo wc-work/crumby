@@ -9,7 +9,10 @@ get_header(); ?>
 		<section class="homepage">
   			<div class="boxed">
 				<div class="intro">
-					<img class="header-logo"src="<?php echo get_template_directory_uri();?>/img/main-logo.png" alt="Webcrumbs logo. Digital bread with crumbs falling off of it.">
+					<img class="header-logo"src="<?php echo get_template_directory_uri();?>/img/color-webcrumbs-main.png" alt="Webcrumbs logo. Digital bread with crumbs falling off of it.">
+					<div class="intro-headers">
+						<h1>Pave your digital footprint with WebCrumbs.</h1>
+					</div>
 				</div>
 				<div id="big-video">
 					<div class="mov-overlay"></div>
