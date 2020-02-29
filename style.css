@@ -154,6 +154,29 @@ nav a {
   color: #EBBC4E;
 }
 
+li {
+  border: 1px solid black;
+  width: 50px !important;
+  height: 50px !important;
+  overflow: hidden;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  list-style: none;
+  float: left;
+  margin: 20px;
+  color: #2C2C2C;
+}
+li:nth-of-type(3n+1) {
+  transform: rotate(45deg);
+}
+li:nth-of-type(3n+2) {
+  transform: rotate(15deg);
+}
+li:nth-of-type(3n+3) {
+  transform: rotate(-25deg);
+}
+
 /**
  * pages/contact-us
  * ---
@@ -921,7 +944,7 @@ input[type=value] {
 }
 
 .blogpost {
-  color: black;
+  color: #2C2C2C;
 }
 
 .blogimg {
@@ -937,11 +960,15 @@ input[type=value] {
 }
 
 .btn {
-  background-color: #5da3b2;
-  color: black;
+  background-color: #5DA3B2;
+  color: #2C2C2C;
   border-color: transparent;
   height: 65px;
-  width: 16%;
+}
+
+.btn-primary:hover {
+  background-color: #FDF8E1;
+  color: #2C2C2C;
 }
 
 /*# sourceMappingURL=style.css.map */

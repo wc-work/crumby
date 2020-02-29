@@ -19,18 +19,18 @@ get_header(); ?>
             <!-- the loop -->
         
         <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
-            <div class="blogpost col-xs-offset pb-5">
-                <div class="blogimg" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>);">
+            <container class="container-fluid blogpost col-xs-offset pb-5">
+                <div class="blogimg" style="background-image:url(<?php echo get_the_post_thumbnail_url();?>);">
                     <div class="title font-weight-bold d-flex text-left pl-5"> <?php the_title(); ?></div>
                         <div class="pt-5 pl-5">
                             <button type="button" class="btn btn-primary btn-lg d-flex justify-content-center" href="<?php the_permalink();?>">Read More</button>
                         </div>
                 </div>
-            </div>
+        </container>    
         <?php endwhile; ?>
                 
             <!-- end of the loop -->
-            
+            <!-- start of end -->
         <?php wp_reset_postdata(); ?>
         
         <?php else : ?>
@@ -39,11 +39,13 @@ get_header(); ?>
 
 		<?php get_template_part('loop'); ?>
 
-		<?php get_template_part('pagination'); ?>
+        <?php get_template_part('pagination'); ?>
+        <!-- end of end -->
+
+        
 
     </section>
 <!-- /section -->
-
 
 </main>
 

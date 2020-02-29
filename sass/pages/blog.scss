@@ -1,10 +1,11 @@
 .blogpost{
-    color: black; 
+    color: $font-black; 
 }
 .blogimg{
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
+    
 }
 .title{
     padding-top: 30vh;
@@ -12,9 +13,12 @@
     width: 50px;
 }
 .btn{
-    background-color: #5da3b2;
-    color: black;
+    background-color: $font-blue ;
+    color: $font-black;
     border-color: transparent;
     height: 65px;
-    width: 16%;
+}
+.btn-primary:hover{
+    background-color: $font-white;
+    color: $font-black;
 }
