@@ -47,19 +47,19 @@ get_header();  ?>
                 <?php endwhile; ?>
 
                 <div class="container">
-                    <div class="row d-flex justify-content-center">
+                    <div class="row d-flex justify-content-start px-5">
                         <?php
                         $recent_post = new WP_Query(array(
                             'post_type' => 'post',
                             'post_status' => 'publish',
-                            'showposts' => 2,
+                            'showposts' => 4,
                             'order' => 'DESC',       
                         ));
                         ?>
                        <?php while ($recent_post -> have_posts()) : $recent_post->the_post(); ?>
-                            <div class="col-md-4 col-sm-5 d-flex flex-column justify-content-center mb-3 card">
+                            <div class="col-md-4 col-sm-5 d-flex flex-column justify-content-center my-3 px-5 card full-card">
                                 <?php the_post_thumbnail('thumbnail', array('class' => 'card-img-top')); ?>
-                                <div class="card-body">
+                                <div class="card-body my-4">
                                 <a class="card-title" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
                                     <!-- <p class="card-text">This Pikachu is happy to see your face!</p> -->
                                 </div>

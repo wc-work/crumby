@@ -961,6 +961,15 @@ input[type=value] {
 
 .featured-title {
   position: absolute;
+  font-size: 3rem;
+}
+
+.full-card {
+  background-color: #FDF8E1;
+}
+
+.card-img-top {
+  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
