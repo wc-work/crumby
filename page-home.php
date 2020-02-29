@@ -3,27 +3,30 @@
  * Template Name: Homepage
  * Template Post Type: page
  */
-get_header(); ?>
+get_header();
+?>
+<section class="homepage">
+  <div class="boxed">
+    <div class="intro">
+      <img class="home-logo" src="<?php echo get_template_directory_uri();?>/img/main-logo.png">
+      <div class="intro-headers">
+        <h1>Pave your digital footprint with WebCrumbs.</h1>  
+        <h2>Coming soon</h2>
+      </div>
+    </div>
 
-	<main role="main">
-		<section class="homepage">
-  			<div class="boxed">
-				<div class="intro">
-					<img class="header-logo"src="<?php echo get_template_directory_uri();?>/img/color-webcrumbs-main.png" alt="Webcrumbs logo. Digital bread with crumbs falling off of it.">
-					<div class="intro-headers">
-						<h1>Pave your digital footprint with WebCrumbs.</h1>
-					</div>
-				</div>
-				<div id="big-video">
-					<!-- <div class="mov-overlay"></div> -->
-					<div class="mov" 
-						data-src="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-mobile.jpg" 
-						data-video="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-take-1.mp4"
-						data-placeholder="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-medium.jpg">
-					</div>
-    			</div>
-			</div>
-		</section>
+  </div>
+  <div id="big-video">
+      <div class="mov-overlay"></div>
+      <div class="mov" 
+        data-src="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-placeholder.png" 
+        data-video="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-take-1.mp4"
+        data-placeholder="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-placeholder.png">
+      </div>
+    </div>
+  </div>
+</section>
+
 
 		<!-- QUOTE SECTION -->
  		<div class="quotes-sec container">
