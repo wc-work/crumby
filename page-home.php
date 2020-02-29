@@ -11,7 +11,6 @@ get_header();
       <img class="home-logo" src="<?php echo get_template_directory_uri();?>/img/main-logo.png">
       <div class="intro-headers">
         <h1>Pave your digital footprint with WebCrumbs.</h1>  
-        <h2>Coming soon</h2>
       </div>
     </div>
 
