@@ -15,19 +15,19 @@ get_header(); ?>
 					</div>
 				</div>
 				<div id="big-video">
-					<div class="mov-overlay"></div>
+					<!-- <div class="mov-overlay"></div> -->
 					<div class="mov" 
-						data-src="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-placeholder.png" 
+						data-src="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-mobile.jpg" 
 						data-video="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-take-1.mp4"
-						data-placeholder="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-placeholder.png">
+						data-placeholder="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-medium.jpg">
 					</div>
     			</div>
 			</div>
 		</section>
 
 		<!-- QUOTE SECTION -->
- 		<div class="container-fluid quotes-sec mb-5">
-			<div class="d-flex justify-content-center">
+ 		<div class="quotes-sec container">
+			<div class="d-flex justify-content-center col-lg-8 offset-lg-2">
 				<div>	
 					<img src="<?php echo get_template_directory_uri();?>/img/quote-1.svg" alt="Quote icon" class="quote1">
 				</div>
