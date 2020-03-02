@@ -57,7 +57,7 @@ get_header();  ?>
                         ));
                         ?>
                        <?php while ($recent_post -> have_posts()) : $recent_post->the_post(); ?>
-                            <div class="col-md-4 col-sm-5 d-flex flex-column justify-content-center my-3 px-5 card full-card">
+                            <div class="col-md-3 col-sm-5 d-flex flex-column justify-content-center my-3 px-5 card full-card">
                                 <?php the_post_thumbnail('thumbnail', array('class' => 'card-img-top')); ?>
                                 <div class="card-body my-4">
                                 <a class="card-title" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
