@@ -200,7 +200,7 @@ nav a {
 
 input[type=text],
 input[type=email],
-textarea {
+.wpcf7 textarea {
   width: 100%;
   padding: 10px;
   resize: none;
@@ -226,6 +226,11 @@ input[type=value] {
 
 .wpcf7 label {
   font-size: 2rem;
+}
+
+#wpcf7-f19-o1 {
+  display: flex;
+  justify-content: center;
 }
 
 /**
@@ -1148,6 +1153,53 @@ input[type=value] {
 .process .item28 {
   grid-column: 4/span 2;
   grid-row: 21/span 2;
+}
+
+/**
+ * pages/single-wc-post
+ * ---
+ */
+.post-setup {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+.post-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.image-holder {
+  height: 30vh;
+  width: 100vw;
+}
+
+.featured-img-width {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.thumbnail-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-title {
+  position: absolute;
+  font-size: 3rem;
+}
+
+.full-card {
+  background-color: #FDF8E1;
+}
+
+.card-img-top {
+  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

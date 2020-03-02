@@ -27,6 +27,8 @@
 
 		<?php edit_post_link(); ?>
 
+		
+
 	</article>
 	<!-- /article -->
 
