@@ -23,9 +23,11 @@ body{
 // Partials
 @import "partials/header";
 @import "partials/footer";
+@import "partials/pagination";
 
 // Pages
 @import "pages/contact-us.scss";
 @import "pages/about-us.scss";
 @import "pages/home.scss";
 @import "pages/process.scss";
+@import "pages/blog.scss";
