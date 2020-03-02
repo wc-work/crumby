@@ -9,7 +9,7 @@ li {
     list-style: none;
     float: left;
     margin: 20px;
-    color: $font-black;
+    color: $font-black;                                            ;
     &:nth-of-type(3n+1) {
       transform: rotate(45deg);
     }
