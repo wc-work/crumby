@@ -172,6 +172,29 @@ nav a {
   color: #EBBC4E;
 }
 
+li {
+  border: 1px solid black;
+  width: 50px !important;
+  height: 50px !important;
+  overflow: hidden;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  list-style: none;
+  float: left;
+  margin: 20px;
+  color: #2C2C2C;
+}
+li:nth-of-type(3n+1) {
+  transform: rotate(45deg);
+}
+li:nth-of-type(3n+2) {
+  transform: rotate(15deg);
+}
+li:nth-of-type(3n+3) {
+  transform: rotate(-25deg);
+}
+
 /**
  * pages/contact-us
  * ---
@@ -200,7 +223,7 @@ nav a {
 
 input[type=text],
 input[type=email],
-textarea {
+.wpcf7 textarea {
   width: 100%;
   padding: 10px;
   resize: none;
@@ -226,6 +249,11 @@ input[type=value] {
 
 .wpcf7 label {
   font-size: 2rem;
+}
+
+#wpcf7-f19-o1 {
+  display: flex;
+  justify-content: center;
 }
 
 /**
@@ -712,10 +740,6 @@ input[type=value] {
 }
 
 /*# sourceMappingURL=style.css.map */
-VIDEO .mov {
-  overflow: hidden;
-}
-
 .homepage {
   display: flex;
   flex-direction: column;
@@ -752,7 +776,7 @@ VIDEO .mov {
   top: 2rem;
   height: 120px;
 }
-.homepage .logo {
+.homepage .home-logo {
   width: 150px;
 }
 .homepage .icon-box {
@@ -799,7 +823,7 @@ VIDEO .mov {
     position: relative;
     bottom: 11rem;
   }
-  .homepage .logo {
+  .homepage .home-logo {
     width: 220px;
   }
   .homepage .intro-headers h1 {
@@ -853,7 +877,7 @@ VIDEO .mov {
     display: flex;
     bottom: 2rem;
   }
-  .homepage .logo {
+  .homepage .home-logo {
     width: 23rem;
   }
   .homepage .intro-headers {
@@ -1152,6 +1176,81 @@ VIDEO .mov {
 .process .item28 {
   grid-column: 4/span 2;
   grid-row: 21/span 2;
+}
+
+/**
+ * pages/single-wc-post
+ * ---
+ */
+.post-setup {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+.post-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.image-holder {
+  height: 30vh;
+  width: 100vw;
+}
+
+.featured-img-width {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.thumbnail-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-title {
+  position: absolute;
+  font-size: 3rem;
+}
+
+.full-card {
+  background-color: #FDF8E1;
+}
+
+.card-img-top {
+  margin-top: 2rem;
+}
+
+.blogpost {
+  color: #2C2C2C;
+}
+
+.blogimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+.title {
+  padding-top: 30vh;
+  font-size: 50px;
+  width: 50px;
+}
+
+.btn {
+  background-color: #5DA3B2;
+  color: #2C2C2C;
+  border-color: transparent;
+  height: 65px;
+}
+
+.btn-primary:hover {
+  background-color: #FDF8E1;
+  color: #2C2C2C;
 }
 
 /*# sourceMappingURL=style.css.map */

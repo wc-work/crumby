@@ -1,16 +1,6 @@
 //Empty scss in anticpation for page-home.php
 
-
-
-
-
-
-
-
-VIDEO
-.mov{
-    overflow: hidden;
-}
+// VIDEO
 .homepage {
     display: flex;
     flex-direction: column;
@@ -43,7 +33,7 @@ VIDEO
       top: 2rem;
       height: 120px;
     }
-    .logo {
+    .home-logo {
       width: 150px;
     }
     .icon-box {
@@ -92,7 +82,7 @@ VIDEO
         position: relative;
         bottom: 11rem;
       }
-      .logo {
+      .home-logo {
         width: 220px;
       }
       .intro-headers {
@@ -146,7 +136,7 @@ VIDEO
         display: flex;
         bottom: 2rem;
       }
-      .logo {
+      .home-logo {
         width: 23rem;
       }
       .intro-headers {
@@ -163,9 +153,6 @@ VIDEO
       }
     }
   }
-
-
-
 //QUOTE
 .quote1{
     height:7rem;
@@ -184,6 +171,7 @@ padding: 5rem;
     }
  
 }
+
 
 //CARDS
 
@@ -229,3 +217,4 @@ padding: 5rem;
 #what{
     margin-top:5rem;
 }
+
