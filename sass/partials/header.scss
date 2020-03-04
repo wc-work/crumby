@@ -24,19 +24,23 @@ nav{
 .logo{
   width: 18rem;
   height: 100%;
+  margin-left: 30px;
   
 }
 .mobile-logo{
   display: none !important;
 }
+#bs-example-navbar-collapse-1{
+  
+  max-width: 47%;
+}
+
 
 #flex-mlogo{
   display:flex;
   justify-content: flex-end;
 }
-#flex-logo{
 
-}
 
 @media (max-width:768px){
   .mobile-logo{
