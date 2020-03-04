@@ -5,7 +5,7 @@
  */
 get_header(); ?>
 
-	<main role="main">
+	<main role="main" class="about-us">
 		<section>
             <div class="banner container-fluid">
                 <img src="http://webcrumbs.site/wp-content/uploads/2020/02/WebCrumbs-Group-Photo-JPEG-scaled.jpg">
