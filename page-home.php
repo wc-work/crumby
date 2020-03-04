@@ -17,8 +17,7 @@ get_header();
   </div>
   <div id="big-video">
       <div class="mov-overlay"></div>
-      <div class="mov" 
-        data-src="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-placeholder.png" 
+      <div class="mov" data-src="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-placeholder.png" 
         data-video="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-take-1.mp4"
         data-placeholder="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-placeholder.png">
       </div>

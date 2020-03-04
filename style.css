@@ -60,7 +60,7 @@ nav {
   background-color: #5DA3B2;
   color: #EBBC4E;
   font-size: 1.6rem;
-  z-index: 1;
+  z-index: 6;
 }
 
 .navbar {
@@ -823,7 +823,7 @@ input[type=value] {
 @media only screen and (min-width: 768px) {
   .homepage {
     background-color: black;
-    height: 100vh;
+    height: 80vh;
   }
   .homepage #big-video {
     overflow: hidden;
@@ -837,7 +837,7 @@ input[type=value] {
     display: flex;
     justify-content: center;
     position: relative;
-    height: 80vh;
+    height: 70vh;
     max-height: 100vh;
   }
   .homepage .mov:before {
@@ -858,7 +858,7 @@ input[type=value] {
     width: 50rem;
     height: 50rem;
     display: flex;
-    bottom: 2rem;
+    bottom: 0rem;
   }
   .homepage .home-logo {
     width: 23rem;

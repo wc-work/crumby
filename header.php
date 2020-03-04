@@ -47,8 +47,10 @@
 
 	<div class="col-6 d-lg-none d-md-none d-xl-none" id="flex-mlogo">
         <a href="#">		
-			
+			<a href="http://wc.v3/">
 				<img class="mobile-logo" id="flex-logo" src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="Webcrumbs alt logo. Digital bread with WC abbreviation in the middle.">
+			</a>
+				
 			
         </a>
 	</div>

@@ -101,7 +101,7 @@
     @media only screen and (min-width: 768px) {
   
         background-color: black;
-        height: 100vh;
+        height: 80vh;
       
       #big-video {
         overflow: hidden;
@@ -115,7 +115,7 @@
         display: flex;
         justify-content: center;
         position: relative;
-        height: 80vh;
+        height: 70vh;
         max-height: 100vh;
       }
       .mov:before {
@@ -134,7 +134,7 @@
         width: 50rem;
         height: 50rem;
         display: flex;
-        bottom: 2rem;
+        bottom: 0rem;
       }
       .home-logo {
         width: 23rem;
@@ -153,6 +153,9 @@
       }
     }
   }
+  // PARALAX
+
+  
 //QUOTE
 .quote1{
     height:7rem;
