@@ -172,58 +172,31 @@ nav a {
   color: #EBBC4E;
 }
 
-li {
-  border: 1px solid black;
-  width: 50px !important;
-  height: 50px !important;
-  overflow: hidden;
-  font-weight: 600;
-  font-size: 2rem;
-  text-align: center;
-  list-style: none;
-  float: left;
-  margin: 20px;
-  color: #2C2C2C;
-}
-li:nth-of-type(3n+1) {
-  transform: rotate(45deg);
-}
-li:nth-of-type(3n+2) {
-  transform: rotate(15deg);
-}
-li:nth-of-type(3n+3) {
-  transform: rotate(-25deg);
-}
-
 /**
  * pages/contact-us
  * ---
  */
-.icon-text-container {
+.contact-us .icon-text-container {
   text-align: center;
   padding: 7.5rem;
 }
-
-.row1 {
+.contact-us .row1 {
   display: flex;
   justify-content: space-evenly;
 }
-
-.icons {
+.contact-us .icons {
   width: 6rem;
   height: 6rem;
 }
-
-.btn-lg {
+.contact-us .btn-lg {
   padding: 0.5rem 5rem;
   font-size: 2.25rem;
   line-height: 1.5;
   border-radius: 2.3rem;
 }
-
-input[type=text],
-input[type=email],
-.wpcf7 textarea {
+.contact-us input[type=text],
+.contact-us input[type=email],
+.contact-us .wpcf7 textarea {
   width: 100%;
   padding: 10px;
   resize: none;
@@ -234,9 +207,8 @@ input[type=email],
   background-color: #FDF8E1;
   color: #2C2C2C;
 }
-
-input[type=submit],
-input[type=value] {
+.contact-us input[type=submit],
+.contact-us input[type=value] {
   background-color: #5DA3B2;
   box-sizing: border-box;
   border: 2px solid #5DA3B2;
@@ -246,12 +218,10 @@ input[type=value] {
   margin: 4px 2px;
   font-size: 2rem;
 }
-
-.wpcf7 label {
+.contact-us .wpcf7 label {
   font-size: 2rem;
 }
-
-#wpcf7-f19-o1 {
+.contact-us #wpcf7-f19-o1 {
   display: flex;
   justify-content: center;
 }
@@ -896,7 +866,7 @@ input[type=value] {
 
 .quote1 {
   height: 7rem;
-  transform: rotate(160deg);
+  transform: rotate(161deg);
 }
 
 .quote2 {
@@ -1241,7 +1211,7 @@ input[type=value] {
   width: 50px;
 }
 
-.btn {
+#blog-btn {
   background-color: #5DA3B2;
   color: #2C2C2C;
   border-color: transparent;

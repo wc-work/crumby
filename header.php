@@ -40,7 +40,9 @@
 				</span>	
 			</button>
 			
-			<img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/wc-site-logo.png" alt="Webcrumbs with digital crumbs on the bottom of the word 'crumbs'">
+			<a href="http://wc.v3/">
+				<img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/wc-site-logo.png" alt="Webcrumbs with digital crumbs on the bottom of the word 'crumbs'">
+			</a>
 	</div>
 
 	<div class="col-6 d-lg-none d-md-none d-xl-none" id="flex-mlogo">
