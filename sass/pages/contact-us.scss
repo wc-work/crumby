@@ -2,61 +2,52 @@
  * pages/contact-us
  * ---
  */
- .contact-us {
-  .icon-text-container {
-    text-align: center;
-    padding: 7.5rem;
-  }
-
-  .row1 {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .icons {
-    width: 6rem;
-    height: 6rem;
-  }
-
-  .btn-lg {
-    padding: 0.5rem 5rem;
-    font-size: 2.25rem;
-    line-height: 1.5;
-    border-radius: 2.3rem;
-  }
-
-  input[type="text"],
-  input[type="email"],
-  .wpcf7 textarea {
-    width: 100%;
-    padding: 10px;
-    resize: none;
-    font-size: 15px;
-    box-sizing: border-box;
-    border: 2px solid $font-blue;
-    border-radius: 6px;
-    background-color: $font-white;
-    color: $font-black;
-  }
-
-  input[type="submit"],
-  input[type="value"] {
-    background-color: $font-blue;
-    box-sizing: border-box;
-    border: 2px solid $font-blue;
-    border-radius: 6px;
-    color: $font-white;
-    padding: 16px 32px;
-    margin: 4px 2px;
-    font-size: 2rem;
-  }
-
-  .wpcf7 label {
-    font-size: 2rem;
-  }
-
-  #wpcf7-f19-o1 {
-    display: flex;
-    justify-content: center;
-  }
+ .icon-text-container {
+  text-align: center;
+  padding: 7.5rem;
+}
+.row1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.icons {
+  width: 6rem;
+  height: 6rem;
+}
+.btn-lg {
+  padding: 0.5rem 5rem;
+  font-size: 2.25rem;
+  line-height: 1.5;
+  border-radius: 2.3rem;
+}
+input[type="text"],
+input[type="email"],
+.wpcf7 textarea {
+  width: 100%;
+  padding: 10px;
+  resize: none;
+  font-size: 15px;
+  box-sizing: border-box;
+  border: 2px solid $font-blue;
+  border-radius: 6px;
+  background-color: $font-white;
+  color: $font-black;
+}
+input[type="submit"],
+input[type="value"] {
+  background-color: $font-blue;
+  box-sizing: border-box;
+  border: 2px solid $font-blue;
+  border-radius: 6px;
+  color: $font-white;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  font-size: 2rem;
+}
+.wpcf7 label {
+  font-size: 2rem;
+}
+#wpcf7-f19-o1 {
+  display: flex;
+  justify-content: center;
 }
