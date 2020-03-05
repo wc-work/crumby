@@ -15,6 +15,7 @@ get_header();
     </div>
 
   </div>
+ 
   <div id="big-video">
       <div class="mov-overlay"></div>
       <div class="mov" data-src="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-placeholder.png" 
@@ -27,6 +28,9 @@ get_header();
 
 
 		<!-- QUOTE SECTION -->
+	<div class="parallax">
+
+		
  		<div class="quotes-sec container">
 			<div class="d-flex justify-content-center col-lg-8 offset-lg-2">
 				<div>	
@@ -68,7 +72,8 @@ get_header();
 		</div>
 	</div>
 	
-</div>  
+	</div>  
+</div>
     
 
 		<!-- /section -->

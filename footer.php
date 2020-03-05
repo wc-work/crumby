@@ -47,9 +47,10 @@
 			</div>
 
 				<div class="col-xs centered col-lg-3">
-					<p class="footertext">WebCrumbs 2721 Ventura St <br> Suite 201 Fresno, Ca 93721</p>
+					<p class="footertext">2721 Ventura St Suite 201 <br> Fresno, CA 93721</p>
 				</div>
 			</div>
+		</div>
 			
 			</footer>
 	
