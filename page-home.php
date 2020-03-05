@@ -3,8 +3,8 @@
  * Template Name: Homepage
  * Template Post Type: page
  */
-get_header();
-?>
+get_header();?>
+
 <section class="homepage">
   <div class="boxed">
     <div class="intro">

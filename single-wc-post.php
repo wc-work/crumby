@@ -65,21 +65,6 @@ get_header();  ?>
                                 </div>
                             </div>
                         <?php endwhile; ?>
-                        
-                        <!-- <div class="col-md-4 col-sm-5 d-flex flex-column justify-content-center mb-3 card">
-                            <img src="https://i.guim.co.uk/img/media/c433a7fddb05056b8b345ce74e4116df18898735/0_269_1381_829/master/1381.jpg?width=620&quality=85&auto=format&fit=max&s=014e7ecc9c01bf0a8d3c95f955ec231d" class="img-fluid card-img-top" alt="Sleepy Snorlax">
-                            <div class="card-body">
-                                <h5 class="card-title">Sleepy Snorlax</h5>
-                                <p class="card-text">Snorlax is taking a nice nap</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-5 d-flex flex-column justify-content-center mb-3 card">
-                            <img src="https://thespinoff.co.nz/wp-content/uploads/2019/06/40f.png" class="img-fluid card-img-top" alt="Pika What?!">
-                            <div class="card-body">
-                                <h5 class="card-title">Pika What?!</h5>
-                                <p class="card-text">Pikachu saw what you did yesterday...</p>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             <?php else : ?>
