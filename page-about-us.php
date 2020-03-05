@@ -20,7 +20,7 @@ get_header(); ?>
                                 <img src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-left-quotation-01.png">
                             </picture>
                         </div>
-                        <div class="quotation item2">
+                        <div class="quotation item2 d-flex">
                             <p>At WebCrumbs, we always make sure to have our HAT on...</p>
                         </div>
                         <div class="item3">
@@ -69,7 +69,10 @@ get_header(); ?>
         </section>
         <section>
             <div class="button-container container-fluid">
-                <a class="button" href="https://square.site/book/GDH2KVERNEFSC/webcrumbs-fresno-ca" data-toggle="tooltip" title="Hooray!"> Book A Meeting</a>
+                <!-- <a class="button" href="https://square.site/book/GDH2KVERNEFSC/webcrumbs-fresno-ca" data-toggle="tooltip" title="Hooray!"> Book A Meeting</a> -->
+               <a href="https://square.site/book/GDH2KVERNEFSC/webcrumbs-fresno-ca" class="btn btn-lg meetingbtn"> 
+                    <p>Book A Meeting</p> 
+                </a>
             </div>
         </section>
 

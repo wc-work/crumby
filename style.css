@@ -307,6 +307,22 @@ input[type=value] {
   background-color: white;
   align-content: center;
 }
+.about-us .button {
+  text-decoration: none;
+}
+.about-us .meetingbtn {
+  background-color: #5DA3B2;
+  color: #2C2C2C;
+  height: 8rem;
+  width: 35rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+.about-us .meetingbtn:hover {
+  color: #5297a5;
+}
 @media only screen and (max-width: 576px) {
   .about-us .container-fluid {
     display: flex;
@@ -721,6 +737,12 @@ input[type=value] {
     width: 43rem;
     height: 8rem;
   }
+}
+
+.item2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
