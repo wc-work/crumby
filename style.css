@@ -173,15 +173,14 @@ nav a {
 }
 
 .pagination {
-  color: #ffff;
+  color: red;
   background-color: white;
 }
-
-.pagination-lg .page-link {
-  padding: 0.75rem 1.5rem;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.pagination .pagination-lg .page-link {
   color: black;
+}
+.pagination .page-item {
+  background-color: #5DA3B2;
 }
 
 /**
