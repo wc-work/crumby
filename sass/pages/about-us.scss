@@ -53,6 +53,9 @@
 .about-us {
   font-family: "Noto Sans", sans-serif;
   background-color: #EBBC4E;
+  h1 {
+    cursor: pointer;
+  }
   .banner {
     position: relative;
     margin: 0;
