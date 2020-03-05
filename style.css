@@ -172,6 +172,18 @@ nav a {
   color: #EBBC4E;
 }
 
+.pagination {
+  color: #ffff;
+  background-color: white;
+}
+
+.pagination-lg .page-link {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: black;
+}
+
 /**
  * pages/contact-us
  * ---
