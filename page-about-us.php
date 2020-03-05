@@ -34,14 +34,14 @@ get_header(); ?>
         </section>
         <section>
             <div id="crumbs" class="carousel slide container-fluid" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#crumbs" data-slide-to="0" class="active"><img class="img-responsive" src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-single-crumb-one-01.png" alt="crumbs-indicator">
-                </li>
-                <li data-target="#crumbs" data-slide-to="1"><img class="img-responsive" src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-single-crumb-two-01.png" alt="crumbs-indicator">
-                </li>
-                <li data-target="#crumbs" data-slide-to="2"><img class="img-responsive" src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-single-crumb-three-01.png" alt="crumbs-indicator">
-                </li>
-            </ol>
+                <ol class="carousel-indicators">
+                    <li data-target="#crumbs" data-slide-to="0" class="active"><img class="img-responsive" src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-single-crumb-one-01.png" alt="crumbs-indicator">
+                    </li>
+                    <li data-target="#crumbs" data-slide-to="1"><img class="img-responsive" src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-single-crumb-two-01.png" alt="crumbs-indicator">
+                    </li>
+                    <li data-target="#crumbs" data-slide-to="2"><img class="img-responsive" src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-single-crumb-three-01.png" alt="crumbs-indicator">
+                    </li>
+                </ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
                         <div class="carousel-caption">
