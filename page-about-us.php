@@ -20,21 +20,45 @@ get_header(); ?>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
                         <div class="carousel-caption">
-                            <h1>H <a style="opacity: 30%"> A T</a></h1>
+                            <!-- H a t -->
+                            <h1>H 
+                                <a style="opacity: 30%"> 
+                                    <span data-target="#crumbs" data-slide-to="1">A </span>
+                                    <span data-target="#crumbs" data-slide-to="2">T </span>
+                                </a>
+                            </h1>
                             <h2>Helpful</h2>
                             <h3>We are a click, text, call, drive <br> away, and always ready to help.</h3>
                         </div> 
   					</div>
   					<div class="carousel-item">
                         <div class="carousel-caption">
-                            <h1><a style="opacity: 30%">H</a> A <a style="opacity: 30%">T</a></h1>
+                            <!-- h A t -->
+                            <h1>
+                                <a style="opacity: 30%">
+                                    <span data-target="#crumbs" data-slide-to="0">H</span>
+                                </a> 
+                                A 
+                                <a style="opacity: 30%">
+                                    <span data-target="#crumbs" data-slide-to="2">T </span>
+                                </a>
+                            </h1>
                             <h2>Authentic</h2>
                             <h3>We work to showcase the best, <br> unique you in the digital world.</h3>
                         </div> 
   					</div>
 					<div class="carousel-item">
                         <div class="carousel-caption">
-                            <h1><a style="opacity: 30%">H A</a> T</h1>
+                            <!-- h a T -->
+                            <h1>
+                                <a style="opacity: 30%">
+                                    <span data-target="#crumbs" data-slide-to="0">H</span>
+                                </a>
+                                <a style="opacity: 30%">
+                                    <span data-target="#crumbs" data-slide-to="1">A</span>
+                                </a>
+                                T
+                            </h1>
                             <h2>Transparent</h2>
                             <h3>We believe in a relationship <br> with honest communication.</h3>
                         </div> 
