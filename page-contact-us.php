@@ -6,7 +6,7 @@
 get_header(); ?>
 
 <!--Contact Info Rows-->
-<div class="container-fluid">
+<div class="container-fluid contact-us">
     <div class="row row1">
 
         <!-- icon-text-container is to help align the icons and text together -->
@@ -36,6 +36,7 @@ get_header(); ?>
         </div>-->
 
     </div> <!-- end row -->
+
 
     <div id ="center-form">
         <?php echo do_shortcode( '[contact-form-7 id="23" title="Contact form 1"]' ); ?>

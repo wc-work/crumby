@@ -15,10 +15,10 @@ get_header();
     </div>
 
   </div>
+ 
   <div id="big-video">
       <div class="mov-overlay"></div>
-      <div class="mov" 
-        data-src="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-placeholder.png" 
+      <div class="mov" data-src="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-placeholder.png" 
         data-video="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-take-1.mp4"
         data-placeholder="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-placeholder.png">
       </div>
@@ -28,13 +28,16 @@ get_header();
 
 
 		<!-- QUOTE SECTION -->
+	<div class="parallax">
+
+		
  		<div class="quotes-sec container">
 			<div class="d-flex justify-content-center col-lg-8 offset-lg-2">
 				<div>	
 					<img src="<?php echo get_template_directory_uri();?>/img/quote-1.svg" alt="Quote icon" class="quote1">
 				</div>
 				<div>
-					<p>WebCrumbs works to put you in control of your website. We tailor your Wordpress experience to help showcase your authentic style.</p>
+					<p>WebCrumbs works to put you in control of your website. We tailor your WordPress experience to help showcase your authentic style.</p>
 				</div>
 				<div>
 					<img src="<?php echo get_template_directory_uri();?>/img/quote-1.svg" alt="Quote icon" class="quote2">
@@ -69,7 +72,8 @@ get_header();
 		</div>
 	</div>
 	
-</div>  
+	</div>  
+</div>
     
 
 		<!-- /section -->
