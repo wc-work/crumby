@@ -38,7 +38,9 @@ get_header(); ?>
     </div> <!-- end row -->
 
 
+    <div id ="center-form">
         <?php echo do_shortcode( '[contact-form-7 id="23" title="Contact form 1"]' ); ?>
+    </div>
       
 </div> <!-- end container -->
 <?php get_footer(); ?>
