@@ -1,58 +1,47 @@
-			<!-- footer -->
-			<footer class="grey container-fluid">
-		<div class="row">
-			
-  			<div class="col-4 d-flex flex-row">
-    			<img src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="WebCrumbs alt logo. Digital toast with WC in the middle" class="footer-logo mt-5 ml-5 mb-5">
-					
-  					</div>
-			<div class="col-4">
-				<p class="subscribe mt-5 text-center">Subscribe to our blog:</p>
-				  	<form action="#" class="">
-						<input class="form-control" type="text" placeholder="Enter your email...">
-				  	</form>
-			</div>
-			<div class="col-4">
-				  
-			</div>
+<!-- footer -->
+<footer class="grey container-fluid">
+	<div class="row">
+		<div class="col-4 d-flex flex-row">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="WebCrumbs alt logo. Digital toast with WC in the middle" class="footer-logo mt-5 ml-5 mb-5">
+		</div>
+		<div class="col-4">
+			<p class="subscribe mt-5 text-center">Subscribe to our blog:</p>
+			<form action="#" class="">
+				<input class="form-control" type="text" placeholder="Enter your email...">
+			</form>
+		</div>
+		<div class="col-4"></div>
  			
-			
-			<div class="container-fluid blue">
-				<div class="row col-lg-3">
-					<div class="col-xs col-md centered">
-						<p class="footertext ml-5" id="copyright">	&copy; 2020 Webcrumbs All rights reserved.</p>
-					</div>
+		<div class="container-fluid blue">
+			<div class="row col-lg-3">
+				<div class="col-xs col-md centered">
+					<p class="footertext ml-5" id="copyright">	&copy; 2020 Webcrumbs All rights reserved.</p>
 				</div>
-
-				<div class="col-xs col-lg-6 text-center">
-						<div class="col-xs centered d-flex">
-					<a href="https://www.instagram.com/webcrumbs.dev/?hl=en"  class="social-media">
-						<i class="fab fa-instagram fa-2x social-media" id="insta"></i> 
-					</a>
-				
-				
-					<a href="https://www.facebook.com/WebCrumbs.dev/" class="social-media">
-						<i class="fab fa-facebook fa-2x social-media"></i>
-					</a>
-				</i>
-				
-					<a href="https://twitter.com/WebCrumbsDev" class="social-media">
-						<i class="fab fa-twitter fa-2x social-media"></i>
-					</a>
-				</i>
-				<a href="https://www.linkedin.com/" class="social-media">
-					<i class="fab fa-linkedin fa-2x social-media"></i>
-				</a>
-						</div>
 			</div>
 
-				<div class="col-xs centered col-lg-3">
-					<p class="footertext">2721 Ventura St Suite 201 <br> Fresno, CA 93721</p>
-				</div>
+			<div class="col-xs col-lg-6 text-center">
+					<div class="col-xs centered d-flex">
+						<a href="https://www.instagram.com/webcrumbs.dev/?hl=en"  class="social-media">
+							<i class="fab fa-instagram fa-2x social-media" id="insta"></i> 
+						</a>
+						<a href="https://www.facebook.com/WebCrumbs.dev/" class="social-media">
+							<i class="fab fa-facebook fa-2x social-media"></i>
+						</a>
+						<a href="https://twitter.com/WebCrumbsDev" class="social-media">
+							<i class="fab fa-twitter fa-2x social-media"></i>
+						</a>
+						<a href="https://www.linkedin.com/" class="social-media">
+							<i class="fab fa-linkedin fa-2x social-media"></i>
+						</a>
+					</div>
+			</div>
+
+			<div class="col-xs centered col-lg-3">
+				<p class="footertext">2721 Ventura St Suite 201 <br> Fresno, CA 93721</p>
 			</div>
 		</div>
-			
-			</footer>
+	</div>	
+</footer>
 	
 
 
