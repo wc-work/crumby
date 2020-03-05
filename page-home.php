@@ -55,7 +55,7 @@ get_header();
 			<div class="cards">
 				<h1 class="cards-h1">How?</h1>
 				<img src="<?php echo get_template_directory_uri();?>/img/wordpress-icon.svg" alt="Wordpress logo" class="cards-icon">
-				<p>We use Wordpress.</p>
+				<p>We use WordPress.</p>
 				<a href="http://wc.v3/process" class="btn btn-lg">Learn More</a>
 			</div>
 		</div>
