@@ -36,10 +36,16 @@ get_header(); ?>
         </div>-->
 
     </div> <!-- end row -->
+<<<<<<< HEAD:page-contact-us.php
 
     <div id ="center-form">
         <?php echo do_shortcode( '[contact-form-7 id="23" title="Contact form 1"]' ); ?>
     </div>
+=======
+        <div id = "center-form">
+            <?php echo do_shortcode( '[contact-form-7 id="23" title="Contact form 1"]' ); ?>
+        </div>
+>>>>>>> the-gathering:contact-us.php
       
 </div> <!-- end container -->
 <?php get_footer(); ?>
