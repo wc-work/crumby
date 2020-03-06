@@ -3,8 +3,6 @@
  * ---
  * Main `sass` file. Import here `sass` files
  */
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -15,7 +13,7 @@ html {
 }
 
 body {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /**
@@ -299,8 +297,34 @@ input[type=value] {
  * ---
  */
 .about-us {
-  font-family: "Noto Sans", sans-serif;
-  background-color: #EBBC4E;
+  font-family: "Open Sans", sans-serif;
+}
+.about-us h1 {
+  cursor: pointer;
+}
+.about-us .title {
+  font-size: 5rem;
+  line-height: 5.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 100%;
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  padding: 15px 0 15px 15px;
+  max-width: 50%;
+}
+.about-us .layer {
+  width: 100%;
+  height: 65vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  z-index: 5;
+}
+.about-us .copy {
+  font-size: 2rem;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 .about-us .banner {
   position: relative;
@@ -313,6 +337,7 @@ input[type=value] {
   z-index: 1;
   width: 100%;
   object-fit: cover;
+  height: 65vh;
 }
 .about-us .box {
   background-color: white;
@@ -389,25 +414,28 @@ input[type=value] {
     margin: 0;
   }
   .about-us .quotation {
-    display: block;
     position: relative;
-    padding: 2rem 20px;
+    padding: 0rem 44px;
     font-style: italic;
     color: #5DA3B2;
     text-align: center;
     background: transparent;
+    z-index: 5;
+    margin-top: 20px;
+    margin-right: 13px;
   }
   .about-us .quotation p {
-    line-height: 1.7rem;
-    font-size: 1.7rem;
+    line-height: 2.8rem;
+    font-size: 2.5rem;
+    z-index: 5;
   }
   .about-us .carousel {
     position: relative;
     margin: 0;
     width: 100%;
-    height: 25rem;
-    background-color: white;
+    height: 30rem;
     max-width: 100vw;
+    margin-top: 30px;
   }
   .about-us .carousel .carousel-indicators {
     list-style: none;
@@ -445,7 +473,8 @@ input[type=value] {
     left: 0%;
     width: 100%;
     text-align: center;
-    color: #5DA3B2;
+    color: #2c2c2c;
+    text-shadow: none;
   }
   .about-us .carousel .carousel-caption h1 {
     font-size: 8rem;
@@ -459,16 +488,18 @@ input[type=value] {
     line-height: 4.5rem;
   }
   .about-us .carousel .carousel-caption h3 {
-    color: #EBBC4E;
+    color: #2c2c2c;
     font-size: 2rem;
     font-weight: 300;
     line-height: 2.15rem;
+    padding-top: 20px;
   }
   .about-us .button-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 10rem;
+    margin: 50px 0 75px;
   }
   .about-us .button-container .button {
     display: inline-flex;
@@ -538,6 +569,7 @@ input[type=value] {
   .about-us .quotation p {
     line-height: 2.5rem;
     font-size: 2.5rem;
+    z-index: 5;
   }
   .about-us .carousel {
     position: relative;
@@ -583,7 +615,8 @@ input[type=value] {
     left: 0%;
     width: 100%;
     text-align: center;
-    color: #5DA3B2;
+    color: #2c2c2c;
+    text-shadow: none;
   }
   .about-us .carousel .carousel-caption h1 {
     font-size: 11rem;
@@ -597,10 +630,10 @@ input[type=value] {
     line-height: 6.5rem;
   }
   .about-us .carousel .carousel-caption h3 {
-    color: #EBBC4E;
     font-size: 3.5rem;
     font-weight: 300;
     line-height: 4rem;
+    color: #2c2c2c;
   }
   .about-us .button-container {
     display: flex;
@@ -676,6 +709,7 @@ input[type=value] {
   .about-us .quotation p {
     line-height: 4.5rem;
     font-size: 3.75rem;
+    z-index: 5;
   }
   .about-us .carousel {
     position: relative;
@@ -721,7 +755,8 @@ input[type=value] {
     left: 0%;
     width: 100%;
     text-align: center;
-    color: #5DA3B2;
+    color: #2c2c2c;
+    text-shadow: none;
   }
   .about-us .carousel .carousel-caption h1 {
     font-size: 14rem;
@@ -735,10 +770,10 @@ input[type=value] {
     line-height: 9rem;
   }
   .about-us .carousel .carousel-caption h3 {
-    color: #EBBC4E;
     font-size: 4.5rem;
     font-weight: 300;
     line-height: 4.75rem;
+    color: #2c2c2c;
   }
   .about-us .button-container {
     display: flex;
@@ -760,6 +795,16 @@ input[type=value] {
     line-height: 4.5rem;
     width: 43rem;
     height: 8rem;
+  }
+}
+@media only screen and (min-width: 838px) {
+  .about-us .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: unset;
+    height: 65vh;
   }
 }
 
@@ -848,7 +893,7 @@ input[type=value] {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    font-family: "Noto", sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: #ebbc4e;
     position: relative;
     bottom: 11rem;
@@ -1317,14 +1362,14 @@ input[type=value] {
  * ---
  */
 .post-setup {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
 }
 
 .post-title {
   display: flex;
   justify-content: center;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .image-holder {

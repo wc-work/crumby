@@ -3,7 +3,7 @@
  * ---
  * Main `sass` file. Import here `sass` files
  */
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -13,7 +13,7 @@ html {
   font-size: 62.5%; //rem becomes 10px : 1rem, instead of 16px : 1rem. Easier to calculate.
 }
 body{
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 // Modules
 @import "modules/variables";
