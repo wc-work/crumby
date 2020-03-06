@@ -73,14 +73,10 @@ get_header();?>
             </div>
 
 
-
-
-
-
 <!-- QUOTE SECTION -->
-<div class="parallax">
+
 	<div class="quotes-sec container">
-		<div class="d-flex justify-content-center col-lg-8 offset-lg-2">
+		<div class="d-flex justify-content-center col-xl-10 quotecontainer">
 			<div>	
 				<img src="<?php echo get_template_directory_uri();?>/img/quote-1.svg" alt="Quote icon" class="quote1">
 			</div>
@@ -91,6 +87,12 @@ get_header();?>
 				<img src="<?php echo get_template_directory_uri();?>/img/quote-1.svg" alt="Quote icon" class="quote2">
 			</div>
 		</div>
+	</div>
+	<div class="mobile-quotes">
+		<div class="container">
+			<p>"WebCrumbs works to put you in control of your website. We tailor your WordPress experience to help showcase your authentic style."</p>
+		</div>
+	
 	</div>
 	<!-- CARDS -->
 	<div class="container yellow mb-5">
@@ -120,6 +122,6 @@ get_header();?>
 			</div>
 		</div>
 	</div>  
-</div>
+
 
 <?php get_footer(); ?>
