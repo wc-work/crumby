@@ -73,7 +73,6 @@ nav a {
 .fixed {
   position: fixed;
   width: 100%;
-  height: 75px;
 }
 
 .logo {
@@ -858,6 +857,7 @@ input[type=value] {
 }
 .homepage .banner .home-logo {
   width: 150px;
+  margin-bottom: 35px;
 }
 .homepage .banner .icon-box {
   width: 280px;
@@ -872,12 +872,11 @@ input[type=value] {
   display: none;
 }
 .homepage .banner .placeholder {
-  height: calc(100vh - 75px);
+  height: 100vh;
   min-height: -webkit-fill-available;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 75px;
 }
 .homepage .banner .placeholder:before {
   content: "";
@@ -888,7 +887,7 @@ input[type=value] {
   top: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.6);
-  height: 100vh;
+  height: calc(100vh - 70px);
 }
 @media only screen and (min-width: 576px) {
   .homepage .banner .intro {
@@ -1071,7 +1070,8 @@ input[type=value] {
   }
   .homepage .mobile-quotes {
     display: block !important;
-    font-size: x-large;
+    font-size: 2rem;
+    line-height: 2.7rem;
     color: #5DA3B2;
     margin-bottom: 6rem;
     font-weight: bold;

@@ -36,6 +36,7 @@
     }
     .home-logo {
       width: 150px;
+      margin-bottom: 35px;
     }
     .icon-box {
       width: 280px;
@@ -50,12 +51,12 @@
       display: none;
     }
     .placeholder {
-      height: calc(100vh - 75px);
+      height: 100vh;
       min-height: -webkit-fill-available;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      margin-top: 75px;
+      // margin-top: 70px;
     }
     .placeholder:before {
       content: "";
@@ -64,7 +65,7 @@
       left: 0; right: 0;
       top: 0; bottom: 0;
       background: rgba(0,0,0,.6);
-      height: 100vh;
+      height: calc(100vh - 70px);
     }
   
     /* ---------------------------------------------- */
@@ -262,7 +263,8 @@ padding: 5rem;
   }
   .mobile-quotes{
     display: block !important;
-    font-size: x-large;
+    font-size: 2rem;
+    line-height: 2.7rem;
     color: $font-blue;
     margin-bottom: 6rem;
     font-weight: bold;
@@ -270,9 +272,9 @@ padding: 5rem;
   }
 }
 @media (min-width:768){
-  .mobile-quotes{
+  // .mobile-quotes{
     
-  }
+  // }
 }
 .mobile-quotes{
   display: none;
