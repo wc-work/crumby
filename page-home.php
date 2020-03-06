@@ -4,13 +4,13 @@
  * Template Post Type: page
  */
 get_header();?>
-
-<section class="homepage">
+<main class="homepage">
+<section class="banner">
   <div class="boxed">
-    <div class="intro">
+    <div class="intro d-flex justify-content-center align-items-center flex-column">
       <img class="home-logo" src="<?php echo get_template_directory_uri();?>/img/main-logo.png">
       <div class="intro-headers">
-        <h1>Pave your digital footprint with websites made fresh by WebCrumbs</h1>  
+        <h1>Pave your digital footprint with websites by WebCrumbs, made fresh daily.</h1>  
       </div>
     </div>
   </div>
@@ -27,10 +27,10 @@ get_header();?>
 <!-- SERVICES SECTION -->
 
 <div class="container-fluid services-sec">
-	<h1>Our Services</h1>
 	<div class="d-flex justify-content-center">
 		<img class="serviceimg mt-5" src="<?php echo get_template_directory_uri();?>/img/icons/services-img.svg" alt="Image of website browser">
 	</div>
+	<h1>Our Services</h1>
 	<div class="container card categories-content">
 		<div class="row">
 			<div class="col-xs-6 col-lg-4 categories mt-5">
@@ -128,6 +128,6 @@ get_header();?>
 			</div>
 		</div>
 	</div>  
-
+</main>
 
 <?php get_footer(); ?>
