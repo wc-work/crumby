@@ -97,9 +97,15 @@ get_header(); ?>
                 </div>
             </div>      
         </section>
-
-
-
+        <!-- Our Story -->
+        <section class="container">
+            <div class="row">
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <div>Our Story</div>
+                The world has moved to an increasingly online space, but that doesn’t mean it can’t be human. WebCrumbs is a website design company with people who value support, authenticity, and transparency with a team that’s like family. People who are supportive and enthusiastic about your past, present, and future. Feel free to call anytime, and our team will be happy to work with you.
+                </div>
+            </div>
+        </section>
 </main>
 
 <?php get_sidebar(); ?>
