@@ -53,6 +53,9 @@
 .about-us {
   font-family: "Noto Sans", sans-serif;
   background-color: #EBBC4E;
+  h1 {
+    cursor: pointer;
+  }
   .banner {
     position: relative;
     margin: 0;
@@ -70,7 +73,23 @@
     background-color: white;
     align-content: center;
   }
-  
+  .button{
+    text-decoration: none;
+  }
+.meetingbtn{
+  background-color: $font-blue;
+  color: $font-black;
+  height: 8rem;
+  width: 35rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+.meetingbtn:hover{
+  color: #5297a5;
+}
+
   @media only screen and (max-width: 576px) {
     .container-fluid {
       display: flex;
@@ -488,6 +507,11 @@
       } 
     }
   }
+}
+.item2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
  
  /*# sourceMappingURL=style.css.map */

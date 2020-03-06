@@ -23,7 +23,7 @@ get_header(); ?>
                 <div class="blogimg" style="background-image:url(<?php echo get_the_post_thumbnail_url();?>);">
                     <div class="title font-weight-bold d-flex text-left pl-5"> <?php the_title(); ?></div>
                         <div class="pt-5 pl-5">
-                            <button type="button" class="btn btn-primary btn-lg d-flex justify-content-center" href="<?php the_permalink();?>">Read More</button>
+                            <button type="button" class="btn btn-primary btn-lg d-flex justify-content-center" id="blog-btn" href="<?php the_permalink();?>">Read More</button>
                         </div>
                 </div>
         </container>    
