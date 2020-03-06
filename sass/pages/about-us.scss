@@ -55,6 +55,19 @@
   h1 {
     cursor: pointer;
   }
+  .title {
+    font-size: 4rem;
+    line-height: 4.2rem;
+    width: 100%;
+    z-index: 5;
+    position: absolute;
+    bottom: 0;
+    padding: 15px 0;
+    max-width: 50%;
+  }
+  .copy {
+    background-color: red;
+  }
   .banner {
     position: relative;
     margin: 0;

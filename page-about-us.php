@@ -6,11 +6,15 @@
 get_header(); ?>
 
 	<main role="main" class="about-us">
+        <!-- Banner -->
+        <section class="banner">
+            <div class="title">The WebCrumbs Story</div>
+            <img src="http://wc.v3/wp-content/uploads/2020/03/webcrumbs-logo-process-wide.jpg">
+        </section>
         <!-- Our Story -->
-        <section class="container">
+        <section class="container copy">
             <div class="row">
                 <div class="col d-flex flex-column justify-content-center align-items-center">
-                    <div>Our Story</div>
                 The world has moved to an increasingly online space, but that doesn’t mean it can’t be human. WebCrumbs is a website design company with people who value support, authenticity, and transparency with a team that’s like family. People who are supportive and enthusiastic about your past, present, and future. Feel free to call anytime, and our team will be happy to work with you.
                 </div>
             </div>
