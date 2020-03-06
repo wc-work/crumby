@@ -35,29 +35,31 @@ get_header();?>
 		<div class="row">
 			<div class="col-xs-6 col-lg-4 categories mt-5">
 				<h2>Website Design</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quidem cum exercitationem consequuntur sint non ipsa quos, quia animi ducimus culpa eveniet, veritatis, corporis eligendi itaque sed natus distinctio cumque.</p>
+				<p>Website design ties in with custom development to meet specific website needs along with desired aesthetics.</p>
 			</div>
 			<div class="col-xs-6 col-lg-4 card categories mt-5">
 				<h2>Custom Development</h2>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto ut facere repudiandae quis quod eaque deleniti, non pariatur et fuga quia commodi velit obcaecati culpa ad, vero laudantium quas sit.</p>
+				<p>Custom development will be based upon your choice of a pre-built wordpress theme or custom built theme. Custom themes are built by WebCrumbs and suit specific website needs.</p>
 			</div>
 			<div class="col-xs-6 col-lg-4 card categories mt-5">
 				<h2>SEO Basics</h2>
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque commodi praesentium autem laboriosam ipsum excepturi libero laudantium laborum, ea aperiam quod molestiae neque! Numquam illum porro magni, ea eius ducimus!</p>
+				<p>Search engine optimization (SEO) is the process of increasing the quality and quantity of website traffic by increasing the visibility of a website to users of a web search engine (ex.Google).</p>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-xs-6 col-lg-4 categories mt-5">
 				<h2>Onboarding Specialist</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quidem cum exercitationem consequuntur sint non ipsa quos, quia animi ducimus culpa eveniet, veritatis, corporis eligendi itaque sed natus distinctio cumque.</p>
+				<p>An onboarding specialist communicates to the client changes and customization that are self mangable throughout the website.
+</p>
 			</div>
 			<div class="col-xs-6 col-lg-4 card categories mt-5">
 				<h2>ADA Compliance</h2>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto ut facere repudiandae quis quod eaque deleniti, non pariatur et fuga quia commodi velit obcaecati culpa ad, vero laudantium quas sit.</p>
+				<p> ADA compliance refers to the Americans with Disabilities Act Standards for Accessible Design, which states that all electronic and information technology (like websites) must be accessible to people with disabilities.</p>
 			</div>
 			<div class="col-xs-6 col-lg-4 card categories mt-5">
 				<h2>Intro to Google Analytics</h2>
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque commodi praesentium autem laboriosam ipsum excepturi libero laudantium laborum, ea aperiam quod molestiae neque! Numquam illum porro magni, ea eius ducimus!</p>
+				<p>Google Analytics is a web analytics service offered by Google that tracks and reports website traffic, currently as a platform inside the Google Marketing Platform brand. 
+				</p>
 			</div>
 		</div>
 	
@@ -101,14 +103,16 @@ get_header();?>
 				<div class="cards">
 					<h1 class="cards-h1">What?</h1>
 					<img src="<?php echo get_template_directory_uri();?>/img/whatcard-icon.svg" alt="Wordpress logo" class="cards-icon" alt="icon of website grid" class="cards-icon">
-					<p id="what">Simply put, we make websites.</p>
+					<p id="what">We build and enhance websites.</p>
 				</div>
 			</div>
 			<div class="col-lg col-md">
 				<div class="cards">
 					<h1 class="cards-h1">How?</h1>
 					<img src="<?php echo get_template_directory_uri();?>/img/wordpress-icon.svg" alt="Wordpress logo" class="cards-icon">
-					<p>We use WordPress.</p>
+					<h2 class="cardheading">We use WordPress.</h2>
+					<p>We use WordPress, a self content-management system.
+					</p>
 					<a href="http://wc.v3/process" class="btn btn-lg">Learn More</a>
 				</div>
 			</div>
@@ -116,7 +120,9 @@ get_header();?>
 				<div class="cards mb-5">
 					<h1 class="cards-h1">Why?</h1>
 					<img src="<?php echo get_template_directory_uri();?>/img/whatcard-icon.svg" alt="Wordpress logo" class="cards-icon" alt="icon of website grid" alt="icon of a bell" class="cards-icon">
-					<p>It's in our values.</p>
+					<h2 class="cardheading">It's in our values.</h2>
+					<p>We’re here to help, <br> we’re here for you. 
+					</p>
 					<a href="http://wc.v3/about-us" class="btn btn-lg">Learn More</a>
 				</div>
 			</div>

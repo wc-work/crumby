@@ -822,7 +822,7 @@ input[type=value] {
   display: none;
 }
 .homepage .placeholder {
-  height: 100vh;
+  height: 91vh;
   min-height: -webkit-fill-available;
   background-position: center;
   background-repeat: no-repeat;
@@ -1033,6 +1033,7 @@ input[type=value] {
     color: #5DA3B2;
     margin-bottom: 6rem;
     font-weight: bold;
+    text-align: center;
   }
 }
 .mobile-quotes {
@@ -1049,22 +1050,27 @@ input[type=value] {
   margin-top: 3rem;
   text-align: center;
 }
+.cards p {
+  color: #2C2C2C;
+  font-size: large;
+}
 
 .cards-h1 {
   color: #FDF8E1;
   text-align: center;
   padding: 2rem;
   font-size: 4rem;
+  font-weight: bold;
 }
 
 .cards-icon {
-  height: 15rem;
+  height: 10rem;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.cards p {
+.cardheading {
   color: #FDF8E1;
   font-size: x-large;
   padding: 2rem;
@@ -1075,11 +1081,13 @@ input[type=value] {
   background-color: #2C2C2C;
   color: #EBBC4E;
   margin-bottom: 2rem;
-  padding: 2rem;
+  padding: 1rem;
+  font-size: 2rem;
+  margin-top: 3rem;
 }
 
 #what {
-  margin-top: 5rem;
+  margin-top: 11rem;
 }
 
 .process .grid {
