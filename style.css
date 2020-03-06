@@ -192,31 +192,45 @@ nav a {
  * pages/contact-us
  * ---
  */
-.icon-text-container {
-  text-align: center;
-  padding: 7.5rem;
+.contact-page {
+  font-family: "Open Sans", sans-serif;
 }
-
-.row1 {
+@media (min-width: 768px) {
+  .contact-page .contact-us {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.contact-page .contact-title {
+  color: #EBBC4E;
+  text-align: center;
+  margin-top: 5rem;
+  font-size: xx-large;
+  padding: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+.contact-page .icon-text-container {
+  text-align: center;
+  padding: 3.5rem;
+}
+.contact-page .row1 {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 3.5rem;
 }
-
-.icons {
+.contact-page .icons {
   width: 6rem;
   height: 6rem;
 }
-
-.btn-lg {
+.contact-page .btn-lg {
   padding: 0.5rem 5rem;
   font-size: 2.25rem;
   line-height: 1.5;
   border-radius: 2.3rem;
 }
-
-input[type=text],
-input[type=email],
-.wpcf7 textarea {
+.contact-page input[type=text],
+.contact-page input[type=email],
+.contact-page .wpcf7 textarea {
   width: 100%;
   padding: 10px;
   resize: none;
@@ -227,9 +241,8 @@ input[type=email],
   background-color: #FDF8E1;
   color: #2C2C2C;
 }
-
-input[type=submit],
-input[type=value] {
+.contact-page input[type=submit],
+.contact-page input[type=value] {
   background-color: #5DA3B2;
   box-sizing: border-box;
   border: 2px solid #5DA3B2;
@@ -239,12 +252,15 @@ input[type=value] {
   margin: 4px 2px;
   font-size: 2rem;
 }
-
-.wpcf7 label {
+.contact-page .wpcf7 label {
   font-size: 2rem;
 }
-
-#center-form {
+.contact-page .center-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.5rem;
+}
+.contact-page .center-form p {
   display: flex;
   justify-content: center;
 }
