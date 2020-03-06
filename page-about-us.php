@@ -9,6 +9,7 @@ get_header(); ?>
         <!-- Banner -->
         <section class="banner">
             <div class="title">The WebCrumbs Story</div>
+            <div class="layer"></div>
             <img src="http://wc.v3/wp-content/uploads/2020/03/webcrumbs-logo-process-wide.jpg">
         </section>
         <!-- Our Story -->
