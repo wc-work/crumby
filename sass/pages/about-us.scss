@@ -52,7 +52,6 @@
 
 .about-us {
   font-family: "Noto Sans", sans-serif;
-  // background-color: #EBBC4E;
   h1 {
     cursor: pointer;
   }
@@ -161,8 +160,7 @@
       position: relative;
       margin: 0;
       width: 100%;
-      height: 25rem;
-      background-color: white;
+      height: 30rem;
       max-width: 100vw;
       .carousel-indicators {
         list-style: none;
@@ -200,7 +198,8 @@
         left: 0%;
         width: 100%;
         text-align: center;
-        color: #5DA3B2;
+        color: #000;
+        text-shadow: none;
       }
       .carousel-caption h1 {
         font-size: 8rem;
@@ -214,10 +213,11 @@
         line-height: 4.5rem;
       }
       .carousel-caption h3 {
-        color: #EBBC4E;
+        color: #000;
         font-size: 2rem;
         font-weight: 300;
         line-height: 2.15rem;
+        padding-top: 20px;
       }
     }
     .button-container {
@@ -225,6 +225,7 @@
       justify-content: center;
       align-items: center;
       height: 10rem;
+      margin: 50px 0 75px;
       .button {
         display: inline-flex;
         align-items: center;

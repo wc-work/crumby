@@ -6,6 +6,37 @@
 get_header(); ?>
 
 	<main role="main" class="about-us">
+        <!-- Our Story -->
+        <section class="container">
+            <div class="row">
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <div>Our Story</div>
+                The world has moved to an increasingly online space, but that doesn’t mean it can’t be human. WebCrumbs is a website design company with people who value support, authenticity, and transparency with a team that’s like family. People who are supportive and enthusiastic about your past, present, and future. Feel free to call anytime, and our team will be happy to work with you.
+                </div>
+            </div>
+        </section>
+                <!-- Quote -->
+                <section>
+            <div class="box">
+                <div class="grid">
+                    <div class="grid-temp">
+                        <div class="item1">
+                            <picture class="picback">
+                                <img src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-left-quotation-01.png">
+                            </picture>
+                        </div>
+                        <div class="quotation item2 d-flex">
+                            <p>At WebCrumbs, we always make sure to have our HAT on...</p>
+                        </div>
+                        <div class="item3">
+                            <picture class="picback">
+                                <img src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-right-quotation-01-01.png">
+                            </picture>
+                        </div>
+                    </div>          
+                </div>
+            </div>      
+        </section>
         <!-- HAT Carousel -->
         <section>
             <div id="crumbs" class="carousel slide container-fluid" data-ride="carousel">
@@ -75,37 +106,7 @@ get_header(); ?>
                 </a>
             </div>
         </section>
-        <!-- Quote -->
-        <section>
-            <div class="box">
-                <div class="grid">
-                    <div class="grid-temp">
-                        <div class="item1">
-                            <picture class="picback">
-                                <img src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-left-quotation-01.png">
-                            </picture>
-                        </div>
-                        <div class="quotation item2 d-flex">
-                            <p>At WebCrumbs, we always make sure to have our HAT on...</p>
-                        </div>
-                        <div class="item3">
-                            <picture class="picback">
-                                <img src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-right-quotation-01-01.png">
-                            </picture>
-                        </div>
-                    </div>          
-                </div>
-            </div>      
-        </section>
-        <!-- Our Story -->
-        <section class="container">
-            <div class="row">
-                <div class="col d-flex flex-column justify-content-center align-items-center">
-                    <div>Our Story</div>
-                The world has moved to an increasingly online space, but that doesn’t mean it can’t be human. WebCrumbs is a website design company with people who value support, authenticity, and transparency with a team that’s like family. People who are supportive and enthusiastic about your past, present, and future. Feel free to call anytime, and our team will be happy to work with you.
-                </div>
-            </div>
-        </section>
+
 </main>
 
 <?php get_sidebar(); ?>
