@@ -1,3 +1,5 @@
+//Empty scss in anticpation for page-home.php
+
 // VIDEO
 .homepage {
     display: flex;
@@ -151,18 +153,88 @@
       }
     }
   }
-  // PARALAX
-.mov{
-  background-image: url('/img/video/webcrumbs-take-1.mp4');
-  background-size:cover;
-bottom:0;
-height:auto;
-min-height:100%;
-min-width:100%;
-}
-.parallax{
 
+
+
+//SERVICES
+
+.services-sec{
+  h1{
+    text-align: center;
+    color: $font-yellow;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 8rem;
+  }
+  h2{
+    text-align: center;
+    font-size: 3rem;
+  }
+  img{
+    height: 15rem;
+    width: 15rem;
+  }
+  .card{
+    border: none;
+  }
+  p{
+    color: $font-black;
+    margin-top: 1rem;
+    font-size: medium;
+    text-align: center;
+  }
 }
+.categories{
+  color: $font-yellow;
+  text-align: left;
+  font-size: larger;
+}
+.categories-content{
+  margin-top: 4rem;
+}
+.meetingbtn{
+  background-color: $font-blue;
+  color: $font-black;
+  height: 7rem;
+  width: 27rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.meetingbtn:hover{
+  color: #5297a5;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:768px){
+  .meetingbtn{
+    background-color: $font-blue;
+    color: $font-black;
+    height: 7rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    margin-top: 3rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
   
 //QUOTE
 .quote1{
@@ -175,7 +247,7 @@ min-width:100%;
 .quotes-sec{
 padding: 5rem;
     p{
-        font-size: x-large;
+        font-size: large;
         color: $font-blue;
         text-align: center;
         font-weight: bold;
@@ -222,7 +294,7 @@ padding: 5rem;
         background-color: $font-black;
         color: $font-yellow;
         margin-bottom: 2rem;
-        padding: 1.5rem;
+        padding: 2rem;
     }
 }
 #what{

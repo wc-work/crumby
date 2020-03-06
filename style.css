@@ -334,6 +334,19 @@ input[type=value] {
 .about-us .meetingbtn:hover {
   color: #5297a5;
 }
+@media (max-width: 768px) {
+  .about-us .meetingbtn {
+    background-color: #5DA3B2;
+    color: #2C2C2C;
+    height: 7rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    margin-top: 3rem;
+  }
+}
 @media only screen and (max-width: 576px) {
   .about-us .container-fluid {
     display: flex;
@@ -911,15 +924,76 @@ input[type=value] {
   }
 }
 
-.mov {
-  background-image: url("/img/video/webcrumbs-take-1.mp4");
-  background-size: cover;
-  bottom: 0;
-  height: auto;
-  min-height: 100%;
-  min-width: 100%;
+.services-sec h1 {
+  text-align: center;
+  color: #EBBC4E;
+  font-size: xx-large;
+  font-weight: bold;
+  margin-top: 8rem;
+}
+.services-sec h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+.services-sec img {
+  height: 15rem;
+  width: 15rem;
+}
+.services-sec .card {
+  border: none;
+}
+.services-sec p {
+  color: #2C2C2C;
+  margin-top: 1rem;
+  font-size: medium;
+  text-align: center;
 }
 
+.categories {
+  color: #EBBC4E;
+  text-align: left;
+  font-size: larger;
+}
+
+.categories-content {
+  margin-top: 4rem;
+}
+
+.meetingbtn {
+  background-color: #5DA3B2;
+  color: #2C2C2C;
+  height: 7rem;
+  width: 27rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.meetingbtn:hover {
+  color: #5297a5;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .meetingbtn {
+    background-color: #5DA3B2;
+    color: #2C2C2C;
+    height: 7rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    margin-top: 3rem;
+  }
+}
 .quote1 {
   height: 7rem;
   transform: rotate(161deg);
@@ -933,7 +1007,7 @@ input[type=value] {
   padding: 5rem;
 }
 .quotes-sec p {
-  font-size: x-large;
+  font-size: large;
   color: #5DA3B2;
   text-align: center;
   font-weight: bold;
@@ -975,7 +1049,7 @@ input[type=value] {
   background-color: #2C2C2C;
   color: #EBBC4E;
   margin-bottom: 2rem;
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 #what {

@@ -86,6 +86,19 @@
 .meetingbtn:hover{
   color: #5297a5;
 }
+@media (max-width:768px){
+  .meetingbtn{
+    background-color: $font-blue;
+    color: $font-black;
+    height: 7rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    margin-top: 3rem;
+  }
+}
 
   @media only screen and (max-width: 576px) {
     .container-fluid {
