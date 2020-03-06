@@ -70,6 +70,11 @@ nav a {
   margin-left: 3rem;
 }
 
+.fixed {
+  position: fixed;
+  width: 100%;
+}
+
 .logo {
   width: 18rem;
   height: 100%;
@@ -971,14 +976,16 @@ input[type=value] {
 
 .services-sec h1 {
   text-align: center;
-  color: #EBBC4E;
+  color: #2C2C2C;
   font-size: xx-large;
   font-weight: bold;
   margin-top: 8rem;
+  font-size: 4.5rem;
 }
 .services-sec h2 {
   text-align: center;
   font-size: 3rem;
+  background-color: #2c2c2c;
 }
 .services-sec img {
   height: 15rem;
@@ -1028,7 +1035,7 @@ input[type=value] {
 
 @media (max-width: 768px) {
   .meetingbtn {
-    background-color: #5DA3B2;
+    background-color: #EBBC4E;
     color: #2C2C2C;
     height: 7rem;
     width: 18rem;
@@ -1037,6 +1044,7 @@ input[type=value] {
     align-items: center;
     font-size: large;
     margin-top: 3rem;
+    font-weight: 600;
   }
 }
 .quote1 {

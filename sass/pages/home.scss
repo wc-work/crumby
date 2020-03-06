@@ -161,14 +161,16 @@
 .services-sec{
   h1{
     text-align: center;
-    color: $font-yellow;
+    color: $font-black;
     font-size: xx-large;
     font-weight: bold;
     margin-top: 8rem;
+    font-size: 4.5rem;
   }
   h2{
     text-align: center;
     font-size: 3rem;
+    background-color: #2c2c2c;
   }
   img{
     height: 15rem;
@@ -213,7 +215,7 @@
 }
 @media (max-width:768px){
   .meetingbtn{
-    background-color: $font-blue;
+    background-color: $font-yellow;
     color: $font-black;
     height: 7rem;
     width: 18rem;
@@ -222,6 +224,7 @@
     align-items: center;
     font-size: large;
     margin-top: 3rem;
+    font-weight: 600;
   }
 }
   

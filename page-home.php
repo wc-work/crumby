@@ -92,7 +92,7 @@ get_header();?>
 	</div>
 	<div class="mobile-quotes">
 		<div class="container">
-			<p>"WebCrumbs works to put you in control of your website. We tailor your WordPress experience to help showcase your authentic style."</p>
+			<p>WebCrumbs works to put you in control of your website. We tailor your WordPress experience to help showcase your authentic style.</p>
 		</div>
 	
 	</div>
