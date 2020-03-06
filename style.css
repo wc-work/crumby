@@ -126,6 +126,10 @@ nav a {
   border: none;
 }
 
+.navbar-collapse {
+  box-shadow: none !important;
+}
+
 /**
  * partials/footer
  * ---
@@ -138,7 +142,7 @@ nav a {
 .blue {
   background-color: #5DA3B2;
   height: auto;
-  color: #FDF8E1;
+  color: #2C2C2C;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -206,12 +210,13 @@ nav a {
   text-align: center;
   margin-top: 5rem;
   font-size: xx-large;
-  padding: 2rem;
+  padding: 4rem;
   font-family: "Open Sans", sans-serif;
+  font-weight: bold;
 }
 .contact-page .icon-text-container {
   text-align: center;
-  padding: 3.5rem;
+  padding-right: 3.5rem;
 }
 .contact-page .row1 {
   display: flex;
