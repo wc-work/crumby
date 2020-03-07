@@ -897,17 +897,18 @@ input[type=value] {
 }
 @media only screen and (min-width: 576px) {
   .homepage .banner .intro {
-    width: 40rem;
-    height: 48rem;
+    width: unset;
+  }
+  .homepage .banner .intro-headers {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
-    color: #ebbc4e;
+    justify-content: space-evenly;
     position: relative;
-    bottom: 11rem;
+    width: 47rem;
+    font-size: 2.5;
+  }
+  .homepage .banner .boxed {
+    top: 24rem;
   }
   .homepage .banner .home-logo {
     width: 220px;
@@ -965,9 +966,6 @@ input[type=value] {
   }
   .homepage .banner .home-logo {
     width: 23rem;
-  }
-  .homepage .banner .intro-headers {
-    height: 50rem;
   }
   .homepage .banner h1 {
     font-size: 4rem;
