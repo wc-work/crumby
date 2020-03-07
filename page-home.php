@@ -10,7 +10,7 @@ get_header();?>
     <div class="intro d-flex justify-content-center align-items-center flex-column">
       <img class="home-logo" src="<?php echo get_template_directory_uri();?>/img/main-logo.png">
       <div class="intro-headers">
-        <h1>Pave your digital footprint with websites by WebCrumbs, made fresh daily.</h1>  
+        <h1>Pave your digital footprint with WordPress websites made fresh by WebCrumbs.</h1>  
       </div>
     </div>
   </div>
@@ -68,11 +68,10 @@ get_header();?>
 </div>
 
 <div class="button-container container-fluid">
-                <!-- <a class="button" href="https://square.site/book/GDH2KVERNEFSC/webcrumbs-fresno-ca" data-toggle="tooltip" title="Hooray!"> Book A Meeting</a> -->
-               <a href="https://square.site/book/GDH2KVERNEFSC/webcrumbs-fresno-ca" class="btn btn-lg meetingbtn" target="_blank"> 
-                    Book A Meeting 
-                </a>
-            </div>
+	<a href="https://square.site/book/GDH2KVERNEFSC/webcrumbs-fresno-ca" class="btn btn-lg meetingbtn" target="_blank"> 
+			Book A Meeting 
+	</a>
+</div>
 
 
 <!-- QUOTE SECTION -->
@@ -101,29 +100,30 @@ get_header();?>
 		<div class="row">
 			<div class="col-lg col-md">
 				<div class="cards">
-					<h1 class="cards-h1">What?</h1>
+					<div class="cards-h1">What?</div>
 					<img src="<?php echo get_template_directory_uri();?>/img/whatcard-icon.svg" alt="Wordpress logo" class="cards-icon" alt="icon of website grid" class="cards-icon">
-					<p id="what">We build and enhance websites.</p>
+					<div class="cardheading">We make websites.</div>
+					<p id="what">We build and enhance websites that put you in control.</p>
 				</div>
 			</div>
 			<div class="col-lg col-md">
-				<div class="cards">
-					<h1 class="cards-h1">How?</h1>
+				<div class="cards d-flex flex-column justify-content-center align-items-center">
+					<div id="how" class="cards-h1">How?</div>
 					<img src="<?php echo get_template_directory_uri();?>/img/wordpress-icon.svg" alt="Wordpress logo" class="cards-icon">
-					<h2 class="cardheading">We use WordPress.</h2>
-					<p>We use WordPress, a self content-management system.
+					<div class="cardheading">We use WordPress.</div>
+					<p id="how">We use WordPress, a self content management system.
 					</p>
-					<a href="http://wc.v3/process" class="btn btn-lg">Learn More</a>
+					<a href="http://wc.v3/process" class="btn btn-lg meetingbtn">Learn More</a>
 				</div>
 			</div>
 			<div class="col-lg col-md">
-				<div class="cards mb-5">
-					<h1 class="cards-h1">Why?</h1>
+				<div class="cards mb-5 d-flex flex-column justify-content-center align-items-center">
+					<div class="cards-h1">Why?</div>
 					<img src="<?php echo get_template_directory_uri();?>/img/whatcard-icon.svg" alt="Wordpress logo" class="cards-icon" alt="icon of website grid" alt="icon of a bell" class="cards-icon">
-					<h2 class="cardheading">It's in our values.</h2>
-					<p>We’re here to help, <br> we’re here for you. 
+					<div class="cardheading">It's in our values.</div>
+					<p id="how">We’re here to help, <br id="how"> we’re here for you. 
 					</p>
-					<a href="http://wc.v3/about-us" class="btn btn-lg">Learn More</a>
+					<a href="http://wc.v3/about-us" class="btn btn-lg meetingbtn">Learn More</a>
 				</div>
 			</div>
 		</div>

@@ -284,12 +284,12 @@ padding: 5rem;
 
 .yellow{
     background-color: $font-yellow;
-    
+    margin-bottom: 0 !important;
 }
 .cards{
     background-color: $font-blue;
-    height: 45rem;
     margin-top: 3rem;
+    padding-bottom: 3rem;
     text-align: center;
   p{
       color: $font-black;
@@ -314,14 +314,14 @@ padding: 5rem;
 
 .cardheading{
         color: $font-white;
-        font-size: x-large;
-        padding: 2rem;
+        font-size: 3rem;
+        padding: 2rem 1rem;
         text-align: center;
     }
 .cards{
     a{
-        background-color: $font-black;
-        color: $font-yellow;
+        background-color: $font-yellow;
+        color: $font-black;
         margin-bottom: 2rem;
         padding: 1rem;
         font-size: 2rem;
@@ -329,7 +329,16 @@ padding: 5rem;
     }
 }
 #what{
-    margin-top:11rem;
+  width: 24.8rem;
+  margin: 0rem auto 0;
+  font-size: 2.4rem;
+  line-height: 3rem;
+}
+#how {
+  width: 23rem;
+  margin: 0rem auto 0;
+  font-size: 2.4rem;
+  line-height: 3rem;
 }
 
 }

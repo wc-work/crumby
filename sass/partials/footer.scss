@@ -14,6 +14,8 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  display: flex;
+  flex-direction: column-reverse;
 }
 .footer-logo{
   height: 7rem;
@@ -30,7 +32,6 @@
     text-align: center;
 }
 .social-media{
-    padding: 1.5rem;
     color: $font-white;
 }
 
@@ -43,4 +44,8 @@
 }
 .social-media:hover{
   color: $font-yellow;
+}
+.icon-alignment {
+  padding: 0;
+  padding-top: 2.5rem;
 }

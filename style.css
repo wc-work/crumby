@@ -147,6 +147,8 @@ nav a {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .footer-logo {
@@ -165,7 +167,6 @@ nav a {
 }
 
 .social-media {
-  padding: 1.5rem;
   color: #FDF8E1;
 }
 
@@ -180,6 +181,11 @@ nav a {
 
 .social-media:hover {
   color: #EBBC4E;
+}
+
+.icon-alignment {
+  padding: 0;
+  padding-top: 2.5rem;
 }
 
 .pagination {
@@ -1083,11 +1089,12 @@ input[type=value] {
 }
 .homepage .yellow {
   background-color: #EBBC4E;
+  margin-bottom: 0 !important;
 }
 .homepage .cards {
   background-color: #5DA3B2;
-  height: 45rem;
   margin-top: 3rem;
+  padding-bottom: 3rem;
   text-align: center;
 }
 .homepage .cards p {
@@ -1109,20 +1116,29 @@ input[type=value] {
 }
 .homepage .cardheading {
   color: #FDF8E1;
-  font-size: x-large;
-  padding: 2rem;
+  font-size: 3rem;
+  padding: 2rem 1rem;
   text-align: center;
 }
 .homepage .cards a {
-  background-color: #2C2C2C;
-  color: #EBBC4E;
+  background-color: #EBBC4E;
+  color: #2C2C2C;
   margin-bottom: 2rem;
   padding: 1rem;
   font-size: 2rem;
   margin-top: 3rem;
 }
 .homepage #what {
-  margin-top: 11rem;
+  width: 24.8rem;
+  margin: 0rem auto 0;
+  font-size: 2.4rem;
+  line-height: 3rem;
+}
+.homepage #how {
+  width: 23rem;
+  margin: 0rem auto 0;
+  font-size: 2.4rem;
+  line-height: 3rem;
 }
 
 .process .grid {
