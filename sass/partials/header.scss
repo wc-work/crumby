@@ -4,7 +4,8 @@
  */
 // NAVBAR
 nav{
-  background-color: $font-blue;
+  // background-color: $font-blue;
+  background-color: black;
   color: $font-yellow;
   font-size: $font-size-base;
   z-index: 6;
@@ -79,4 +80,7 @@ background-color: transparent;
 
 .navbar-collapse{
   box-shadow: none !important;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+  color: $font-white;
 }

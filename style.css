@@ -55,7 +55,7 @@ body {
  * ---
  */
 nav {
-  background-color: #5DA3B2;
+  background-color: black;
   color: #EBBC4E;
   font-size: 1.6rem;
   z-index: 6;
@@ -128,6 +128,10 @@ nav a {
 
 .navbar-collapse {
   box-shadow: none !important;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #FDF8E1;
 }
 
 /**
@@ -206,7 +210,7 @@ nav a {
   }
 }
 .contact-page .contact-title {
-  color: #EBBC4E;
+  color: #2C2C2C;
   text-align: center;
   margin-top: 5rem;
   font-size: xx-large;
