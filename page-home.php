@@ -102,13 +102,13 @@ get_header();?>
 				<div class="cards">
 					<div class="cards-h1">What?</div>
 					<img src="<?php echo get_template_directory_uri();?>/img/whatcard-icon.svg" alt="Wordpress logo" class="cards-icon" alt="icon of website grid" class="cards-icon">
-					<div class="cardheading">We make websites.</div>
+					<div class="cardheading mt-3">We make websites.</div>
 					<p id="card-p">We build and enhance websites that put you in control.</p>
 				</div>
 			</div>
 			<div class="col-lg col-md">
-				<div class="cards d-flex flex-column justify-content-center align-items-center">
-					<div id="how" class="cards-h1">How?</div>
+				<div class="cards d-flex flex-column align-items-center">
+					<div id="how" class="cards-h1 mb-3">How?</div>
 					<img src="<?php echo get_template_directory_uri();?>/img/wordpress-icon.svg" alt="Wordpress logo" class="cards-icon">
 					<div class="cardheading">We use WordPress.</div>
 					<p id="card-p">We use WordPress, a self content management system.
@@ -117,10 +117,10 @@ get_header();?>
 				</div>
 			</div>
 			<div class="col-lg col-md">
-				<div class="cards mb-5 d-flex flex-column justify-content-center align-items-center">
+				<div class="cards mb-5 d-flex flex-column align-items-center">
 					<div class="cards-h1">Why?</div>
 					<img src="<?php echo get_template_directory_uri();?>/img/whatcard-icon.svg" alt="Wordpress logo" class="cards-icon" alt="icon of website grid" alt="icon of a bell" class="cards-icon">
-					<div class="cardheading">It's in our values.</div>
+					<div class="cardheading mt-3">It's in our values.</div>
 					<p id="card-p">We’re here to help, <br id="how"> we’re here for you. 
 					</p>
 					<a href="http://wc.v3/about-us" class="btn btn-lg meetingbtn">Learn More</a>
@@ -128,6 +128,7 @@ get_header();?>
 			</div>
 		</div>
 	</div>  
+	<br>
 </main>
 
 <?php get_footer(); ?>
