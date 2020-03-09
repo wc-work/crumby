@@ -917,7 +917,7 @@ nav a {
   top: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.6);
-  height: 90vh;
+  height: inherit;
 }
 @media only screen and (min-width: 576px) {
   .homepage .banner .intro {
