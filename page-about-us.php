@@ -43,7 +43,7 @@ get_header(); ?>
             </div>      
         </section>
         <!-- HAT Carousel -->
-        <section>
+        <section d-flex justify-content-center align-items-center>
             <div id="crumbs" class="carousel slide container-fluid" data-ride="carousel">
 				<div class="carousel-inner">
                     <div class="wrapper">

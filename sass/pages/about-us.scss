@@ -557,8 +557,9 @@
       } 
     }
     .copy {
+      font-size: 2.5rem;
       padding-top: 50px;
-      max-width: 65rem;
+      max-width: 83rem;
       padding-bottom: unset;
     }
   }
@@ -572,7 +573,13 @@
       height: 65vh;
     }
   }
+  @media only screen and (min-width: 1300px) {
+    .copy {
+      max-width: 102rem;
+    }
+  }
 }
+
 .item2{
   display: flex;
   justify-content: center;

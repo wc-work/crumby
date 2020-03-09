@@ -840,8 +840,9 @@ nav a {
     height: 8rem;
   }
   .about-us .copy {
+    font-size: 2.5rem;
     padding-top: 50px;
-    max-width: 65rem;
+    max-width: 83rem;
     padding-bottom: unset;
   }
 }
@@ -853,6 +854,11 @@ nav a {
     align-items: center;
     max-width: unset;
     height: 65vh;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .about-us .copy {
+    max-width: 102rem;
   }
 }
 
