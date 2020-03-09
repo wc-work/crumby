@@ -1,0 +1,12 @@
+.pagination{
+    color:red;
+    background-color: white;
+
+    .pagination-lg .page-link {
+        color: black;
+    }
+
+   .page-item{
+       background-color: $font-blue;
+   }
+}

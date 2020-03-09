@@ -1,0 +1,17 @@
+
+# ignore specific directory
+/img
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+#ignore specific files
+.DS_Store
+.bashrc
+style.css
+style.css.map
+
+# large/disallowed file types
+.mp4
+.pdf
