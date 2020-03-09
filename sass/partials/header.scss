@@ -4,8 +4,9 @@
  */
 // NAVBAR
 nav{
-  background-color: $font-blue;
-  color: red;
+  // background-color: $font-blue;
+  background-color: black;
+  color: $font-yellow;
   font-size: $font-size-base;
   z-index: 6;
 }
@@ -23,7 +24,7 @@ nav{
 .fixed {
   position: fixed;
   width: 100%;
-  // height: 75px;
+  z-index: 100;
 }
 .logo{
   width: 18rem;
@@ -81,3 +82,9 @@ background-color: transparent;
   border: none;
 }
 
+.navbar-collapse{
+  box-shadow: none !important;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+  color: $font-white;
+}

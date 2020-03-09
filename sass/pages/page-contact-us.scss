@@ -2,13 +2,34 @@
  * pages/contact-us
  * ---
  */
+
+.contact-page{
+  font-family: 'Open Sans', sans-serif;
+
+ @media (min-width:768px){
+  .contact-us{
+    display: flex;
+    flex-direction: row;
+  }
+ }
+
+.contact-title{
+  color: $font-black;
+  text-align: center;
+  margin-top: 5rem;
+  font-size: xx-large;
+  padding: 4rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
  .icon-text-container {
   text-align: center;
-  padding: 7.5rem;
+  padding-right: 3.5rem;
 }
 .row1 {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 3.5rem;
 }
 .icons {
   width: 6rem;
@@ -48,7 +69,13 @@ input[type="value"] {
   font-size: 2rem;
 }
 
-#center-form {
+.center-form {
   display: flex;
   justify-content: center;
+  margin-top: 3.5rem;
+  p{
+    display: flex;
+    justify-content: center;
+  }
+}
 }
