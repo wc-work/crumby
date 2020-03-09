@@ -902,7 +902,7 @@ input[type=value] {
     justify-content: space-evenly;
     position: relative;
     width: 47rem;
-    font-size: 2.5;
+    font-size: 2.5rem;
   }
   .homepage .banner .banner {
     top: 11rem;
@@ -925,8 +925,9 @@ input[type=value] {
 }
 @media only screen and (min-width: 768px) {
   .homepage .banner {
-    background-color: black;
-    height: 90vh;
+    display: flex;
+    justify-content: center;
+    animation: center;
   }
   .homepage .banner #big-video {
     overflow: hidden;
@@ -935,12 +936,12 @@ input[type=value] {
     display: flex;
     justify-content: center;
     align-self: center;
+    height: unset;
   }
   .homepage .banner .mov {
     display: flex;
     justify-content: center;
     position: relative;
-    height: 70vh;
     max-height: 100vh;
   }
   .homepage .banner .mov:before {
@@ -951,6 +952,10 @@ input[type=value] {
     top: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+  }
+  .homepage .banner video {
+    width: 100%;
   }
   .homepage .banner .video-still {
     width: 100%;
@@ -958,16 +963,16 @@ input[type=value] {
     overflow: hidden;
   }
   .homepage .banner .intro {
-    width: 50rem;
-    height: 50rem;
     display: flex;
     bottom: 0rem;
   }
   .homepage .banner .home-logo {
     width: 23rem;
+    margin-bottom: 0;
   }
-  .homepage .banner h1 {
+  .homepage .banner .intro-headers h1 {
     font-size: 4rem;
+    margin-bottom: 0;
   }
   .homepage .banner h2 {
     font-size: 2.5rem;

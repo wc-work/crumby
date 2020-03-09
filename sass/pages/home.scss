@@ -78,7 +78,7 @@
         justify-content: space-evenly;
         position: relative;
         width: 47rem;
-        font-size: 2.5;
+        font-size: 2.5rem;
       }
       .banner {
         top: 11rem;
@@ -103,8 +103,10 @@
     }
     @media only screen and (min-width: 768px) {
   
-        background-color: black;
-        height: 90vh;
+        //.banner
+        display: flex;
+        justify-content: center;
+        animation: center;
       
       #big-video {
         overflow: hidden;
@@ -113,12 +115,12 @@
         display: flex;
         justify-content: center;
         align-self: center;
+        height: unset;
       }
       .mov {
         display: flex;
         justify-content: center;
         position: relative;
-        height: 70vh;
         max-height: 100vh;
       }
       .mov:before {
@@ -127,6 +129,10 @@
         left: 0; right: 0;
         top: 0; bottom: 0;
         background: rgba(0, 0, 0, 0.5);
+        width: 100vw;
+      }
+      video {
+        width: 100%;
       }
       .video-still {
         width: 100%;
@@ -134,16 +140,20 @@
         overflow: hidden;
       }
       .intro {
-        width: 50rem;
-        height: 50rem;
+        // width: 50rem;
+        // height: 50rem;
         display: flex;
         bottom: 0rem;
       }
       .home-logo {
         width: 23rem;
+        margin-bottom: 0;
       }
-      h1 {
-        font-size: 4rem;
+      .intro-headers {
+        h1 {
+          font-size: 4rem;
+          margin-bottom: 0;
+        }
       }
       h2 {
         font-size: 2.5rem;
