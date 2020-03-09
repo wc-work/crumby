@@ -970,12 +970,12 @@ input[type=value] {
     width: 23rem;
     margin-bottom: 0;
   }
+  .homepage .banner .intro-headers {
+    width: 54rem;
+  }
   .homepage .banner .intro-headers h1 {
     font-size: 4rem;
     margin-bottom: 0;
-  }
-  .homepage .banner h2 {
-    font-size: 2.5rem;
   }
   .homepage .banner .icon-box {
     bottom: 0rem;
@@ -994,6 +994,10 @@ input[type=value] {
   font-size: 3rem;
   background-color: #2c2c2c;
   padding: 8px;
+  min-height: 8.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .homepage .services-sec img {
   height: 8rem;
@@ -1008,6 +1012,11 @@ input[type=value] {
   font-size: medium;
   text-align: center;
 }
+@media only screen and (min-width: 1200px) {
+  .homepage .services-sec h2 {
+    min-height: unset;
+  }
+}
 .homepage .categories {
   color: #EBBC4E;
   text-align: left;
@@ -1017,7 +1026,7 @@ input[type=value] {
   margin-top: 1rem;
 }
 .homepage .meetingbtn {
-  background-color: #5DA3B2;
+  background-color: #EBBC4E;
   color: #2C2C2C;
   height: 7rem;
   width: 27rem;
@@ -1027,6 +1036,7 @@ input[type=value] {
   font-size: x-large;
   margin-top: 5rem;
   margin-bottom: 5rem;
+  font-weight: 600;
 }
 .homepage .meetingbtn:hover {
   color: #5297a5;
@@ -1130,18 +1140,18 @@ input[type=value] {
   font-size: 2rem;
   margin-top: 3rem;
 }
-.homepage #what {
+.homepage #card-p {
   width: 24.8rem;
   margin: 0rem auto 0;
   font-size: 2.4rem;
   line-height: 3rem;
 }
-.homepage #how {
-  width: 23rem;
-  margin: 0rem auto 0;
-  font-size: 2.4rem;
-  line-height: 3rem;
+@media (min-width: 768px) {
+  .homepage .cards {
+    min-height: 495px;
+  }
 }
+
 .process .grid {
   position: relative;
 }

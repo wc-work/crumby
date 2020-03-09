@@ -103,7 +103,7 @@ get_header();?>
 					<div class="cards-h1">What?</div>
 					<img src="<?php echo get_template_directory_uri();?>/img/whatcard-icon.svg" alt="Wordpress logo" class="cards-icon" alt="icon of website grid" class="cards-icon">
 					<div class="cardheading">We make websites.</div>
-					<p id="what">We build and enhance websites that put you in control.</p>
+					<p id="card-p">We build and enhance websites that put you in control.</p>
 				</div>
 			</div>
 			<div class="col-lg col-md">
@@ -111,7 +111,7 @@ get_header();?>
 					<div id="how" class="cards-h1">How?</div>
 					<img src="<?php echo get_template_directory_uri();?>/img/wordpress-icon.svg" alt="Wordpress logo" class="cards-icon">
 					<div class="cardheading">We use WordPress.</div>
-					<p id="how">We use WordPress, a self content management system.
+					<p id="card-p">We use WordPress, a self content management system.
 					</p>
 					<a href="http://wc.v3/process" class="btn btn-lg meetingbtn">Learn More</a>
 				</div>
@@ -121,7 +121,7 @@ get_header();?>
 					<div class="cards-h1">Why?</div>
 					<img src="<?php echo get_template_directory_uri();?>/img/whatcard-icon.svg" alt="Wordpress logo" class="cards-icon" alt="icon of website grid" alt="icon of a bell" class="cards-icon">
 					<div class="cardheading">It's in our values.</div>
-					<p id="how">We’re here to help, <br id="how"> we’re here for you. 
+					<p id="card-p">We’re here to help, <br id="how"> we’re here for you. 
 					</p>
 					<a href="http://wc.v3/about-us" class="btn btn-lg meetingbtn">Learn More</a>
 				</div>
