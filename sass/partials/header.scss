@@ -9,6 +9,7 @@ nav{
   color: $font-yellow;
   font-size: $font-size-base;
   z-index: 6;
+  
 }
 
 .navbar{
@@ -21,11 +22,7 @@ nav{
   margin-left: 3rem;
  }
 }
-// .fixed {
-//   position: fixed;
-//   width: 100%;
-//   z-index: 100;
-// }
+
 .logo{
   width: 18rem;
   height: 100%;
@@ -51,10 +48,12 @@ nav{
   .mobile-logo{
     display: block !important;
     height: 5rem;
+    
   }
   .logo{
     display:none !important;
   }
+  
 }
 @media (min-width:768){
   .mobile-logo{
@@ -63,8 +62,15 @@ nav{
   .logo{
     display:block;
   }
-}
 
+}
+.fixed{
+  position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
 #nav-icon{
   display: flex;
   justify-content: flex-start;

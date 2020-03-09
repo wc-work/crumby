@@ -123,7 +123,7 @@ get_header();?>
 					<div class="cardheading mt-3">It's in our values.</div>
 					<p id="card-p">We’re here to help, <br id="how"> we’re here for you. 
 					</p>
-					<a href="http://wc.v3/about-us" class="btn btn-lg meetingbtn">Learn More</a>
+					<a href="http://wc.v3/about-us" class="btn btn-lg learnbtn">Learn More</a>
 				</div>
 			</div>
 		</div>
