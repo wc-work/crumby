@@ -827,9 +827,7 @@ input[type=value] {
 
 /*# sourceMappingURL=style.css.map */
 .homepage .banner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding-top: 62px;
   /* ---------------------------------------------- */
   /* Media Queries                                  */
   /* ---------------------------------------------- */
@@ -840,15 +838,15 @@ input[type=value] {
 .homepage .banner .boxed {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   position: absolute;
   width: 100%;
   z-index: 5;
+  height: calc(90vh - 62px);
 }
 .homepage .banner .intro {
   width: 90vw;
-  bottom: 2rem;
   color: #FDF8E1;
   text-align: center;
 }
@@ -878,7 +876,7 @@ input[type=value] {
   display: none;
 }
 .homepage .banner .placeholder {
-  height: 100vh;
+  height: calc(90vh - 62px);
   min-height: -webkit-fill-available;
   background-position: center;
   background-repeat: no-repeat;
@@ -887,13 +885,12 @@ input[type=value] {
 .homepage .banner .placeholder:before {
   content: "";
   position: absolute;
-  min-height: -webkit-fill-available;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.6);
-  height: calc(100vh - 70px);
+  height: 90vh;
 }
 @media only screen and (min-width: 576px) {
   .homepage .banner .intro {
@@ -907,14 +904,16 @@ input[type=value] {
     width: 47rem;
     font-size: 2.5;
   }
-  .homepage .banner .boxed {
-    top: 24rem;
+  .homepage .banner .banner {
+    top: 11rem;
   }
   .homepage .banner .home-logo {
     width: 220px;
+    margin-bottom: 8rem;
   }
   .homepage .banner .intro-headers h1 {
     font-size: 3.5rem;
+    margin-bottom: 12rem;
   }
   .homepage .banner .intro-headers h2 {
     font-size: 2.5rem;
@@ -927,7 +926,7 @@ input[type=value] {
 @media only screen and (min-width: 768px) {
   .homepage .banner {
     background-color: black;
-    height: 80vh;
+    height: 90vh;
   }
   .homepage .banner #big-video {
     overflow: hidden;
@@ -1138,7 +1137,6 @@ input[type=value] {
   font-size: 2.4rem;
   line-height: 3rem;
 }
-
 .process .grid {
   position: relative;
 }

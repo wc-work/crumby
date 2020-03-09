@@ -2,25 +2,24 @@
 .homepage {
 // VIDEO
 .banner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  padding-top: 62px;
     #big-video {
       display: unset;
     }
     .boxed {
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: center;
       align-items: center;
       position: absolute;
       width: 100%;
       z-index: 5;
+      height: calc(90vh - 62px);
     }
     .intro {
       width: 90vw;
       // height: 26rem;
-      bottom: 2rem;
+      // bottom: 2rem;
       color: $font-white;
       text-align: center;
     }
@@ -50,7 +49,7 @@
       display: none;
     }
     .placeholder {
-      height: 100vh;
+      height: calc(90vh - 62px);
       min-height: -webkit-fill-available;
       background-position: center;
       background-repeat: no-repeat;
@@ -60,30 +59,16 @@
     .placeholder:before {
       content: "";
       position: absolute;
-      min-height: -webkit-fill-available;
       left: 0; right: 0;
       top: 0; bottom: 0;
       background: rgba(0,0,0,.6);
-      height: calc(100vh - 70px);
+      height: 90vh;
     }
   
     /* ---------------------------------------------- */
     /* Media Queries                                  */
     /* ---------------------------------------------- */
     @media only screen and (min-width: 576px) {
-      // .intro {
-      //   width: 40rem;
-      //   height: 48rem;
-      //   display: flex;
-      //   flex-direction: column;
-      //   justify-content: space-around;
-      //   align-items: center;
-      //   text-align: center;
-      //   font-family: 'Open Sans', sans-serif;
-      //   color: #ebbc4e;
-      //   position: relative;
-      //   bottom: 11rem;
-      // }
       .intro {
         width: unset;
       }
@@ -95,15 +80,17 @@
         width: 47rem;
         font-size: 2.5;
       }
-      .boxed {
-        top: 24rem;
+      .banner {
+        top: 11rem;
       }
       .home-logo {
         width: 220px;
+        margin-bottom: 8rem;
       }
       .intro-headers {
         h1 {
           font-size: 3.5rem;
+          margin-bottom: 12rem;
         }
         h2 {
           font-size: 2.5rem;
@@ -117,7 +104,7 @@
     @media only screen and (min-width: 768px) {
   
         background-color: black;
-        height: 80vh;
+        height: 90vh;
       
       #big-video {
         overflow: hidden;
@@ -155,9 +142,6 @@
       .home-logo {
         width: 23rem;
       }
-      // .intro-headers {
-      //   height: 50rem;
-      // }
       h1 {
         font-size: 4rem;
       }
@@ -169,7 +153,6 @@
       }
     }
   }
-
 
 
 //SERVICES
@@ -284,11 +267,6 @@ padding: 5rem;
     text-align: center;
   }
 }
-@media (min-width:768){
-  // .mobile-quotes{
-    
-  // }
-}
 .mobile-quotes{
   display: none;
 }
@@ -340,7 +318,7 @@ padding: 5rem;
         font-size: 2rem;
         margin-top: 3rem;
     }
-}
+  }
 #what{
   width: 24.8rem;
   margin: 0rem auto 0;
@@ -353,5 +331,9 @@ padding: 5rem;
   font-size: 2.4rem;
   line-height: 3rem;
 }
-
+@media (min-width:567){
+  // .mobile-quotes{
+    
+  // }
+}
 }
