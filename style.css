@@ -970,6 +970,7 @@ nav a {
     display: flex;
     justify-content: center;
     animation: center;
+    background-color: #000;
   }
   .homepage .banner #big-video {
     overflow: hidden;
