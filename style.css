@@ -478,7 +478,6 @@ nav a {
   }
   .about-us .carousel .carousel-indicators {
     list-style: none;
-    bottom: -3px;
     margin: 0;
     width: 100%;
   }
@@ -620,7 +619,6 @@ nav a {
   }
   .about-us .carousel .carousel-indicators {
     list-style: none;
-    bottom: -1px;
     margin: 0;
     width: 100%;
   }
@@ -750,17 +748,20 @@ nav a {
     font-size: 3.75rem;
     z-index: 5;
   }
+  .about-us .wrapper {
+    height: 52vh;
+  }
   .about-us .carousel {
     position: relative;
     margin: 0;
     width: 100%;
-    height: 48rem;
+    height: 56rem;
     background-color: white;
     max-width: 100vw;
+    bottom: 4rem;
   }
   .about-us .carousel .carousel-indicators {
     list-style: none;
-    bottom: 7px;
     margin: 0;
     width: 100%;
   }
@@ -768,7 +769,7 @@ nav a {
     width: 6rem;
     height: 6rem;
     position: relative;
-    margin: 20px;
+    margin: 0 20px;
     border-radius: 0;
     border: none;
   }
@@ -796,6 +797,9 @@ nav a {
     text-align: center;
     color: #2c2c2c;
     text-shadow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
   .about-us .carousel .carousel-caption h1 {
     font-size: 14rem;
@@ -834,6 +838,11 @@ nav a {
     line-height: 4.5rem;
     width: 43rem;
     height: 8rem;
+  }
+  .about-us .copy {
+    padding-top: 50px;
+    max-width: 65rem;
+    padding-bottom: unset;
   }
 }
 @media only screen and (min-width: 838px) {
