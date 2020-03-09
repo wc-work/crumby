@@ -113,7 +113,7 @@ get_header();?>
 					<div class="cardheading">We use WordPress.</div>
 					<p id="card-p">We use WordPress, a self content management system.
 					</p>
-					<a href="http://wc.v3/process" class="btn btn-lg meetingbtn">Learn More</a>
+					<!-- <a href="http://wc.v3/process" class="btn btn-lg meetingbtn">Learn More</a> -->
 				</div>
 			</div>
 			<div class="col-lg col-md">
