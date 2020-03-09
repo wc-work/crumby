@@ -1,4 +1,4 @@
-<footer>
+<footer class="footer">
 	<div class="container-fluid blue">
 		<div class="row col-lg-3">
 			<div class="col-xs col-md centered">
@@ -6,21 +6,21 @@
 			</div>
 		</div>
 
-		<div class="col-xs col-lg-6 text-center">
-				<div class="col-xs centered d-flex">
+		<div class="col-xs col-lg-6 icon-alignment d-flex justify-content-around">
+				<!-- <div class="col-xs centered d-flex justify-content-around"> -->
 					<a href="https://www.instagram.com/webcrumbs.dev/?hl=en"  class="social-media">
-						<i class="fab fa-instagram fa-2x social-media" id="insta"></i> 
+						<i class="fab fa-instagram fa-3x social-media" id="insta"></i> 
 					</a>
 					<a href="https://www.facebook.com/WebCrumbs.dev/" class="social-media">
-						<i class="fab fa-facebook fa-2x social-media"></i>
+						<i class="fab fa-facebook fa-3x social-media"></i>
 					</a>
 					<a href="https://twitter.com/WebCrumbsDev" class="social-media">
-						<i class="fab fa-twitter fa-2x social-media"></i>
+						<i class="fab fa-twitter fa-3x social-media"></i>
 					</a>
 					<a href="https://www.linkedin.com/" class="social-media">
-						<i class="fab fa-linkedin fa-2x social-media"></i>
+						<i class="fab fa-linkedin fa-3x social-media"></i>
 					</a>
-				</div>
+				<!-- </div> -->
 		</div>
 
 		<div class="col-xs centered col-lg-3">
