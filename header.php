@@ -30,7 +30,7 @@
 	</head>
 	<body <?php body_class(); ?>>
 	
-	<nav class="navbar navbar-expand-md navbar-light fixed" role="navigation">
+	<nav class="navbar navbar-expand-md navbar-light fixed-top" role="navigation">
     <div class="container-fluid" id="nav-icon">
     	<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="col-6">

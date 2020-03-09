@@ -24,7 +24,7 @@ get_header(); ?>
 
         <div class="icon-text-container col-xs col-xl-12">
             <img class="icons" src="<?php bloginfo('template_url'); ?>/img/icons/phone.png" alt="An icon that depicts a cellphone">
-            <h2> ###-###-####</h2>
+            <h2> 559-906-8945</h2>
         </div>
 
     </div> <!-- end row -->
