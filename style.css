@@ -207,6 +207,7 @@ nav a {
   .contact-page .contact-us {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
   }
 }
 .contact-page .contact-title {
@@ -220,7 +221,6 @@ nav a {
 }
 .contact-page .icon-text-container {
   text-align: center;
-  padding-right: 3.5rem;
 }
 .contact-page .row1 {
   display: flex;

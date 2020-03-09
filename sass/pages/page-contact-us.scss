@@ -10,6 +10,7 @@
   .contact-us{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
   }
  }
 
@@ -24,7 +25,7 @@
 }
  .icon-text-container {
   text-align: center;
-  padding-right: 3.5rem;
+  // padding-right: 3.5rem;
 }
 .row1 {
   display: flex;
@@ -40,6 +41,9 @@
   font-size: 2.25rem;
   line-height: 1.5;
   border-radius: 2.3rem;
+  .btn-lg:hover{
+    
+  }
 }
 input[type="text"],
 input[type="email"],
