@@ -20,8 +20,8 @@ get_header(); ?>
                 </div>
             </div>
         </section>
-                <!-- Quote -->
-                <section>
+        <!-- Quote -->
+        <section>
             <div class="box">
                 <div class="grid">
                     <div class="grid-temp">
@@ -107,7 +107,6 @@ get_header(); ?>
         <!-- Call to action button -->
         <section>
             <div class="button-container container-fluid">
-                <!-- <a class="button" href="https://square.site/book/GDH2KVERNEFSC/webcrumbs-fresno-ca" data-toggle="tooltip" title="Hooray!"> Book A Meeting</a> -->
                <a href="https://square.site/book/GDH2KVERNEFSC/webcrumbs-fresno-ca" class="btn btn-lg meetingbtn" target="_blank"> 
                     Book A Meeting 
                 </a>
