@@ -51,7 +51,7 @@ get_header(); ?>
                             <div class="carousel-caption">
                                 <!-- H a t -->
                                 <h1>H 
-                                    <a style="opacity: 30%"> 
+                                    <a  class="hatstyles"> 
                                         <span data-target="#crumbs" data-slide-to="1">A </span>
                                         <span data-target="#crumbs" data-slide-to="2">T </span>
                                     </a>
@@ -64,11 +64,11 @@ get_header(); ?>
                             <div class="carousel-caption">
                                 <!-- h A t -->
                                 <h1>
-                                    <a style="opacity: 30%">
+                                    <a class="hatstyles">
                                         <span data-target="#crumbs" data-slide-to="0">H</span>
                                     </a> 
                                     A 
-                                    <a style="opacity: 30%">
+                                    <a class="hatstyles">
                                         <span data-target="#crumbs" data-slide-to="2">T </span>
                                     </a>
                                 </h1>
