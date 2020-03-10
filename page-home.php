@@ -50,7 +50,7 @@ get_header();?>
 			<div class="col-xs-6 col-lg-4 categories mt-5">
 				<h2>Onboarding Specialist</h2>
 				<p>An onboarding specialist communicates to the client changes and customization that are self mangable throughout the website.
-</p>
+				</p>
 			</div>
 			<div class="col-xs-6 col-lg-4 card categories mt-5">
 				<h2>ADA Compliance</h2>
@@ -113,7 +113,6 @@ get_header();?>
 					<div class="cardheading">We use WordPress.</div>
 					<p id="card-p">We use WordPress, a self content management system.
 					</p>
-					<!-- <a href="http://wc.v3/process" class="btn btn-lg meetingbtn">Learn More</a> -->
 				</div>
 			</div>
 			<div class="col-lg col-md">
