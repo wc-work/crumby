@@ -39,14 +39,14 @@
 						<img src="<?php echo get_template_directory_uri(); ?>/img/iconfinder-icon.svg" alt="hamburger menu icon" id="hamburger"> 
 					</span>	
 				</button>
-				<a href="http://wc.v3/">
+				<a href="https://webcrumbs.dev/">
 					<img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/wc-site-logo.png" alt="Webcrumbs with digital crumbs on the bottom of the word 'crumbs'">
 				</a>
 			</div>
 
 			<div class="col-6 d-lg-none d-md-none d-xl-none" id="flex-mlogo">
         <a href="#">		
-					<a href="http://wc.v3/">
+					<a href="https://webcrumbs.dev/">
 						<img class="mobile-logo" id="flex-logo" src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="Webcrumbs alt logo. Digital bread with WC abbreviation in the middle.">
 					</a>
         </a>
