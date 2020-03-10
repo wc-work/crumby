@@ -10,7 +10,8 @@ get_header();?>
     <div class="intro d-flex justify-content-center align-items-center flex-column">
       <img class="home-logo" src="<?php echo get_template_directory_uri();?>/img/main-logo.png">
       <div class="intro-headers">
-        <h1>Pave your digital footprint with WordPress websites made fresh by WebCrumbs.</h1>  
+        <!-- <h1>Pave your digital footprint with WordPress websites made fresh by WebCrumbs.</h1>   -->
+		<h1><?php bloginfo( "description" ); ?></h1>
       </div>
     </div>
   </div>
@@ -33,30 +34,30 @@ get_header();?>
 	<h1>Our Services</h1>
 	<div class="container card categories-content">
 		<div class="row">
-			<div class="col-xs-6 col-lg-4 categories mt-5">
+			<div class="col-xs-6 col-lg categories mt-5">
 				<h2>Website Design</h2>
 				<p>Website design ties in with custom development to meet specific website needs along with desired aesthetics.</p>
 			</div>
-			<div class="col-xs-6 col-lg-4 card categories mt-5">
+			<div class="col-xs-6 col-lg card categories mt-5">
 				<h2>Custom Development</h2>
 				<p>Custom development will be based upon your choice of a pre-built wordpress theme or custom built theme. Custom themes are built by WebCrumbs and suit specific website needs.</p>
 			</div>
-			<div class="col-xs-6 col-lg-4 card categories mt-5">
+			<div class="col-xs-6 col-lg card categories mt-5">
 				<h2>SEO Basics</h2>
 				<p>Search engine optimization (SEO) is the process of increasing the quality and quantity of website traffic by increasing the visibility of a website to users of a web search engine (ex.Google).</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-6 col-lg-4 categories mt-5">
+			<div class="col-xs-6 col-lg categories mt-5">
 				<h2>Onboarding Specialist</h2>
 				<p>An onboarding specialist communicates to the client changes and customization that are self mangable throughout the website.
 				</p>
 			</div>
-			<div class="col-xs-6 col-lg-4 card categories mt-5">
+			<div class="col-xs-6 col-lg card categories mt-5">
 				<h2>ADA Compliance</h2>
 				<p> ADA compliance refers to the Americans with Disabilities Act Standards for Accessible Design, which states that all electronic and information technology (like websites) must be accessible to people with disabilities.</p>
 			</div>
-			<div class="col-xs-6 col-lg-4 card categories mt-5">
+			<div class="col-xs-6 col-lg card categories mt-5">
 				<h2>Intro to Google Analytics</h2>
 				<p>Google Analytics is a web analytics service offered by Google that tracks and reports website traffic, currently as a platform inside the Google Marketing Platform brand. 
 				</p>
