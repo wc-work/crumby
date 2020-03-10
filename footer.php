@@ -9,11 +9,26 @@
 	<div class="container-fluid blue">
 		<div class="row col-lg-3">
 			<div class="col-xs col-md centered">
-				<p class="footertext ml-5" id="copyright">	&copy; <?php the_field('copyright'); ?></p>
+				<p class="footertext ml-5" id="copyright">	&copy; <?php the_field('email'); ?></p>
 			</div>
 		</div>
 
 		<div class="col-xs col-lg-6 icon-alignment d-flex justify-content-around">
+			<?php if(have_rows('social_media_info', 'option')):?>
+					<?php while(have_rows('social_media_info', 'option')): the_row();?>
+						<?php the_sub_field('link')?>
+						<?php the_sub_field('icon')?>
+						<br />
+						<?php the_sub_field('link')?>
+						<?php the_sub_field('icon')?>
+						<br />
+						<?php the_sub_field('link')?>
+						<?php the_sub_field('icon')?>
+						<br />
+						<?php the_sub_field('link')?>
+						<?php the_sub_field('icon')?>
+					<?php endwhile;?>	
+				<?php endif;?>
 				<!-- <div class="col-xs centered d-flex justify-content-around"> -->
 					<a href="https://www.instagram.com/webcrumbs.dev/?hl=en"  class="social-media">
 						<i class="fab fa-instagram fa-3x social-media" id="insta"></i> 
@@ -31,7 +46,17 @@
 		</div>
 
 		<div class="col-xs centered col-lg-3">
-			<p class="footertext"><?php the_field('address');?></p>
+		<p class="footertext">
+			<?php if(have_rows('contact_info', 'option')):?>
+				<?php while(have_rows('contact_info', 'option')): the_row();?>
+					<?php the_sub_field('email')?>
+					<br />
+					<?php the_sub_field('street_address')?>
+					<br />
+					<?php the_sub_field('city_state_zip')?>
+				<?php endwhile;?>	
+			<?php endif;?>
+			</p>
 		</div>
 	</div>
 </footer>
