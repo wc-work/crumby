@@ -27,7 +27,7 @@ get_header(); ?>
                     <div class="grid-temp">
                         <div class="item1">
                             <picture class="picback">
-                                <img src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-left-quotation-01.png">
+                                <img src="https://webcrumbs.dev/wp-content/uploads/2020/02/webcrumbs-left-quotation-01.png">
                             </picture>
                         </div>
                         <div class="quotation item2 d-flex">
@@ -35,7 +35,7 @@ get_header(); ?>
                         </div>
                         <div class="item3">
                             <picture class="picback">
-                                <img src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-right-quotation-01-01.png">
+                                <img src="https://webcrumbs.dev/wp-content/uploads/2020/02/webcrumbs-right-quotation-01-01.png">
                             </picture>
                         </div>
                     </div>          
@@ -95,11 +95,11 @@ get_header(); ?>
                     </div>
                 </div>
                 <ol class="carousel-indicators">
-                    <li data-target="#crumbs" data-slide-to="0" class="active"><img class="img-responsive" src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-single-crumb-one-01.png" alt="crumbs-indicator">
+                    <li data-target="#crumbs" data-slide-to="0" class="active"><img class="img-responsive" src="https://webcrumbs.dev/wp-content/uploads/2020/02/webcrumbs-single-crumb-one-01.png" alt="crumbs-indicator">
                     </li>
-                    <li data-target="#crumbs" data-slide-to="1"><img class="img-responsive" src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-single-crumb-two-01.png" alt="crumbs-indicator">
+                    <li data-target="#crumbs" data-slide-to="1"><img class="img-responsive" src="https://webcrumbs.dev/wp-content/uploads/2020/02/webcrumbs-single-crumb-two-01.png" alt="crumbs-indicator">
                     </li>
-                    <li data-target="#crumbs" data-slide-to="2"><img class="img-responsive" src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-single-crumb-three-01.png" alt="crumbs-indicator">
+                    <li data-target="#crumbs" data-slide-to="2"><img class="img-responsive" src="https://webcrumbs.dev/wp-content/uploads/2020/02/webcrumbs-single-crumb-three-01.png" alt="crumbs-indicator">
                     </li>
                 </ol>
 			</div>

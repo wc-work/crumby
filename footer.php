@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer fixed-bottom">
 	<div class="container-fluid blue">
 		<div class="row col-lg-3">
 			<div class="col-xs col-md centered">
