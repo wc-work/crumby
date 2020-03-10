@@ -7,7 +7,7 @@ get_header(); ?>
 
 <!--Contact Info Rows-->
 <div class="contact-page">
-    <h1 class="contact-title">Contact Us!</h1>
+    <h1 class="contact-title"><?php echo get_the_title(); ?></h1>
     <div class="container-fluid contact-us">
     <div class="row row1">
         <!-- icon-text-container is to help align the icons and text together -->
