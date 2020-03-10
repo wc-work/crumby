@@ -4,6 +4,7 @@
  * Main `sass` file. Import here `sass` files
  */
 // @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -14,6 +15,7 @@ html {
 }
 body{
   font-family: 'Open Sans', sans-serif;
+  
 }
 // Modules
 @import "modules/variables";
