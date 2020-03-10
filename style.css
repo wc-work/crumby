@@ -3,6 +3,8 @@
  * ---
  * Main `sass` file. Import here `sass` files
  */
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+@import url("https://use.typekit.net/mck4rsq.css");
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -285,6 +287,7 @@ nav a {
   bottom: 0;
   padding: 15px 0 15px 15px;
   max-width: 50%;
+  font-family: funkydori, sans-serif;
 }
 .about-us .layer {
   width: 100%;
@@ -1210,6 +1213,7 @@ nav a {
   padding-top: 30vh;
   font-size: 50px;
   width: 50px;
+  font-family: funkydori, sans-serif;
 }
 
 #blog-btn {

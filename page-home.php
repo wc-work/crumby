@@ -10,7 +10,8 @@ get_header();?>
     <div class="intro d-flex justify-content-center align-items-center flex-column">
       <img class="home-logo" src="<?php echo get_template_directory_uri();?>/img/main-logo.png">
       <div class="intro-headers">
-        <h1>Pave your digital footprint with WordPress websites made fresh by WebCrumbs.</h1>  
+        <!-- <h1>Pave your digital footprint with WordPress websites made fresh by WebCrumbs.</h1>   -->
+		<h1><?php bloginfo( "description" ); ?></h1>
       </div>
     </div>
   </div>
