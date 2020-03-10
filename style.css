@@ -199,6 +199,7 @@ nav a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    height: 800px;
   }
 }
 .contact-page .contact-title {
