@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
-    	<link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
+   		<link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
     	<link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -27,6 +27,7 @@
 			</script>
 			<script src="https://kit.fontawesome.com/92ab37b888.js" crossorigin="anonymous"></script>
 	</head>
+
 	<body <?php body_class(); ?>>
 	
 	<nav class="navbar navbar-expand-md navbar-light fixed" role="navigation">
