@@ -323,7 +323,6 @@ function enable_threaded_comments()
     }
 }
 
-
 /*------------------------------------*\
 	Actions + Filters + ShortCodes
 \*------------------------------------*/
