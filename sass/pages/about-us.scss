@@ -5,8 +5,6 @@
  */
 
 
-//  @import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
-
  /**
   * modules/variables
   * ---
@@ -51,8 +49,35 @@
   */
 
 .about-us {
-  font-family: "Noto Sans", sans-serif;
-  background-color: #EBBC4E;
+  font-family: 'Open Sans', sans-serif;
+
+  h1 {
+    cursor: pointer;
+  }
+  .title {
+    font-size: 5rem;
+    line-height: 5.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    padding: 15px 0 15px 15px;
+    max-width: 50%;
+  }
+  .layer {
+    width: 100%;
+    height: 65vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    z-index: 5;
+  }
+  .copy {
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
   .banner {
     position: relative;
     margin: 0;
@@ -64,13 +89,43 @@
     z-index: 1;
     width: 100%;
     object-fit: cover;
+    height: 65vh;
   }
 
   .box {
     background-color: white;
     align-content: center;
   }
-  
+  .button{
+    text-decoration: none;
+  }
+.meetingbtn{
+  background-color: $font-blue;
+  color: $font-black;
+  height: 8rem;
+  width: 35rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+.meetingbtn:hover{
+  color: #5297a5;
+}
+@media (max-width:768px){
+  .meetingbtn{
+    background-color: $font-blue;
+    color: $font-black;
+    height: 7rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    margin-top: 3rem;
+  }
+}
+
   @media only screen and (max-width: 576px) {
     .container-fluid {
       display: flex;
@@ -113,28 +168,30 @@
       margin: 0;
     }
     .quotation {
-      display: block;
       position: relative;
-      padding: 2rem 20px;
+      padding: 0rem 44px;
       font-style: italic;
       color: #5DA3B2;
       text-align: center;
       background: transparent;
+      z-index: 5;
+      margin-top: 20px;
+      margin-right: 13px;
       p {
-        line-height: 1.7rem;
-        font-size: 1.7rem;
+        line-height: 2.8rem;
+        font-size: 2.5rem;
+        z-index: 5;
       }
     }
     .carousel {
       position: relative;
       margin: 0;
       width: 100%;
-      height: 25rem;
-      background-color: white;
+      height: 30rem;
       max-width: 100vw;
+      margin-top: 30px;
       .carousel-indicators {
         list-style: none;
-        bottom: -3px;
         margin: 0;
         width: 100%;
       }
@@ -168,7 +225,8 @@
         left: 0%;
         width: 100%;
         text-align: center;
-        color: #5DA3B2;
+        color: #2c2c2c;
+        text-shadow: none;
       }
       .carousel-caption h1 {
         font-size: 8rem;
@@ -182,10 +240,11 @@
         line-height: 4.5rem;
       }
       .carousel-caption h3 {
-        color: #EBBC4E;
+        color: #2c2c2c;
         font-size: 2rem;
         font-weight: 300;
         line-height: 2.15rem;
+        padding-top: 20px;
       }
     }
     .button-container {
@@ -193,6 +252,7 @@
       justify-content: center;
       align-items: center;
       height: 10rem;
+      margin: 50px 0 75px;
       .button {
         display: inline-flex;
         align-items: center;
@@ -262,6 +322,7 @@
       p {
         line-height: 2.5rem;
         font-size: 2.5rem;
+        z-index: 5;
       }
     }
     .carousel {
@@ -273,7 +334,6 @@
       max-width: 100vw;
       .carousel-indicators {
         list-style: none;
-        bottom: -1px;
         margin: 0;
         width: 100%;
       }
@@ -307,7 +367,8 @@
         left: 0%;
         width: 100%;
         text-align: center;
-        color: #5DA3B2;
+        color: #2c2c2c;
+        text-shadow: none;
       }
       .carousel-caption h1 {
         font-size: 11rem;
@@ -321,10 +382,10 @@
         line-height: 6.5rem;
       }
       .carousel-caption h3 {
-        color: #EBBC4E;
         font-size: 3.5rem;
         font-weight: 300;
         line-height: 4rem;
+        color: #2c2c2c;
       }
     }
     .button-container {
@@ -401,18 +462,22 @@
       p {
         line-height: 4.5rem;
         font-size: 3.75rem;
+        z-index: 5;
       }
+    }
+    .wrapper {
+      height: 52vh;
     }
     .carousel {
       position: relative;
       margin: 0;
       width: 100%;
-      height: 48rem;
+      height: 56rem;
       background-color: white;
       max-width: 100vw;
+      bottom: 4rem;
       .carousel-indicators {
         list-style: none;
-        bottom: 7px;
         margin: 0;
         width: 100%;
       }
@@ -420,7 +485,7 @@
         width: 6rem;
         height: 6rem;
         position: relative;
-        margin: 20px;       
+        margin: 0 20px;       
         border-radius: 0;  
         border: none; 
       }
@@ -446,7 +511,11 @@
         left: 0%;
         width: 100%;
         text-align: center;
-        color: #5DA3B2;
+        color: #2c2c2c;
+        text-shadow: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
       }
       .carousel-caption h1 {
         font-size: 14rem;
@@ -460,10 +529,10 @@
         line-height: 9rem;
       }
       .carousel-caption h3 {
-        color: #EBBC4E;
         font-size: 4.5rem;
         font-weight: 300;
         line-height: 4.75rem;
+        color: #2c2c2c;
       }
     }
     .button-container {
@@ -487,7 +556,34 @@
         height: 8rem;
       } 
     }
+    .copy {
+      font-size: 2.5rem;
+      padding-top: 50px;
+      max-width: 83rem;
+      padding-bottom: unset;
+    }
   }
+  @media only screen and (min-width: 838px) {
+    .title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: unset;
+      height: 65vh;
+    }
+  }
+  @media only screen and (min-width: 1300px) {
+    .copy {
+      max-width: 102rem;
+    }
+  }
+}
+
+.item2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
  
  /*# sourceMappingURL=style.css.map */
