@@ -8,7 +8,7 @@
 
 		<div class="col-xs col-lg-6 icon-alignment d-flex justify-content-around">
 			<a href="https://www.instagram.com/webcrumbs.dev/?hl=en"  class="social-media">
-				<i class="fab fa-instagram fa-3x social-media" id="insta"></i> 
+				<i class="fab fa-instagram fa-3x social-media" id="insta"></i>
 			</a>
 			<a href="https://www.facebook.com/WebCrumbs.dev/" class="social-media">
 				<i class="fab fa-facebook fa-3x social-media"></i>
@@ -24,17 +24,17 @@
 		<div class="col-xs centered col-lg-3">
 			<p class="footertext">2721 Ventura St Suite 201 <br> Fresno, CA 93721</p>
 		</div>
-		
+
 	</div>
 </footer>
-	
+
 		<!-- /wrapper -->
 
 		<?php wp_footer(); ?>
 
 
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		
+
 		<!-- analytics -->
 		<script>
 		(function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
