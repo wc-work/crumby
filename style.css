@@ -200,7 +200,8 @@ nav a {
   .contact-page .contact-us {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    height: 73vh;
   }
 }
 .contact-page .contact-us {
