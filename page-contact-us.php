@@ -28,7 +28,7 @@ get_header(); ?>
 
         </div> <!-- end row -->
 
-    <div class="form-wrapper">
+    <div class="form-wrapper col-sm-6">
         <div class ="center-form">
             <?php echo do_shortcode( '[contact-form-7 id="21" title="Contact form 1"]' ); ?>
         </div>
