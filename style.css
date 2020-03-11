@@ -1267,20 +1267,20 @@ nav a {
 }
 .process .flow_chart_row:nth-of-type(odd) {
   flex-direction: row;
-  background-color: lightgray;
+  background-color: #FDF8E1;
 }
 .process .flow_chart_row:nth-of-type(even) {
   flex-direction: row-reverse;
 }
 .process .flow_chart_row .icon_circle {
-  background-color: #2c2c2c;
+  background-color: #5DA3B2;
   border-radius: 50%;
   width: 150px;
   height: 150px;
   padding: 35px 0px;
   margin: 30px auto;
   text-align: center;
-  color: blue;
+  color: #FDF8E1;
 }
 .process .flow_chart_row .hidden-md {
   display: flex;
@@ -1290,6 +1290,9 @@ nav a {
 }
 .process .flow_chart_row .m_auto {
   margin: auto;
+}
+.process .flow_chart_row .text h2 {
+  font-size: 3rem;
 }
 @media only screen and (min-width: 838px) {
   .process .title {
@@ -1321,8 +1324,8 @@ nav a {
   .process .flow_chart_row::before {
     content: "";
     width: 100%;
-    height: 36%;
-    border-bottom: 1px solid black;
+    height: 33%;
+    border-bottom: 1px solid #5DA3B2;
     position: absolute;
     top: 0%;
   }
@@ -1342,6 +1345,16 @@ nav a {
     border-bottom: none !important;
     position: absolute;
     top: 0%;
+  }
+  .process .flow_chart_row .text {
+    padding: 0% 15%;
+  }
+  .process .flow_chart_row .text h2 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .process .flow_chart_row .text h3 {
+    font-size: 2rem;
   }
 }
 
