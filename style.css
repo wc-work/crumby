@@ -1298,6 +1298,7 @@ nav a {
 }
 .process .flow_chart_row .text h2 {
   font-size: 3rem;
+  font-weight: 600;
 }
 @media only screen and (min-width: 838px) {
   .process .title {
