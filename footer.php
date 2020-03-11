@@ -9,24 +9,22 @@
 	<div class="container-fluid blue">
 		<div class="row col-lg-3">
 			<div class="col-xs col-md centered">
-				<p class="footertext ml-5" id="copyright">	&copy; <?php the_field('email'); ?></p>
+				<p class="footertext ml-5" id="copyright">	&copy; 
+				<?php if(have_rows('copyright_test', 'option')):?>
+					<?php while(have_rows('copyright_test', 'option')): the_row();?>
+					<?php the_sub_field('copyright')?>
+						
+					<?php endwhile;?>	
+				<?php endif;?>
+				</p>
 			</div>
 		</div>
 
 		<div class="col-xs col-lg-6 icon-alignment d-flex justify-content-around">
 			<?php if(have_rows('social_media_info', 'option')):?>
 					<?php while(have_rows('social_media_info', 'option')): the_row();?>
-						<?php the_sub_field('link')?>
-						<?php the_sub_field('icon')?>
-						<br />
-						<?php the_sub_field('link')?>
-						<?php the_sub_field('icon')?>
-						<br />
-						<?php the_sub_field('link')?>
-						<?php the_sub_field('icon')?>
-						<br />
-						<?php the_sub_field('link')?>
-						<?php the_sub_field('icon')?>
+						<a href="<?php the_sub_field('link')?>"><img src="<?php the_sub_field('icon')?>"></a>
+						
 					<?php endwhile;?>	
 				<?php endif;?>
 				<!-- <div class="col-xs centered d-flex justify-content-around"> -->
@@ -80,3 +78,5 @@
 
 	</body>
 </html>
+
+
