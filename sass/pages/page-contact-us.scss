@@ -5,30 +5,32 @@
 
 .contact-page{
   font-family: 'Open Sans', sans-serif;
+  
 
-  @media (min-width:768px){
-    .contact-us{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      height: 73vh;
-    }
+  @media (max-width:576px){
+      .center-form{
+        transform: translateX(20px);
+      }
   }
-
+  .contact-us{
+  display: flex;
+  justify-content: space-between;
+  
+  }
   .contact-title{
     color: $font-black;
     text-align: center;
     margin-top: 5rem;
-    font-size: xx-large;
+    font-size: 5rem;
     padding: 4rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family:  funkydori, sans-serif;
     font-weight: bold;
   }
   .icon-text-container {
     text-align: center;
-    padding-right: 3.5rem;
+    margin-bottom: 4rem;
   }
-  .row1 {
+  .icon-wrapper {
     display: flex;
     justify-content: space-evenly;
     margin-top: 3.5rem;

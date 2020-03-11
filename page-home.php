@@ -31,13 +31,30 @@ get_header();?>
 	<div class="d-flex justify-content-center">
 		<img class="serviceimg mt-5" src="<?php echo get_template_directory_uri();?>/img/icons/services-img.svg" alt="Image of website browser">
 	</div>
-	<h1>Our Services</h1>
+	<h1><?php the_field('section_title'); ?></h1>
 	<div class="container card categories-content">
 		<div class="row">
+		<!-- <?php 
+			if(have_rows('service_card')):
+				while(have_rows('service_card')): the_row();
+					$title = get_sub_field('service_title');
+					$description = get_sub_field('service_description');
+		?>
 			<div class="col-xs-6 col-lg categories mt-5">
+				<h2><?php echo $title ?></h2>
+				<p> <?php echo $description ?></p>
+			</div>
+		<?php 	
+				endwhile;
+			endif; 
+		?> -->
+		<div class="col-xs-6 col-lg card categories mt-5">
 				<h2>Website Design</h2>
 				<p>Website design ties in with custom development to meet specific website needs along with desired aesthetics.</p>
 			</div>
+
+
+
 			<div class="col-xs-6 col-lg card categories mt-5">
 				<h2>Custom Development</h2>
 				<p>Custom development will be based upon your choice of a pre-built wordpress theme or custom built theme. Custom themes are built by WebCrumbs and suit specific website needs.</p>
