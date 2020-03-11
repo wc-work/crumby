@@ -3,6 +3,7 @@
  * ---
  * Main `sass` file. Import here `sass` files
  */
+@import url("https://use.typekit.net/mck4rsq.css");
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1152,47 +1153,78 @@ nav a {
  * pages/single-wc-post
  * ---
  */
-.post-setup {
+.blog .post-setup {
   font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
 }
-
-.post-title {
+.blog .post-title {
   display: flex;
   justify-content: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: funkydori, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 10px 0px;
 }
-
-.image-holder {
+.blog .post-title h1 {
+  font-size: 6rem;
+}
+.blog .post-title a {
+  color: #2C2C2C;
+}
+.blog .image-holder {
   height: 30vh;
   width: 100vw;
 }
-
-.featured-img-width {
+.blog .featured-img-width {
   width: 100%;
   height: auto;
   object-fit: cover;
   object-position: center;
 }
-
-.thumbnail-block {
+.blog .thumbnail-block {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-.featured-title {
+.blog .featured-title {
   position: absolute;
   font-size: 3rem;
 }
-
-.full-card {
+.blog .full-card {
   background-color: #FDF8E1;
 }
-
-.card-img-top {
+.blog .card-img-top {
   margin-top: 2rem;
+}
+.blog .post_details p {
+  display: inline-block;
+}
+.blog .post_details a {
+  color: #5DA3B2;
+  text-decoration: underline;
+}
+.blog .content {
+  margin: 20px 0px;
+}
+.blog .content p {
+  font-size: 2rem;
+}
+.blog .recent_blog_row {
+  background-color: #FDF8E1;
+  border: 2px solid gainsboro;
+}
+.blog .recent_blog_row h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 30px 0px;
+}
+.blog .recent_blog_row a {
+  color: #2C2C2C;
+  font-size: 2rem;
+}
+.blog .recent_blog_row div {
+  border: none;
 }
 
 .blogpost {
