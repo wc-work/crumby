@@ -77,3 +77,11 @@ background-color: transparent;
 .navbar-light .navbar-nav .active>.nav-link{
   color: $font-white;
 }
+.col-5{
+  position: relative;
+  right: 3vh;
+}
+.col{
+  position: relative;
+  left: 2vh;
+}
