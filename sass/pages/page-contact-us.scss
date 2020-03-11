@@ -10,10 +10,13 @@
     .contact-us{
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: space-evenly;
     }
   }
-
+  .contact-us{
+  display: flex;
+  justify-content: flex-end;
+  }
   .contact-title{
     color: $font-black;
     text-align: center;
@@ -25,9 +28,9 @@
   }
   .icon-text-container {
     text-align: center;
-    padding-right: 3.5rem;
+    margin-bottom: 4rem;
   }
-  .row1 {
+  .icon-wrapper {
     display: flex;
     justify-content: space-evenly;
     margin-top: 3.5rem;
