@@ -35,6 +35,8 @@
   .centered{
     display: flex;
     justify-content: center;
+    position: relative;
+    bottom: 1vh;
   }
   #copyright{
     text-align: center;

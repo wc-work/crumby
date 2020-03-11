@@ -116,6 +116,16 @@ nav a {
   color: #FDF8E1;
 }
 
+.col-5 {
+  position: relative;
+  right: 3vh;
+}
+
+.col {
+  position: relative;
+  left: 2vh;
+}
+
 /**
  * partials/footer
  * ---
@@ -149,6 +159,8 @@ nav a {
 .footer .centered {
   display: flex;
   justify-content: center;
+  position: relative;
+  bottom: 1vh;
 }
 .footer #copyright {
   text-align: center;
@@ -1298,6 +1310,7 @@ nav a {
 }
 .process .flow_chart_row .text h2 {
   font-size: 3rem;
+  font-weight: 600;
 }
 @media only screen and (min-width: 838px) {
   .process .title {

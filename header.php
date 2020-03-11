@@ -33,7 +33,7 @@
 	<nav class="navbar navbar-expand-md navbar-light fixed" role="navigation">
 		<div class="container-fluid" id="nav-icon">
 			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="row col">
+			<div class="col-5">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
 					<span> 
 						<img src="<?php echo get_template_directory_uri(); ?>/img/iconfinder-icon.svg" alt="hamburger menu icon" id="hamburger"> 
@@ -44,7 +44,7 @@
 				</a>
 			</div>
 
-				<div class="col-offset d-lg-none d-md-none d-xl-none" id="flex-mlogo">
+				<div class="col d-lg-none d-md-none d-xl-none" id="flex-mlogo">
 					<a href="#">		
 						<a href="https://webcrumbs.dev/">
 							<img class="mobile-logo" id="flex-logo" src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="Webcrumbs alt logo. Digital bread with WC abbreviation in the middle.">
