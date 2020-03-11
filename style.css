@@ -1160,13 +1160,10 @@ nav a {
 .blog .post-title {
   display: flex;
   justify-content: center;
-  font-family: funkydori, sans-serif;
-  font-weight: 700;
-  font-style: normal;
   margin: 10px 0px;
 }
 .blog .post-title h1 {
-  font-size: 6rem;
+  font-size: 4rem;
 }
 .blog .post-title a {
   color: #2C2C2C;
@@ -1178,6 +1175,7 @@ nav a {
 .blog .featured-img-width {
   width: 100%;
   height: auto;
+  max-height: 40vh;
   object-fit: cover;
   object-position: center;
 }
@@ -1189,7 +1187,14 @@ nav a {
 }
 .blog .featured-title {
   position: absolute;
-  font-size: 3rem;
+  font-size: 6rem;
+  font-family: funkydori, sans-serif;
+  font-weight: 700;
+  background-color: #FDF8E1;
+  opacity: 70%;
+  font-style: normal;
+  padding: 45px 25px 0px 25px;
+  line-height: 1;
 }
 .blog .full-card {
   background-color: #FDF8E1;
@@ -1199,6 +1204,7 @@ nav a {
 }
 .blog .post_details p {
   display: inline-block;
+  font-size: 2rem;
 }
 .blog .post_details a {
   color: #5DA3B2;
@@ -1225,6 +1231,14 @@ nav a {
 }
 .blog .recent_blog_row div {
   border: none;
+}
+@media only screen and (max-width: 768px) {
+  .blog .recent_blog_row div:nth-of-type(3), .blog .recent_blog_row div:nth-of-type(4), .blog .recent_blog_row div:nth-of-type(5) {
+    border-top: 2px solid gainsboro;
+  }
+  .blog .recent_blog_row .img-container img {
+    max-width: 30vh;
+  }
 }
 
 .blogpost {

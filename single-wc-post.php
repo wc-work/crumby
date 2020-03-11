@@ -31,10 +31,10 @@ get_header();  ?>
 					</div>
 					<!-- /post details -->
                     <div class="container">
-                        <!-- post title -->
-                        <div class="post-title">
-                            <h1><?php the_title(); ?></h1>
-                        </div>
+                        <!-- post title removed if you want to add it back in wrap the title in a php tag and add parentheses after the_title-->
+                        <!-- <div class="post-title">
+                            <h1> the_title; </h1>
+                        </div> -->
 						<!-- /post title -->
 						<div class="content">
 							<p><?php the_content(); // Dynamic Content?></p>
@@ -43,7 +43,7 @@ get_header();  ?>
                     <!-- /article -->
                 <?php endwhile; ?>
 
-                <div class="containe mx-3">
+                <div class="container">
                     <div class="row justify-content-around recent_blog_row m-3">
 						<div class="col-12">
 							<h2 class="text-center">More Articles . . .</h2>
@@ -57,10 +57,12 @@ get_header();  ?>
                         ));
                         ?>
                        <?php while ($recent_post -> have_posts()) : $recent_post->the_post(); ?>
-                            <div class="col-md-3 col-sm-6 col-xs-12 d-flex flex-column justify-content-center px-5 card full-card">
-                                <?php the_post_thumbnail('thumbnail', array('class' => 'card-img-top img-fluid')); ?>
+                            <div class="col-lg-3 col-md-6 col-12 d-flex flex-column justify-content-center px-5 card full-card">
+                                <div class="img-container d-flex justify-content-center">
+									<?php the_post_thumbnail('thumbnail', array('class' => 'card-img-top img-fluid')); ?>
+								</div>
                                 <div class="card-body my-4 text-center font-italic">
-                               	 <a class="card-title" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+                               		<a class="card-title" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
                                     <!-- <p class="card-text">This Pikachu is happy to see your face!</p> -->
                                 </div>
                             </div>
