@@ -1228,4 +1228,139 @@ nav a {
   color: #2C2C2C;
 }
 
+.process .title {
+  font-size: 5rem;
+  line-height: 5.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 100%;
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  padding: 15px 0 15px 15px;
+  max-width: 50%;
+}
+.process .layer {
+  width: 100%;
+  height: 65vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  z-index: 5;
+}
+.process .copy {
+  font-size: 2rem;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.process .banner {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.process .banner img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  object-fit: cover;
+  height: 65vh;
+}
+.process .flow_chart_row {
+  display: flex;
+  width: 100%;
+  padding: 20px 0px;
+}
+.process .flow_chart_row:nth-of-type(odd) {
+  flex-direction: row;
+  background-color: #FDF8E1;
+}
+.process .flow_chart_row:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+.process .flow_chart_row .icon_circle {
+  background-color: #5DA3B2;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding: 35px 0px;
+  margin: 30px auto;
+  text-align: center;
+  color: #FDF8E1;
+}
+.process .flow_chart_row .hidden-md {
+  display: flex;
+}
+.process .flow_chart_row .hidden_md_down {
+  display: none;
+}
+.process .flow_chart_row .m_auto {
+  margin: auto;
+}
+.process .flow_chart_row .text h2 {
+  font-size: 3rem;
+}
+@media only screen and (min-width: 838px) {
+  .process .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: unset;
+    height: 65vh;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .process .hidden_md {
+    display: none !important;
+  }
+  .process .hidden_md_down {
+    display: block !important;
+  }
+  .process .flow_chart_row {
+    width: 25%;
+    flex-direction: row !important;
+    text-align: center;
+    background-color: transparent !important;
+    position: relative;
+  }
+  .process .m_auto {
+    margin: inherit !important;
+  }
+  .process .flow_chart_row::before {
+    content: "";
+    width: 100%;
+    height: 33%;
+    border-bottom: 1px solid #5DA3B2;
+    position: absolute;
+    top: 0%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .process .flow_chart_row {
+    width: 50%;
+    flex-direction: row !important;
+    text-align: center;
+    background-color: transparent !important;
+    position: relative;
+  }
+  .process .flow_chart_row::before {
+    content: "";
+    width: 0%;
+    height: 6%;
+    border-bottom: none !important;
+    position: absolute;
+    top: 0%;
+  }
+  .process .flow_chart_row .text {
+    padding: 0% 15%;
+  }
+  .process .flow_chart_row .text h2 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .process .flow_chart_row .text h3 {
+    font-size: 2rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
