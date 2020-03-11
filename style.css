@@ -159,6 +159,8 @@ nav a {
 .footer .centered {
   display: flex;
   justify-content: center;
+  position: relative;
+  bottom: 1vh;
 }
 .footer #copyright {
   text-align: center;
