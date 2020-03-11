@@ -34,7 +34,7 @@ get_header();?>
 	<h1><?php the_field('section_title'); ?></h1>
 	<div class="container card categories-content">
 		<div class="row">
-		<?php 
+		<!-- <?php 
 			if(have_rows('service_card')):
 				while(have_rows('service_card')): the_row();
 					$title = get_sub_field('service_title');
@@ -47,8 +47,15 @@ get_header();?>
 		<?php 	
 				endwhile;
 			endif; 
-		?>
-			<!-- <di v class="col-xs-6 col-lg card categories mt-5">
+		?> -->
+		<div class="col-xs-6 col-lg card categories mt-5">
+				<h2>Website Design</h2>
+				<p>Website design ties in with custom development to meet specific website needs along with desired aesthetics.</p>
+			</div>
+
+
+
+			<div class="col-xs-6 col-lg card categories mt-5">
 				<h2>Custom Development</h2>
 				<p>Custom development will be based upon your choice of a pre-built wordpress theme or custom built theme. Custom themes are built by WebCrumbs and suit specific website needs.</p>
 			</div>
@@ -71,7 +78,7 @@ get_header();?>
 				<h2>Intro to Google Analytics</h2>
 				<p>Google Analytics is a web analytics service offered by Google that tracks and reports website traffic, currently as a platform inside the Google Marketing Platform brand. 
 				</p>
-			</div> -->
+			</div>
 		</div>
 	
 	</div>
