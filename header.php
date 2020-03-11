@@ -33,7 +33,7 @@
 	<nav class="navbar navbar-expand-md navbar-light fixed" role="navigation">
 		<div class="container-fluid" id="nav-icon">
 			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="row col">
+			<div class="row col ">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
 					<span> 
 						<img src="<?php echo get_template_directory_uri(); ?>/img/iconfinder-icon.svg" alt="hamburger menu icon" id="hamburger"> 
