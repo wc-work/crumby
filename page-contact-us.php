@@ -33,7 +33,7 @@ get_header(); ?>
             <?php echo do_shortcode( '[contact-form-7 id="21" title="Contact form 1"]' ); ?>
         </div>
      
-    </div> <!-- end container -->
-    
+    </div>
+    </div>
 </div>
 <?php get_footer(); ?>

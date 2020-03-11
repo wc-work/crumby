@@ -5,25 +5,25 @@
 
 .contact-page{
   font-family: 'Open Sans', sans-serif;
+  
 
-  @media (min-width:768px){
-    .contact-us{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-    }
+  @media (max-width:576px){
+      .center-form{
+        transform: translateX(20px);
+      }
   }
   .contact-us{
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  
   }
   .contact-title{
     color: $font-black;
     text-align: center;
     margin-top: 5rem;
-    font-size: xx-large;
+    font-size: 5rem;
     padding: 4rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family:  funkydori, sans-serif;
     font-weight: bold;
   }
   .icon-text-container {
