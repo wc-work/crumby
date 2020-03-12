@@ -23,24 +23,12 @@
 		<div class="col-xs col-lg-6 icon-alignment d-flex justify-content-around">
 			<?php if(have_rows('social_media_info', 'option')):?>
 					<?php while(have_rows('social_media_info', 'option')): the_row();?>
-						<a href="<?php the_sub_field('link')?>"><img src="<?php the_sub_field('icon')?>"></a>
+						<a href="<?php the_sub_field('link');?>">
+							<i class="<?php the_sub_field('fa_icon_footer');?> social-media"></i>
+						</a>
 						
 					<?php endwhile;?>	
 				<?php endif;?>
-				<!-- <div class="col-xs centered d-flex justify-content-around"> -->
-					<a href="https://www.instagram.com/webcrumbs.dev/?hl=en"  class="social-media">
-						<i class="fab fa-instagram fa-3x social-media" id="insta"></i> 
-					</a>
-					<a href="https://www.facebook.com/WebCrumbs.dev/" class="social-media">
-						<i class="fab fa-facebook fa-3x social-media"></i>
-					</a>
-					<a href="https://twitter.com/WebCrumbsDev" class="social-media">
-						<i class="fab fa-twitter fa-3x social-media"></i>
-					</a>
-					<a href="https://www.linkedin.com/" class="social-media">
-						<i class="fab fa-linkedin fa-3x social-media"></i>
-					</a>
-				<!-- </div> -->
 		</div>
 
 		<div class="col-xs centered col-lg-3">
