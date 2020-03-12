@@ -231,6 +231,47 @@
     display: flex;
     justify-content: center;
   }
+
+
+// BUTTON ANIMATION
+
+  .learnbtn:hover, .meetingbtn:hover{
+    transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  }
+  .btn:active{
+      transform:translateY(-1px) ;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  }
+.meetingbtn{
+  animation: moveInRight 3s ease-out;
+}
+
+  @keyframes moveInRight {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   @media (max-width:768px){
     .meetingbtn{
       background-color: $font-yellow;
