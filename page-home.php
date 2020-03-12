@@ -10,7 +10,6 @@ get_header();?>
     <div class="intro d-flex justify-content-center align-items-center flex-column">
       <img class="home-logo" src="<?php echo get_template_directory_uri();?>/img/main-logo.png">
       <div class="intro-headers">
-        <!-- <h1>Pave your digital footprint with WordPress websites made fresh by WebCrumbs.</h1>   -->
 		<h1><?php bloginfo( "description" ); ?></h1>
       </div>
     </div>
@@ -55,7 +54,6 @@ get_header();?>
 
 <div class="button-container container-fluid">
 	<a href="https://square.site/book/GDH2KVERNEFSC/webcrumbs-fresno-ca" class="btn btn-lg meetingbtn" target="_blank"> 
-			<!-- Book A Meeting  -->
 			<?php the_field('service_b'); ?>
 	</a>
 </div>
@@ -70,7 +68,6 @@ get_header();?>
 				<img src="<?php echo get_template_directory_uri();?>/img/quote-1.svg" alt="Quote icon" class="quote1">
 			</div>
 			<div>
-				<!-- <p>WebCrumbs works to put you in control of your website. We tailor your WordPress experience to help showcase your authentic style.</p> -->
 				<p><?php the_field('quotes_section'); ?></p>
 			</div>
 			<div>
