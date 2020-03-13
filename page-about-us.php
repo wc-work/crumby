@@ -80,10 +80,10 @@ get_header(); ?>
                             <div class="carousel-caption">
                                 <!-- h a T -->
                                 <h1>
-                                    <a style="opacity: 30%">
+                                    <a style="opacity: .3">
                                         <span data-target="#crumbs" data-slide-to="0">H</span>
                                     </a>
-                                    <a style="opacity: 30%">
+                                    <a style="opacity: .3">
                                         <span data-target="#crumbs" data-slide-to="1">A</span>
                                     </a>
                                     T

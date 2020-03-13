@@ -89,6 +89,49 @@ function html5blank_nav()
 	);
 }
 
+// Advance Custom Field
+
+if( function_exists('acf_add_options_page') ) {
+	
+    acf_add_options_page();
+    acf_add_options_sub_page('Header');
+    acf_add_options_sub_page('Footer');
+    
+    acf_add_options_page(array(
+		'page_title' 	=> 'Theme Options',
+		'menu_title'	=> 'Theme Options',
+		'menu_slug' 	=> 'theme-options',
+        'capability'	=> 'edit_posts',
+        'parent_slug'   => '',
+        'icon_url'      => false, 
+		'redirect'		=> false
+	));
+	
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Header',
+        'menu_title'	=> 'Header',
+        'menu_slug'     => 'theme-options',
+        'capability'    => 'edit_posts',
+        'parent_slug'	=> '',
+        'position'      => false,
+        'icon_url'      => false, 
+        'redirect'      => false 
+	));
+	
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Footer',
+        'menu_title'	=> 'Footer',
+        'menu_slug'     => 'theme-options',
+        'capability'    => 'edit_posts',
+        'parent_slug'	=> '',
+        'position'      => false,
+        'icon_url'      => false, 
+        'redirect'      => false 
+	));
+}
+
+
+
 /**
  * Register Custom Navigation Walker
  */
@@ -124,6 +167,9 @@ function html5blank_header_scripts()
         
         wp_register_script('video_scripts', get_template_directory_uri() . '/js/video_scripts.js', array('jquery'), '1.0.0'); // Custom scripts
         wp_enqueue_script('video_scripts'); // Enqueue it!
+
+        wp_register_script('navbar_script', get_template_directory_uri() . '/js/navbar_script.js', array('jquery'), '1.0.0'); // Custom scripts
+        wp_enqueue_script('navbar_script'); // Enqueue it!
     }
 }
 
