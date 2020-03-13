@@ -45,13 +45,5 @@
 		ga('send', 'pageview');
 		</script>
 
-
-				<!-- NAVBAR COLOR CHANGE  -->
-		<script>
-			$(window).scroll(function(){
-   				 $('nav').toggleClass('scrolled', $(this).scrollTop() > 500);
-   			 });
-		</script>
-
 	</body>
 </html>
