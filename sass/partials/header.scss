@@ -11,11 +11,21 @@
   color: $font-yellow;
   font-size: $font-size-base;
   z-index: 6;
+}
+
+.transition{
+  margin: 0;
+  border-radius: 0px;
+  background-color: black;
+  color: $font-yellow;
+  font-size: $font-size-base;
+  z-index: 6;
   transition: 750ms ease;
 }
-.navbar.scrolled{
+.transition.scrolled{
   background-color: $font-blue !important;
 }
+
 
 nav{
   a{

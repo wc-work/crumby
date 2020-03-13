@@ -35,10 +35,19 @@ body {
   color: #EBBC4E;
   font-size: 1.6rem;
   z-index: 6;
+}
+
+.transition {
+  margin: 0;
+  border-radius: 0px;
+  background-color: black;
+  color: #EBBC4E;
+  font-size: 1.6rem;
+  z-index: 6;
   transition: 750ms ease;
 }
 
-.navbar.scrolled {
+.transition.scrolled {
   background-color: #5DA3B2 !important;
 }
 
