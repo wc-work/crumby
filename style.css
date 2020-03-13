@@ -1241,6 +1241,12 @@ nav a {
   color: #2C2C2C;
 }
 
+.opacityblk {
+  height: 100px;
+  width: 60px;
+  background-color: rgba(192, 192, 192, 0.3);
+}
+
 .process .title {
   font-size: 5rem;
   line-height: 5.2rem;
