@@ -3,16 +3,30 @@
  * ---
  */
 // NAVBAR
-nav{
+
+.navbar{
+  margin: 0;
+  border-radius: 0px;
   background-color: black;
   color: $font-yellow;
   font-size: $font-size-base;
   z-index: 6;
 }
-.navbar{
+
+.transition{
   margin: 0;
   border-radius: 0px;
+  background-color: black;
+  color: $font-yellow;
+  font-size: $font-size-base;
+  z-index: 6;
+  transition: 750ms ease;
 }
+.transition.scrolled{
+  background-color: $font-blue !important;
+}
+
+
 nav{
   a{
   margin-left: 3rem;
