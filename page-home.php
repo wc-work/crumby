@@ -40,7 +40,7 @@ get_header();?>
 					$title = get_sub_field('service_title');
 					$description = get_sub_field('service_description');
 		?>
-			<div class="col-xs-6 col-lg categories mt-5">
+			<div class="col-md-4 categories mt-5">
 				<h2><?php echo $title ?></h2>
 				<p> <?php echo $description ?></p>
 			</div>
