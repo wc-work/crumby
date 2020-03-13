@@ -3,8 +3,8 @@
  * ---
  * Main `sass` file. Import here `sass` files
  */
-
 @import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+@import url("https://use.typekit.net/mck4rsq.css");
 @import url("https://use.typekit.net/mck4rsq.css");
 * {
   -webkit-font-smoothing: antialiased;
@@ -38,13 +38,22 @@ body {
   z-index: 6;
 }
 
+.standard {
+  margin: 0;
+  border-radius: 0px;
+  background-color: #5DA3B2;
+  color: #EBBC4E;
+  font-size: 1.6rem;
+  z-index: 15;
+}
+
 .transition {
   margin: 0;
   border-radius: 0px;
   background-color: black;
   color: #EBBC4E;
   font-size: 1.6rem;
-  z-index: 6;
+  z-index: 15;
   transition: 750ms ease;
 }
 
