@@ -12,7 +12,14 @@
   font-size: $font-size-base;
   z-index: 6;
 }
-
+.standard{
+  margin: 0;
+  border-radius: 0px;
+  background-color: $font-blue;
+  color: $font-yellow;
+  font-size: $font-size-base;
+  z-index: 6;
+}
 .transition{
   margin: 0;
   border-radius: 0px;
