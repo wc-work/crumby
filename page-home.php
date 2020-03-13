@@ -3,7 +3,7 @@
  * Template Name: Homepage
  * Template Post Type: page
  */
-get_header();?>
+get_header('transition');?>
 <main class="homepage">
 <section class="banner">
   <div class="boxed">
