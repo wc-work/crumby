@@ -44,7 +44,7 @@ body {
   background-color: #5DA3B2;
   color: #EBBC4E;
   font-size: 1.6rem;
-  z-index: 6;
+  z-index: 15;
 }
 
 .transition {
@@ -53,7 +53,7 @@ body {
   background-color: black;
   color: #EBBC4E;
   font-size: 1.6rem;
-  z-index: 6;
+  z-index: 15;
   transition: 750ms ease;
 }
 
