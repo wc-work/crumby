@@ -2,39 +2,100 @@
  * pages/single-wc-post
  * ---
  */
- .post-setup {
+ .blog {
+  .post-setup {
     font-family: 'Open Sans', sans-serif;
     font-size: $font-size-base;
-}
-.post-title {
-    display: flex;
-    justify-content: center;
-    font-family: 'Open Sans', sans-serif;
-}
-.image-holder {
-    height: 30vh;
-    width: 100vw; 
-}
-.featured-img-width {
-    width: 100%;
-    height: auto;
-    //max-height: 53vh;
-    object-fit: cover;
-    object-position: center;
-}
-.thumbnail-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.featured-title {
-    position: absolute;
-    font-size: 3rem;
-}
-.full-card {
+  }
+  .post-title {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0px;
+      h1{
+        font-size: 4rem;
+      }
+      a {
+        color: $font-black;
+      }
+  }
+  .image-holder {
+      height: 30vh;
+      width: 100vw;
+  }
+  .featured-img-width {
+      width: 100%;
+      height: auto;
+      max-height: 40vh;
+      //max-height: 53vh;
+      object-fit: cover;
+      object-position: center;
+  }
+  .thumbnail-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .featured-title {
+      position: absolute;
+      font-size: 6rem;
+      font-family: funkydori, sans-serif;
+      font-weight: 700;
+      background-color: $font-white;
+      opacity: 70%;
+      font-style: normal;
+      padding: 45px 25px 0px 25px;
+      line-height: 1;
+  }
+  .full-card {
+      background-color: $font-white;
+  }
+  .card-img-top {
+      margin-top: 2rem;
+  }
+  .post_details {
+    p {
+      display: inline-block;
+      font-size: 2rem;
+    }
+    a {
+      color: $font-blue;
+      text-decoration: underline;
+    }
+  }
+  .content {
+    margin: 20px 0px;
+    p {
+      font-size: 2rem;
+    }
+  }
+  .recent_blog_row {
     background-color: $font-white;
-}
-.card-img-top {
-    margin-top: 2rem;   
+    border: 2px solid gainsboro;
+    h2 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin: 30px 0px;
+    }
+    a {
+      color: $font-black;
+      font-size: 2rem;
+    }
+    div {
+      border: none;
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+    .recent_blog_row {
+      div:nth-of-type(3),div:nth-of-type(4),div:nth-of-type(5) {
+        border-top: 2px solid gainsboro;
+      }
+      .img-container {
+        img {
+          max-width: 30vh;
+        }
+      }
+    }
+  }
 }

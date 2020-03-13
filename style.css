@@ -3,6 +3,7 @@
  * ---
  * Main `sass` file. Import here `sass` files
  */
+
 @import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
 @import url("https://use.typekit.net/mck4rsq.css");
 * {
@@ -1204,47 +1205,92 @@ nav a {
  * pages/single-wc-post
  * ---
  */
-.post-setup {
+.blog .post-setup {
   font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
 }
-
-.post-title {
+.blog .post-title {
   display: flex;
   justify-content: center;
-  font-family: "Open Sans", sans-serif;
+  margin: 10px 0px;
 }
-
-.image-holder {
+.blog .post-title h1 {
+  font-size: 4rem;
+}
+.blog .post-title a {
+  color: #2C2C2C;
+}
+.blog .image-holder {
   height: 30vh;
   width: 100vw;
 }
-
-.featured-img-width {
+.blog .featured-img-width {
   width: 100%;
   height: auto;
+  max-height: 40vh;
   object-fit: cover;
   object-position: center;
 }
-
-.thumbnail-block {
+.blog .thumbnail-block {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-.featured-title {
+.blog .featured-title {
   position: absolute;
-  font-size: 3rem;
+  font-size: 6rem;
+  font-family: funkydori, sans-serif;
+  font-weight: 700;
+  background-color: #FDF8E1;
+  opacity: 70%;
+  font-style: normal;
+  padding: 45px 25px 0px 25px;
+  line-height: 1;
 }
-
-.full-card {
+.blog .full-card {
   background-color: #FDF8E1;
 }
-
-.card-img-top {
+.blog .card-img-top {
   margin-top: 2rem;
+}
+.blog .post_details p {
+  display: inline-block;
+  font-size: 2rem;
+}
+.blog .post_details a {
+  color: #5DA3B2;
+  text-decoration: underline;
+}
+.blog .content {
+  margin: 20px 0px;
+}
+.blog .content p {
+  font-size: 2rem;
+}
+.blog .recent_blog_row {
+  background-color: #FDF8E1;
+  border: 2px solid gainsboro;
+}
+.blog .recent_blog_row h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 30px 0px;
+}
+.blog .recent_blog_row a {
+  color: #2C2C2C;
+  font-size: 2rem;
+}
+.blog .recent_blog_row div {
+  border: none;
+}
+@media only screen and (max-width: 768px) {
+  .blog .recent_blog_row div:nth-of-type(3), .blog .recent_blog_row div:nth-of-type(4), .blog .recent_blog_row div:nth-of-type(5) {
+    border-top: 2px solid gainsboro;
+  }
+  .blog .recent_blog_row .img-container img {
+    max-width: 30vh;
+  }
 }
 
 .blogpost {
