@@ -10,7 +10,7 @@
   background-color: black;
   color: $font-yellow;
   font-size: $font-size-base;
-  z-index: 6;
+  z-index: 15;
 }
 .standard{
   margin: 0;
@@ -18,7 +18,7 @@
   background-color: $font-blue;
   color: $font-yellow;
   font-size: $font-size-base;
-  z-index: 6;
+  z-index: 15;
 }
 .transition{
   margin: 0;
@@ -26,7 +26,7 @@
   background-color: black;
   color: $font-yellow;
   font-size: $font-size-base;
-  z-index: 6;
+  z-index: 15;
   transition: 750ms ease;
 }
 .transition.scrolled{
