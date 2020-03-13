@@ -4,6 +4,8 @@
  * Main `sass` file. Import here `sass` files
  */
 // @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url("https://use.typekit.net/mck4rsq.css");
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -14,6 +16,7 @@ html {
 }
 body{
   font-family: 'Open Sans', sans-serif;
+  
 }
 // Modules
 @import "modules/variables";
@@ -30,3 +33,4 @@ body{
 @import "pages/single-wc-post.scss";
 @import "pages/blog.scss";
 @import url("https://use.typekit.net/mck4rsq.css");
+@import "pages/page-process.scss";

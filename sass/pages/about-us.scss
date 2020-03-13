@@ -15,6 +15,7 @@
     bottom: 0;
     padding: 15px 0 15px 15px;
     max-width: 50%;
+    font-family: funkydori, sans-serif;
   }
   .layer {
     width: 100%;
@@ -157,10 +158,10 @@
         border: none; 
       }
       .carousel-indicators li img {
-        opacity: 30%;
+        opacity: .3;
       }
       .carousel-indicators li.active img {
-        opacity: 80%;
+        opacity: .8;
       }
       .carousel-indicators img {
         position: absolute;
@@ -299,10 +300,10 @@
         border: none; 
       }
       .carousel-indicators li img {
-        opacity: 30%;
+        opacity: .3;
       }
       .carousel-indicators li.active img {
-        opacity: 80%;
+        opacity: .8;
       }
       .carousel-indicators img {
         position: absolute;
@@ -443,10 +444,10 @@
         border: none; 
       }
       .carousel-indicators li img {
-        opacity: 30%;
+        opacity: .3;
       }
       .carousel-indicators li.active img {
-        opacity: 80%;
+        opacity: .8;
       }
       .carousel-indicators img {
         position: absolute;
@@ -540,9 +541,20 @@
 }
 
 .hatstyles{
-  opacity: 30%;
+  opacity: .3;
 }
 
+.meetingbtn:hover{
+  transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+.btn:active{
+    transform:translateY(-1px) ;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.meetingbtn{
+animation: moveInRight 3s ease-out;
+}
 
 
  
