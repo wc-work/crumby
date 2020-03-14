@@ -33,7 +33,6 @@ body {
   margin: 0;
   border-radius: 0px;
   background-color: black;
-  color: #EBBC4E;
   font-size: 1.6rem;
   z-index: 6;
 }
@@ -42,16 +41,14 @@ body {
   margin: 0;
   border-radius: 0px;
   background-color: #5DA3B2;
-  color: #EBBC4E;
   font-size: 1.6rem;
   z-index: 15;
+  color: #2C2C2C;
 }
 
 .transition {
   margin: 0;
   border-radius: 0px;
-  background-color: black;
-  color: #EBBC4E;
   font-size: 1.6rem;
   z-index: 15;
   transition: 750ms ease;
@@ -59,6 +56,23 @@ body {
 
 .transition.scrolled {
   background-color: #5DA3B2 !important;
+}
+
+.transition .nav-link {
+  color: #EBBC4E !important;
+}
+
+.transition.scrolled .nav-link {
+  color: #2C2C2C !important;
+}
+
+.standard .nav-link {
+  color: #2C2C2C !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #FDF8E1;
+  background-color: transparent;
 }
 
 nav a {
@@ -114,15 +128,6 @@ nav a {
 #nav-icon {
   display: flex;
   justify-content: flex-start;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: #EBBC4E;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #FDF8E1;
-  background-color: transparent;
 }
 
 .navbar-toggler {
