@@ -1347,6 +1347,30 @@ nav a {
   color: #2C2C2C;
 }
 
+.docs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 20px;
+  color: #2C2C2C;
+}
+.docs h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px;
+}
+.docs h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 10px;
+}
+.docs p {
+  font-size: 1.8rem;
+  margin: 10px;
+}
+
 .process .title {
   font-size: 5rem;
   line-height: 5.2rem;

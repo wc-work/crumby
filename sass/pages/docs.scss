@@ -1,0 +1,23 @@
+.docs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 20px;
+  color: $font-black;
+  h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px;
+  }
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 10px;
+  }
+  p {
+    font-size: 1.8rem;
+    margin: 10px;
+  }
+}
