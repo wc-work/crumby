@@ -1359,16 +1359,17 @@ nav a {
   font-size: 3rem;
   font-weight: 600;
   text-align: center;
-  margin: 10px;
+  margin: 10px 0 25px;
 }
 .docs h2 {
   font-size: 1.8rem;
   font-weight: 600;
-  margin: 10px;
+  margin: 25px 0;
+  text-align: center;
 }
 .docs p {
   font-size: 1.8rem;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .process .title {
