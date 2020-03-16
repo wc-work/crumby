@@ -1,12 +1,11 @@
 <?php get_header(); 
 /* 
- * Template Name: Docs Page
- * Template Post Type: page
+ * Template Name: Docs Template
  */
 ?>
-	<main role="main">
+	<main role="main" class="docs">
 		<!-- section -->
-		<section class="docs">
+		<section class="docs-content">
 
 		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
