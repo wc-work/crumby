@@ -18,7 +18,7 @@ get_header(); ?>
 
             <div class="icon-text-container col-xs col-xl-12">
                 <img class="icons" src="<?php bloginfo('template_url'); ?>/img/icons/email.png" alt="An icon that depicts an envelope">
-                <h2> info.gkw.wp@gmail.com </h2>
+                <a href="mailto:info.webcrumbs@gmail.com">Send Email</a>
             </div>
 
             <div class="icon-text-container col-xs col-xl-12">
