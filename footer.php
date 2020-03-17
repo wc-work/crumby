@@ -9,12 +9,14 @@
 	<div class="container-fluid blue">
 		<div class="row col-lg-3">
 			<div class="col-xs col-md centered">
-				<p class="footertext ml-5" id="copyright">	&copy; 
-				<?php if(have_rows('copyright_test', 'option')):?>
+				<p class="footertext"> Terms and Contions </p>
+				<p class="footertext"> Privacy Policy </p>
+				<p class="footertext" id="copyright">	&copy; 
+				<!-- <?php if(have_rows('copyright_test', 'option')):?>
 					<?php while(have_rows('copyright_test', 'option')): the_row();?>
 						<?php the_sub_field('copyright')?>
 					<?php endwhile;?>	
-				<?php endif;?>
+				<?php endif;?> -->
 				</p>
 			</div>
 		</div>

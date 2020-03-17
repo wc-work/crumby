@@ -176,7 +176,6 @@ nav a {
 }
 .footer .footertext {
   font-size: 1.6rem;
-  margin-top: 3rem;
   text-align: center;
 }
 .footer .social-media {
@@ -184,9 +183,11 @@ nav a {
 }
 .footer .centered {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  background: red;
   position: relative;
-  bottom: 1vh;
+  left: 3rem;
 }
 .footer #copyright {
   text-align: center;

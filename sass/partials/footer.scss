@@ -25,7 +25,6 @@
 
   .footertext{
       font-size: $font-size-base;
-      margin-top: 3rem;
       text-align: center;
   }
   .social-media{
@@ -34,9 +33,11 @@
 
   .centered{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    background: red;
     position: relative;
-    bottom: 1vh;
+    left: 3rem;
   }
   #copyright{
     text-align: center;
