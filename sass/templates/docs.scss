@@ -1,0 +1,36 @@
+.docs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0;
+  .docs-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 20px;
+    color: $font-black;
+    h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      text-align: center;
+      margin: 10px 0 25px;
+    }
+    h2 {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin: 25px 0;
+      text-align: center;
+    }
+    p {
+      font-size: 1.8rem;
+      margin: 10px 0;
+    }
+    @media only screen and (min-width: 576px) {
+      width: 80vw;
+      color: $font-black;
+      max-width: 850px;
+      margin: unset;
+    }
+  }
+}
