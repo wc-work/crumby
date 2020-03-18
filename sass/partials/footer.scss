@@ -26,6 +26,9 @@
   .footertext{
       font-size: $font-size-base;
       text-align: center;
+      a {
+        color: $font-white;
+      }
   }
   .social-media{
       color: $font-white;
@@ -35,7 +38,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: red;
     position: relative;
     left: 3rem;
   }

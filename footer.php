@@ -9,8 +9,12 @@
 	<div class="container-fluid blue">
 		<div class="row col-lg-3">
 			<div class="col-xs col-md centered">
-				<p class="footertext"> Terms and Contions </p>
-				<p class="footertext"> Privacy Policy </p>
+				<p class="footertext"> 
+					<a href="<?php echo get_page_link( get_page_by_path( 'terms-and-conditions' ) ); ?>">Terms and Conditions</a> 
+				</p>
+				<p class="footertext"> 
+					<a href="<?php echo get_page_link( get_page_by_path( 'privacy-policy' ) ); ?>">Privacy Policy</a>
+				</p>
 				<p class="footertext" id="copyright">	&copy; 
 				<!-- <?php if(have_rows('copyright_test', 'option')):?>
 					<?php while(have_rows('copyright_test', 'option')): the_row();?>

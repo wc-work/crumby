@@ -178,6 +178,9 @@ nav a {
   font-size: 1.6rem;
   text-align: center;
 }
+.footer .footertext a {
+  color: #FDF8E1;
+}
 .footer .social-media {
   color: #FDF8E1;
 }
@@ -185,7 +188,6 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: red;
   position: relative;
   left: 3rem;
 }
@@ -252,7 +254,7 @@ nav a {
   font-size: 1.8rem;
   font-weight: 600;
   margin: 25px 0;
-  text-align: center;
+  text-align: left;
 }
 .docs .docs-content p {
   font-size: 1.8rem;
