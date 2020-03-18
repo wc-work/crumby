@@ -190,7 +190,6 @@ nav a {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  margin-top: 15px;
 }
 .footer #copyright {
   text-align: center;
@@ -198,22 +197,15 @@ nav a {
 .footer .social-media:hover {
   color: #EBBC4E;
 }
-.footer .icon-alignment {
-  padding: 2.5rem 0;
-}
 @media (min-width: 540px) {
   .footer .icon-alignment {
     max-width: 465px;
-    margin: 0 auto;
   }
 }
 @media (min-width: 992px) {
   .footer .blue {
     flex-direction: row;
     height: 12rem;
-  }
-  .footer .icon-alignment {
-    margin: auto;
   }
   .footer .footer-text {
     margin: auto;
