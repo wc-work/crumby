@@ -24,7 +24,7 @@
 			</div>
 		</div>
 
-		<div class="col-xs col-lg-6 icon-alignment d-flex justify-content-around">
+		<div class="col-xs col-lg-6 icon-alignment d-flex justify-content-around align-items-center">
 			<?php if(have_rows('social_media_info', 'option')):?>
 					<?php while(have_rows('social_media_info', 'option')): the_row();?>
 						<a href="<?php the_sub_field('link');?>">
