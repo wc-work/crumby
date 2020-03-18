@@ -1360,14 +1360,10 @@ nav a {
   }
 }
 
-.blog-wrapper {
-  background-color: tomato;
-}
 .blog-wrapper .layer {
   width: 100%;
   height: 50vh;
   background-color: #dfdfdf66;
-  border: 2px solid blue;
   position: absolute;
 }
 .blog-wrapper .blog-img {
@@ -1384,19 +1380,15 @@ nav a {
 }
 .blog-wrapper .blog-title {
   font-family: funkydori, sans-serif;
-  font-size: 7.6rem;
-  line-height: 0.7;
+  line-height: 0.98;
   z-index: 5;
 }
 .blog-wrapper button {
   background-color: #EBBC4E;
   color: #2C2C2C;
-  height: 6rem;
-  width: 17rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
   border-radius: 3.3rem;
   padding: 0 2.5rem;
   z-index: 5;
