@@ -201,6 +201,7 @@ nav a {
 @media (min-width: 540px) {
   .footer .icon-alignment {
     max-width: 465px;
+    padding: 25px 0;
   }
 }
 @media (min-width: 992px) {
@@ -210,6 +211,9 @@ nav a {
   }
   .footer .footer-text {
     margin: auto;
+  }
+  .footer .icon-alignment {
+    padding: unset;
   }
 }
 

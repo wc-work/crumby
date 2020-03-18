@@ -51,6 +51,7 @@
   @media (min-width: 540px) {
     .icon-alignment {
       max-width: 465px;
+      padding: 25px 0;
     }
   }
   @media (min-width: 992px) {
@@ -60,6 +61,9 @@
     }
     .footer-text {
       margin: auto;
+    }
+    .icon-alignment {
+      padding: unset;
     }
   }
 }
