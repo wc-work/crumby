@@ -176,17 +176,20 @@ nav a {
 }
 .footer .footertext {
   font-size: 1.6rem;
-  margin-top: 3rem;
   text-align: center;
+}
+.footer .footertext a {
+  color: #FDF8E1;
 }
 .footer .social-media {
   color: #FDF8E1;
 }
 .footer .centered {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   position: relative;
-  bottom: 1vh;
+  left: 3rem;
 }
 .footer #copyright {
   text-align: center;
@@ -251,7 +254,7 @@ nav a {
   font-size: 1.8rem;
   font-weight: 600;
   margin: 25px 0;
-  text-align: center;
+  text-align: left;
 }
 .docs .docs-content p {
   font-size: 1.8rem;
@@ -1357,33 +1360,46 @@ nav a {
   }
 }
 
-.blogpost {
-  color: #2C2C2C;
+.blog-wrapper {
+  background-color: tomato;
 }
-
-.blogimg {
+.blog-wrapper .layer {
+  width: 100%;
+  height: 50vh;
+  background-color: #dfdfdf66;
+  border: 2px solid blue;
+  position: absolute;
+}
+.blog-wrapper .blog-img {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  background-position: center;
+  height: 50vh;
 }
-
-.title {
-  padding-top: 30vh;
-  font-size: 50px;
-  width: 50px;
+.blog-wrapper .layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15px;
+}
+.blog-wrapper .blog-title {
   font-family: funkydori, sans-serif;
+  font-size: 7.6rem;
+  line-height: 0.7;
+  z-index: 5;
 }
-
-#blog-btn {
-  background-color: #5DA3B2;
+.blog-wrapper button {
+  background-color: #EBBC4E;
   color: #2C2C2C;
-  border-color: transparent;
-  height: 65px;
-}
-
-.btn-primary:hover {
-  background-color: #FDF8E1;
-  color: #2C2C2C;
+  height: 6rem;
+  width: 17rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border-radius: 3.3rem;
+  padding: 0 2.5rem;
+  z-index: 5;
 }
 
 .process .title {
