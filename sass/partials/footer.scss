@@ -9,10 +9,12 @@
   }
   .blue{
     background-color: $font-blue;
-    height: 24rem;
+    height: 28rem;
     color: $font-white;
     display: flex;
     flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
   }
   .footer-logo{
     height: 7rem;
@@ -25,8 +27,10 @@
 
   .footertext{
       font-size: $font-size-base;
-      margin-top: 3rem;
       text-align: center;
+      a {
+        color: $font-white;
+      }
   }
   .social-media{
       color: $font-white;
@@ -34,9 +38,9 @@
 
   .centered{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     position: relative;
-    bottom: 1vh;
   }
   #copyright{
     text-align: center;
@@ -44,14 +48,10 @@
   .social-media:hover{
     color: $font-yellow;
   }
-  .icon-alignment {
-    padding: 2.5rem 0;
-    // padding-top: 2.5rem;
-  }
   @media (min-width: 540px) {
     .icon-alignment {
       max-width: 465px;
-      margin: 0 auto;
+      padding: 25px 0;
     }
   }
   @media (min-width: 992px) {
@@ -59,11 +59,11 @@
       flex-direction: row;
       height: 12rem;
     }
-    .icon-alignment {
-      margin: auto;
-    }
     .footer-text {
       margin: auto;
+    }
+    .icon-alignment {
+      padding: unset;
     }
   }
 }
