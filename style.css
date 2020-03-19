@@ -1395,6 +1395,10 @@ nav a {
   margin-bottom: 20px;
   background-color: rgba(255, 255, 255, 0.8);
 }
+.blog-wrapper a {
+  z-index: 5;
+  text-decoration: none;
+}
 .blog-wrapper button {
   background-color: #EBBC4E;
   color: #2C2C2C;
