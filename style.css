@@ -371,7 +371,7 @@ nav a {
 .about-us .layer {
   width: 100%;
   height: 65vh;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.6);
   position: absolute;
   z-index: 5;
 }
@@ -832,9 +832,9 @@ nav a {
     line-height: 9rem;
   }
   .about-us .carousel .carousel-caption h3 {
-    font-size: 4.5rem;
+    font-size: 3rem;
     font-weight: 300;
-    line-height: 4.75rem;
+    line-height: 3.6rem;
     color: #2c2c2c;
   }
   .about-us .button-container {
@@ -859,7 +859,7 @@ nav a {
     height: 8rem;
   }
   .about-us .copy {
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-top: 50px;
     max-width: 83rem;
     padding-bottom: unset;
@@ -869,10 +869,11 @@ nav a {
   .about-us .title {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    max-width: unset;
-    height: 65vh;
+    max-width: 364px;
+    font-size: 6.5rem;
+    padding: 4rem 4rem 1rem;
   }
 }
 @media only screen and (min-width: 1300px) {
