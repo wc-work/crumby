@@ -14,9 +14,9 @@ get_header(); ?>
                 <!-- the loop -->
             <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
                 <div class="layer"></div>
-                <div class="blog-img layout" style="background-image:url(<?php echo get_the_post_thumbnail_url();?>);">
-                    <div class="blog-title"> <?php the_title(); ?></div>
-                    <button type="button" class="btn btn-lg"  href="<?php the_permalink();?>">Read More</button>
+                <div class="blog-img layout mb-3" style="background-image:url(<?php echo get_the_post_thumbnail_url();?>);">
+                    <div class="blog-title" style="font-size: 8vh; width:60vh;"> <?php the_title(); ?></div>
+                    <button type="button" class="btn btn-lg" style="font-size:2.2vh; height:8vh; width:20vh;" href="<?php the_permalink();?>">Read More</button>
                 </div>
             <?php endwhile; ?>
                 <!-- end of the loop -->
@@ -28,7 +28,7 @@ get_header(); ?>
             <?php get_template_part('pagination'); ?>
             <!-- end of end -->
         </section>
-    <!-- /section -->
+    <!-- /section -->  
     </main>
 <?php get_footer(); ?>
 
