@@ -70,10 +70,16 @@
         }
     }
     @media only screen and (min-width: 992px) {
+        .layer {
+            height: 68vh;
+        }
+        .blog-img{
+            height: 68vh;
+        }
         .layout {
             justify-content: flex-end;
             align-items: flex-start;
-            padding: 4rem;
+            padding: 4rem 4rem 2rem;
         }
         .blog-title {
             max-width: 500px;
@@ -84,6 +90,7 @@
             max-width: 480px;
             font-size: 20px;
             text-align: left;
+            margin-bottom: 30px;
         }
     }
 }

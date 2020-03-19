@@ -1429,10 +1429,16 @@ nav a {
   }
 }
 @media only screen and (min-width: 992px) {
+  .blog-wrapper .layer {
+    height: 68vh;
+  }
+  .blog-wrapper .blog-img {
+    height: 68vh;
+  }
   .blog-wrapper .layout {
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 4rem;
+    padding: 4rem 4rem 2rem;
   }
   .blog-wrapper .blog-title {
     max-width: 500px;
@@ -1443,6 +1449,7 @@ nav a {
     max-width: 480px;
     font-size: 20px;
     text-align: left;
+    margin-bottom: 30px;
   }
 }
 
