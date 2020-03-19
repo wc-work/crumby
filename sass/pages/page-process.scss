@@ -10,6 +10,7 @@
     bottom: 0;
     padding: 15px 0 15px 15px;
     max-width: 50%;
+    font-family: funkydori, sans-serif;
   }
   .layer {
     width: 100%;
@@ -83,6 +84,15 @@
     }
   }
   @media only screen and (min-width: 992px) {
+    .title {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      max-width: 364px;
+      font-size: 6.5rem;
+      padding: 4rem 4rem 1rem;
+    }
     .hidden_md {
       display: none !important;
     }
