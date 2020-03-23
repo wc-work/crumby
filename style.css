@@ -198,6 +198,12 @@ nav a {
 .footer .social-media:hover {
   color: #EBBC4E;
 }
+.footer .left-text {
+  display: none;
+}
+.footer .right-text {
+  display: none;
+}
 @media (min-width: 540px) {
   .footer .icon-alignment {
     max-width: 465px;
@@ -210,8 +216,25 @@ nav a {
     height: 12rem;
     justify-content: space-between;
   }
+  .footer .left-copy {
+    width: 100%;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 8%;
+  }
+  .footer .right-copy {
+    width: 100%;
+    align-items: flex-end;
+    padding-right: 8%;
+  }
   .footer .footer-text {
     margin: auto;
+  }
+  .footer .left {
+    text-align: left;
+  }
+  .footer .right {
+    text-align: right;
   }
   .footer .icon-alignment {
     padding: unset;
