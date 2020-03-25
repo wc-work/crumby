@@ -3,6 +3,17 @@
  * ---
  */
  .blog {
+  .info-wrapper {
+    color: black;
+    z-index: 5;
+    font-size: 18px;
+    padding: 20px;
+    padding-top: 45px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    min-width: 275px;
+  }
   .post-setup {
     font-family: 'Open Sans', sans-serif;
     font-size: $font-size-base;

@@ -12,36 +12,42 @@ get_header();  ?>
                 <!-- article -->
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                     <!-- post thumbnail -->
-                    <div class="jumbotron p-0">
-                        <?php if (has_post_thumbnail()) : // Check if Thumbnail exists ?>
-
-                        <div class="thumbnail-block">
-                            <div class="featured-title"><?php the_title(); ?></div>
-                            <?php the_post_thumbnail('full-width', array('class' => 'featured-img-width')); // Fullsize image for the single post ?>
+                    <?php if (has_post_thumbnail()) : // Check if Thumbnail exists ?>
+                        <!-- <div class="jumbotron p-0">
+                            <div class="thumbnail-block">
+                                <div class="featured-title"><?php the_title(); ?></div>
+                                <?php the_post_thumbnail('full-width', array('class' => 'featured-img-width')); // Fullsize image for the single post ?>
+                            </div>
+                        </div> -->
+                        <div class="blog-wrapper">
+                            <div class="layer"></div>
+                            <div class="blog-img layout mb-3" style="background-image:url(<?php echo get_the_post_thumbnail_url();?>);">
+                                <div class="info-wrapper">    
+                                    <div class="blog-title"> <?php the_title(); ?></div>
+                                    <p class="author"><?php _e('By', 'html5blank'); ?> <?php the_author_posts_link(); ?></p>
+							        <p class="date"><?php the_time('F jS, Y'); ?></p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                <?php endif; ?>
+
+                    <?php endif; ?>
                     <!-- /post thumbnail -->
 					<!-- post details -->
-					<div class="container-fluid">
+					<!-- <div class="container-fluid">
 						<div class="post_details">
 							<p class="author"><?php _e('By', 'html5blank'); ?> <?php the_author_posts_link(); ?></p> |
 							<p class="date"><?php the_time('F jS, Y'); ?></p>
 						</div>
-					</div>
+					</div> -->
 					<!-- /post details -->
                     <div class="container">
-                        <!-- post title removed if you want to add it back in wrap the title in a php tag and add parentheses after the_title-->
-                        <!-- <div class="post-title">
-                            <h1> the_title; </h1>
-                        </div> -->
-						<!-- /post title -->
 						<div class="content">
 							<p><?php the_content(); // Dynamic Content?></p>
 						</div>
-                    </article>
-                    <!-- /article -->
-                <?php endwhile; ?>
+                    </div>
+                </article>
+                <!-- /article -->
+            <?php endwhile; ?>
 
                 <div class="container">
                     <div class="row justify-content-around recent_blog_row m-3">
@@ -80,6 +86,5 @@ get_header();  ?>
         <!-- /section -->
     </main>
 </div><!-- /container-fluid -->
-</div><!-- /post-setup -->
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>
