@@ -390,7 +390,6 @@ nav a {
 }
 @media only screen and (min-width: 992px) {
   .contact-page {
-    height: calc(100vh - 62px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -400,15 +399,24 @@ nav a {
     display: unset;
   }
   .contact-page .icon-wrapper {
-    height: 530px;
+    height: 100vh;
+    margin-top: unset;
   }
   .contact-page .contact-title {
     margin-top: unset;
-    padding: 4rem;
     padding-top: 7rem;
   }
   .contact-page .contact-us {
     max-width: 1150px;
+    height: 100vh;
+    align-items: unset;
+  }
+  .contact-page .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 11rem;
   }
 }
 

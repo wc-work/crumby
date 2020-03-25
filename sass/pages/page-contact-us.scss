@@ -22,9 +22,8 @@
     display: none;
   }
   .contact-us{
-  display: flex;
-  justify-content: space-between;
-  
+    display: flex;
+    justify-content: space-between;
   }
   .contact-title{
     color: $font-black;
@@ -94,7 +93,6 @@
     }
   }
   @media only screen and (min-width: 992px) {
-    height: calc(100vh - 62px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,17 +102,25 @@
       display: unset;
     }
     .icon-wrapper {
-      height: 530px;
+      height: 100vh;
+      margin-top: unset;
     }
 
     .contact-title {
       margin-top: unset;
-      padding: 4rem;
       padding-top: 7rem;
     }
     .contact-us {
       max-width: 1150px;
+      height: 100vh;
+      align-items: unset;
     }
-
+    .form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 11rem;
+    }
   }
 }
