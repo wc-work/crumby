@@ -1397,6 +1397,11 @@ nav a {
     max-width: 30vh;
   }
 }
+@media only screen and (min-width: 992px) {
+  .blog .info-wrapper {
+    text-align: left;
+  }
+}
 
 .blog-wrapper .layer {
   width: 100%;
