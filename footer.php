@@ -9,12 +9,12 @@
 	<div class="container-fluid blue">
 
 		<div class="centered">
-			<div class="footertext"> 
+			<div class="footertext left left-copy"> 
 				<a href="<?php echo get_page_link( get_page_by_path( 'terms-and-conditions' ) ); ?>">Terms and Conditions</a> 
 				<br>
 				<a href="<?php echo get_page_link( get_page_by_path( 'privacy-policy' ) ); ?>">Privacy Policy</a>
 				<br>
-				<div class="footertext" id="copyright">	&copy; 
+				<div class="footertext left left-copy" id="copyright">	&copy; 
 					<?php if(have_rows('copyright_test', 'option')):?>
 						<?php while(have_rows('copyright_test', 'option')): the_row();?>
 							<?php the_sub_field('copyright')?>
@@ -35,7 +35,7 @@
 		</div>
 
 		<div class="centered">
-			<div class="footertext">
+			<div class="footertext right right-copy">
 				<?php if(have_rows('contact_info', 'option')):?>
 					<?php while(have_rows('contact_info', 'option')): the_row();?>
 						<?php the_sub_field('email')?>

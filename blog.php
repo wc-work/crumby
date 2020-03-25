@@ -17,7 +17,7 @@ get_header(); ?>
                 <div class="blog-img layout mb-3" style="background-image:url(<?php echo get_the_post_thumbnail_url();?>);">
                     <div class="blog-title"> <?php the_title(); ?></div>
                     <div class="excerpt"><?php echo get_excerpt(140); ?></div>
-                    <button type="button" class="btn btn-lg blog-button" style="font-size:2.2vh; height:8vh; width:20vh;" href="<?php the_permalink();?>">Read More</button>
+                    <a href="<?php the_permalink();?>"><button type="button" class="btn btn-lg blog-button">Read More</button></a>
                 </div>
             <?php endwhile; ?>
                 <!-- end of the loop -->
