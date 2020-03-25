@@ -48,6 +48,12 @@
   .social-media:hover{
     color: $font-yellow;
   }
+  .left-text {
+    display: none;
+  }
+  .right-text {
+    display: none;
+  }
   @media (min-width: 540px) {
     .icon-alignment {
       max-width: 465px;
@@ -55,12 +61,34 @@
     }
   }
   @media (min-width: 992px) {
+    #copyright {
+      text-align: left;
+      padding-left: 0;
+    }
     .blue {
       flex-direction: row;
       height: 12rem;
+      justify-content: space-between;
+    }
+    .left-copy {
+      width: 100%;
+      align-items: flex-start;
+      text-align: left;
+      padding-left: 8%;
+    }
+    .right-copy {
+      width: 100%;
+      align-items: flex-end;
+      padding-right: 8%;
     }
     .footer-text {
       margin: auto;
+    }
+    .left {
+      text-align: left;
+    }
+    .right {
+      text-align: right;
     }
     .icon-alignment {
       padding: unset;

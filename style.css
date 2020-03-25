@@ -198,6 +198,12 @@ nav a {
 .footer .social-media:hover {
   color: #EBBC4E;
 }
+.footer .left-text {
+  display: none;
+}
+.footer .right-text {
+  display: none;
+}
 @media (min-width: 540px) {
   .footer .icon-alignment {
     max-width: 465px;
@@ -205,12 +211,34 @@ nav a {
   }
 }
 @media (min-width: 992px) {
+  .footer #copyright {
+    text-align: left;
+    padding-left: 0;
+  }
   .footer .blue {
     flex-direction: row;
     height: 12rem;
+    justify-content: space-between;
+  }
+  .footer .left-copy {
+    width: 100%;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 8%;
+  }
+  .footer .right-copy {
+    width: 100%;
+    align-items: flex-end;
+    padding-right: 8%;
   }
   .footer .footer-text {
     margin: auto;
+  }
+  .footer .left {
+    text-align: left;
+  }
+  .footer .right {
+    text-align: right;
   }
   .footer .icon-alignment {
     padding: unset;
@@ -371,7 +399,7 @@ nav a {
 .about-us .layer {
   width: 100%;
   height: 65vh;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.6);
   position: absolute;
   z-index: 5;
 }
@@ -832,9 +860,9 @@ nav a {
     line-height: 9rem;
   }
   .about-us .carousel .carousel-caption h3 {
-    font-size: 4.5rem;
+    font-size: 3rem;
     font-weight: 300;
-    line-height: 4.75rem;
+    line-height: 3.6rem;
     color: #2c2c2c;
   }
   .about-us .button-container {
@@ -859,7 +887,7 @@ nav a {
     height: 8rem;
   }
   .about-us .copy {
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-top: 50px;
     max-width: 83rem;
     padding-bottom: unset;
@@ -869,10 +897,11 @@ nav a {
   .about-us .title {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    max-width: unset;
-    height: 65vh;
+    max-width: 364px;
+    font-size: 6.5rem;
+    padding: 4rem 4rem 1rem;
   }
 }
 @media only screen and (min-width: 1300px) {
@@ -1393,6 +1422,10 @@ nav a {
   margin-bottom: 20px;
   background-color: rgba(255, 255, 255, 0.8);
 }
+.blog-wrapper a {
+  z-index: 5;
+  text-decoration: none;
+}
 .blog-wrapper button {
   background-color: #EBBC4E;
   color: #2C2C2C;
@@ -1464,6 +1497,7 @@ nav a {
   bottom: 0;
   padding: 15px 0 15px 15px;
   max-width: 50%;
+  font-family: funkydori, sans-serif;
 }
 .process .layer {
   width: 100%;
@@ -1536,6 +1570,15 @@ nav a {
   }
 }
 @media only screen and (min-width: 992px) {
+  .process .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 364px;
+    font-size: 6.5rem;
+    padding: 4rem 4rem 1rem;
+  }
   .process .hidden_md {
     display: none !important;
   }
