@@ -3,14 +3,23 @@
  * ---
  */
 
-.contact-page{
+ .contact-page{
   font-family: 'Open Sans', sans-serif;
-  
-
+  a:link, a:visited {
+    text-decoration: none;
+    color: $font-black;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: $font-blue;
+  }
   @media (max-width:576px){
       .center-form{
         transform: translateX(20px);
       }
+  }
+  .map {
+    display: none;
   }
   .contact-us{
   display: flex;
@@ -22,7 +31,7 @@
     text-align: center;
     margin-top: 5rem;
     font-size: 5rem;
-    padding: 4rem;
+    padding: 0rem;
     font-family:  funkydori, sans-serif;
     font-weight: bold;
   }
@@ -38,6 +47,7 @@
   .icons {
     width: 6rem;
     height: 6rem;
+    margin-bottom: 2rem;
   }
   .btn-lg {
     padding: 0.5rem 5rem;
@@ -82,5 +92,29 @@
       justify-content: center;
       border-radius: 2.5rem !important;
     }
+  }
+  @media only screen and (min-width: 992px) {
+    height: calc(100vh - 62px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .map {
+      display: unset;
+    }
+    .icon-wrapper {
+      height: 530px;
+    }
+
+    .contact-title {
+      margin-top: unset;
+      padding: 4rem;
+      padding-top: 7rem;
+    }
+    .contact-us {
+      max-width: 1150px;
+    }
+
   }
 }

@@ -302,10 +302,21 @@ nav a {
 .contact-page {
   font-family: "Open Sans", sans-serif;
 }
+.contact-page a:link, .contact-page a:visited {
+  text-decoration: none;
+  color: #2C2C2C;
+}
+.contact-page a:hover {
+  text-decoration: underline;
+  color: #5DA3B2;
+}
 @media (max-width: 576px) {
   .contact-page .center-form {
     transform: translateX(20px);
   }
+}
+.contact-page .map {
+  display: none;
 }
 .contact-page .contact-us {
   display: flex;
@@ -316,7 +327,7 @@ nav a {
   text-align: center;
   margin-top: 5rem;
   font-size: 5rem;
-  padding: 4rem;
+  padding: 0rem;
   font-family: funkydori, sans-serif;
   font-weight: bold;
 }
@@ -332,6 +343,7 @@ nav a {
 .contact-page .icons {
   width: 6rem;
   height: 6rem;
+  margin-bottom: 2rem;
 }
 .contact-page .btn-lg {
   padding: 0.5rem 5rem;
@@ -375,6 +387,29 @@ nav a {
   display: flex;
   justify-content: center;
   border-radius: 2.5rem !important;
+}
+@media only screen and (min-width: 992px) {
+  .contact-page {
+    height: calc(100vh - 62px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-page .map {
+    display: unset;
+  }
+  .contact-page .icon-wrapper {
+    height: 530px;
+  }
+  .contact-page .contact-title {
+    margin-top: unset;
+    padding: 4rem;
+    padding-top: 7rem;
+  }
+  .contact-page .contact-us {
+    max-width: 1150px;
+  }
 }
 
 .about-us {
