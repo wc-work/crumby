@@ -394,6 +394,7 @@ nav a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
   }
   .contact-page .map {
     display: unset;
@@ -408,7 +409,6 @@ nav a {
   }
   .contact-page .contact-us {
     max-width: 1150px;
-    height: 100vh;
     align-items: unset;
   }
   .contact-page .form {
