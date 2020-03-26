@@ -97,6 +97,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
 
     .map {
       display: unset;
@@ -112,7 +113,6 @@
     }
     .contact-us {
       max-width: 1150px;
-      height: 100vh;
       align-items: unset;
     }
     .form {
