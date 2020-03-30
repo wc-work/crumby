@@ -1451,6 +1451,7 @@ nav a {
   height: 50vh;
   background-color: rgba(223, 223, 223, 0.7);
   position: absolute;
+  height: 75vh;
 }
 .blog-wrapper .blog-img {
   background-repeat: no-repeat;
@@ -1464,6 +1465,7 @@ nav a {
   justify-content: center;
   align-items: center;
   padding: 0 15px;
+  height: 75vh;
 }
 .blog-wrapper .blog-title {
   max-width: 284px;
