@@ -71,7 +71,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #FDF8E1;
+  color: #FDF8E1 !important;
   background-color: transparent;
 }
 
