@@ -85,11 +85,12 @@ get_header('transition');?>
 	<div class="container yellow mb-5">
 		<div class="row">
 			<div class="col-lg col-md">
-				<div class="cards">
+				<div class="cards d-flex flex-column align-items-center">
 					<div class="cards-h1">What?</div>
 					<img src="<?php echo get_template_directory_uri();?>/img/whatcard-icon.svg" alt="Wordpress logo" class="cards-icon" alt="icon of website grid" class="cards-icon">
 					<div class="cardheading mt-3">We make websites.</div>
 					<p id="card-p">We build and enhance websites that put you in control.</p>
+					<a href="https://webcrumbs.dev/process/" class="btn btn-lg learnbtn">Learn More</a>
 				</div>
 			</div>
 			<div class="col-lg col-md">
@@ -99,6 +100,7 @@ get_header('transition');?>
 					<div class="cardheading">We use WordPress.</div>
 					<p id="card-p">We use WordPress, a self content management system.
 					</p>
+					<a href="https://webcrumbs.dev/why-webcrumbs-uses-wordpress/" class="btn btn-lg learnbtn">Learn More</a>
 				</div>
 			</div>
 			<div class="col-lg col-md">
