@@ -108,7 +108,7 @@ get_header('transition');?>
 					<div class="cardheading mt-3">It's in our values.</div>
 					<p id="card-p">We’re here to help, <br id="how"> we’re here for you. 
 					</p>
-					<a href="https://webcrumbs.dev/about" class="btn btn-lg learnbtn">Learn More</a>
+					<a href="https://webcrumbs.dev/helpful-authentic-transparent-about/" class="btn btn-lg learnbtn">Learn More</a>
 				</div>
 			</div>
 		</div>
