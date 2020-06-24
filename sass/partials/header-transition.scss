@@ -8,61 +8,30 @@
   margin: 0;
   border-radius: 0px;
   background-color: black;
+  color: $font-yellow;
   font-size: $font-size-base;
   z-index: 6;
 }
 
-.standard{
-  margin: 0;
-  border-radius: 0px;
-  background-color: $font-blue;
-  font-size: $font-size-base;
-  z-index: 15;
-  color: $font-black;
-}
-
 .transition{
   margin: 0;
   border-radius: 0px;
+  background-color: black;
+  color: $font-yellow;
   font-size: $font-size-base;
-  z-index: 15;
+  z-index: 6;
   transition: 750ms ease;
 }
-
 .transition.scrolled{
   background-color: $font-blue !important;
 }
 
-.transition{
-  .nav-link{
-    color: $font-yellow !important;
-  }
- }
-
- .transition.scrolled{
-  .nav-link{
-    color: $font-black !important;
-  }
- }
-
-.standard{
-  .nav-link{
-    color: $font-black !important;
-  }
-}
-
-
-.navbar-light .navbar-nav .nav-link:hover{
-  color: $font-white !important;
-  background-color: transparent;
-}
 
 nav{
   a{
   margin-left: 3rem;
  }
 }
-
 .logo{
   width: 18rem;
   height: 100%;
@@ -95,8 +64,6 @@ nav{
     display:block;
   }
 }
-
-
 .fixed{
   position: fixed;
   top: 0;
@@ -108,7 +75,13 @@ nav{
   display: flex;
   justify-content: flex-start;
 }
-
+.navbar-light .navbar-nav .nav-link{
+color: $font-yellow;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+color: $font-white;
+background-color: transparent;
+}
 .navbar-toggler{
   border: none;
 }
@@ -125,14 +98,4 @@ nav{
 .icon2{
   position: relative;
   left: 2vh;
-}
-
-@media (max-width: 970px){
-  #bs-example-navbar-collapse-1 {
-    max-width: 65%;
-  }
-}
-
-.container-fluid>.navbar-collapse{
-  margin-right: -20px;
 }
