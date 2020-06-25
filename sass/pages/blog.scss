@@ -108,4 +108,15 @@
             margin-bottom: 30px;
         }
     }
+
+    @media (min-width: 1200px) {
+        .wrapper {
+            min-width: 550px;
+            padding: 14px 14px 16px 26px;
+        }
+        .blog-title {
+            text-align: center;
+        }
+    
+    }
 }
