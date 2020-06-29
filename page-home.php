@@ -31,7 +31,7 @@ get_header('transition');?>
 		<img class="serviceimg mt-5" src="<?php echo get_template_directory_uri();?>/img/icons/services-img.svg" alt="Image of website browser">
 	</div>
 	<h1><?php the_field('section_title'); ?></h1>
-	<div class="container card categories-content">
+	<div class="container categories-content">
 		<div class="row">
 		 <?php 
 			if(have_rows('service_card')):
