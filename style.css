@@ -960,6 +960,10 @@ nav a {
   .about-us .copy {
     max-width: 102rem;
   }
+  .about-us .carousel-indicators {
+    overflow: auto;
+    margin: 10px 5px -27px;
+  }
 }
 
 .item2 {

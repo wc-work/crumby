@@ -532,6 +532,10 @@
     .copy {
       max-width: 102rem;
     }
+    .carousel-indicators {
+      overflow: auto;
+      margin: 10px 5px -27px;
+    }
   }
 }
 
@@ -560,4 +564,5 @@ animation: moveInRight 3s ease-out;
 
  
  /*# sourceMappingURL=style.css.map */
+ 
  
