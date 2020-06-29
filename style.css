@@ -1518,6 +1518,9 @@ nav a {
   width: 19rem;
 }
 @media only screen and (min-width: 500px) {
+  .blog-wrapper .wrapper {
+    max-width: 450px;
+  }
   .blog-wrapper .excerpt {
     max-width: 450px;
     text-align: center;
@@ -1558,6 +1561,15 @@ nav a {
     font-size: 20px;
     text-align: left;
     margin-bottom: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .blog-wrapper .wrapper {
+    min-width: 550px;
+    padding: 14px 14px 16px 26px;
+  }
+  .blog-wrapper .blog-title {
+    text-align: center;
   }
 }
 
