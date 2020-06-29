@@ -1284,6 +1284,11 @@ nav a {
 .homepage .mobile-quotes {
   display: none;
 }
+@media (min-width: 768px) {
+  .homepage .row [class*=col-] {
+    margin: 0 -0.3px;
+  }
+}
 .homepage .yellow {
   background-color: #EBBC4E;
   margin-bottom: 0 !important;
