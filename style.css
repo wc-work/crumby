@@ -498,6 +498,11 @@ nav a {
 .about-us .meetingbtn:hover {
   color: #5297a5;
 }
+.about-us .carousel-item-next {
+  padding: 0;
+  border: 0;
+  margin: none;
+}
 @media (max-width: 768px) {
   .about-us .meetingbtn {
     background-color: #EBBC4E;
@@ -613,6 +618,7 @@ nav a {
     text-align: center;
     color: #2c2c2c;
     text-shadow: none;
+    padding: 0;
   }
   .about-us .carousel .carousel-caption h1 {
     font-size: 8rem;
@@ -899,7 +905,6 @@ nav a {
     text-shadow: none;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
   }
   .about-us .carousel .carousel-caption h1 {
     font-size: 14rem;
