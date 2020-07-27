@@ -898,7 +898,6 @@ nav a {
     text-shadow: none;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
   }
   .about-us .carousel .carousel-caption h1 {
     font-size: 14rem;
