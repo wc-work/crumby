@@ -319,6 +319,13 @@
     display: none;
   }
 
+  //ROW 
+  @media (min-width:768px){
+    .row [class*=col-]{
+      margin:0 -.3px;
+    }
+  }
+
   //CARDS
 
   .yellow{
@@ -386,7 +393,6 @@
   @media (min-width:768px){
     .cards {
       min-height: 555px;
-      
     }
   }
 
