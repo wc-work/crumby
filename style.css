@@ -1724,4 +1724,21 @@ nav a {
   }
 }
 
+/* Cookie Banner Custom CSS */
+#cookii-message {
+  padding: 25px 20px !important;
+}
+#gdpr-cookie-text {
+  margin: 20px 0 !important;
+  text-align: right !important;
+}
+#cookii-accept {
+  margin-right: 0 !important;
+  padding: 10px 20px !important;
+  float: right !important;
+}
+#cookii-message a {
+  border-bottom: 0px !important;
+}
+
 /*# sourceMappingURL=style.css.map */
