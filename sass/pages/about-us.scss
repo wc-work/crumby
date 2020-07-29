@@ -426,7 +426,7 @@
       position: relative;
       margin: 0;
       width: 100%;
-      height: 56rem;
+      height: 42rem;
       background-color: white;
       max-width: 100vw;
       bottom: 4rem;
@@ -469,7 +469,6 @@
         text-shadow: none;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
       }
       .carousel-caption h1 {
         font-size: 14rem;
@@ -532,6 +531,10 @@
     .copy {
       max-width: 102rem;
     }
+    .carousel-indicators {
+      overflow: auto;
+      margin: 10px 5px -27px;
+    }
   }
 }
 
@@ -560,4 +563,3 @@ animation: moveInRight 3s ease-out;
 
  
  /*# sourceMappingURL=style.css.map */
- 

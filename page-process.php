@@ -14,7 +14,7 @@ get_header();?>
 	<!-- end Banner -->
 	<!-- Our Story -->
 	<div class="container">
-		<div class="d-flex flex-row flex-wrap">
+		<div class="d-flex flex-row flex-wrap pt-5 pb-5">
 			<?php
 			// check if the repeater field has rows of data
 			if( have_rows('flow_info') ):
