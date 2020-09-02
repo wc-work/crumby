@@ -1375,6 +1375,24 @@ nav a {
   background-color: #5DA3B2;
   margin: 75px 0;
 }
+.homepage .contact_wrapper a {
+  background-color: #EBBC4E;
+  color: #2C2C2C;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  font-size: 20px !important;
+  margin-top: 3rem;
+  padding: 0 2.5rem !important;
+  border-radius: 3.3rem;
+  height: 5rem;
+  width: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homepage .contact_wrapper a:hover {
+  color: #5DA3B2;
+}
 .homepage .section_info h2 {
   color: #fff;
   font-size: 26px;

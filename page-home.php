@@ -77,8 +77,8 @@ get_header('transition');?>
 
 		</div>
 		<div class="button_section d-flex flex-row justify-content-center mt-2">
-        <button type="button" class="btn btn-lg">Contact Us</button>
-      </div>
+			<a href="https://webcrumbs.dev/contact/" class="btn btn-lg learnbtn">Contact Us</a>
+    </div>
   </div>     
  </div>
 
