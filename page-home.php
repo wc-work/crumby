@@ -63,13 +63,16 @@ get_header('transition');?>
         <h3 class="job_title">Business Developer<br>Management</h3>
       </div>
       <div class="contact">
-        <p>(415) 310-2317</p>
-        <p>fmunoz@geekwiseacademy.com</p>
-        <p>2721 Ventura St.
-        <br>
-        Suite 201
-        <br>
-        Fresno CA, 93721</p>
+        (415) 310-2317
+				<br>
+        fmunoz@geekwiseacademy.com
+        <p>
+					2721 Ventura St.
+					<br>
+					Suite 201
+					<br>
+					Fresno CA, 93721
+				</p>
       </div>
 
 		</div>

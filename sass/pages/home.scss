@@ -443,11 +443,12 @@
   }
   
   .section_wrapper {
+    height: 350px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;;
+    justify-content: space-evenly;
   }
+
   .space {
     padding: 20px;
     overflow-wrap: break-word;
@@ -456,7 +457,6 @@
   .contact {
     color: #fff;
     text-align: center;
-    margin: 2rem 0;
     font-size: 16px;
   }
   
@@ -464,26 +464,32 @@
     font-size: 22px;
   }
   .lrg_wrapper {
-    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
   }
   @media screen and (min-width: 800px) {
+    .lrg_wrapper {
+      min-height: 450px;
+    }
     .section_header p {
       padding: 0;
     }
     .section_wrapper {
       width: 700px;
+      height: unset;
       flex-direction: row;
       justify-content: space-evenly;
     }
     .section_info {
-      text-align:left;
+      height: 100%;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
     }
-  }  
-  
+  }
     @media screen and (min-width: 1200px) {
     .contact_wrapper {
       flex-direction: column;
