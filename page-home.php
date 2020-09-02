@@ -63,19 +63,22 @@ get_header('transition');?>
         <h3 class="job_title">Business Developer<br>Management</h3>
       </div>
       <div class="contact">
-        <p>(415) 310-2317</p>
-        <p>fmunoz@geekwiseacademy.com</p>
-        <p>2721 Ventura St.
-        <br>
-        Suite 201
-        <br>
-        Fresno CA, 93721</p>
+        (415) 310-2317
+				<br>
+        fmunoz@geekwiseacademy.com
+        <p>
+					2721 Ventura St.
+					<br>
+					Suite 201
+					<br>
+					Fresno CA, 93721
+				</p>
       </div>
 
 		</div>
 		<div class="button_section d-flex flex-row justify-content-center mt-2">
-        <button type="button" class="btn btn-lg">Contact Us</button>
-      </div>
+			<a href="https://webcrumbs.dev/contact/" class="btn btn-lg learnbtn">Contact Us</a>
+    </div>
   </div>     
  </div>
 

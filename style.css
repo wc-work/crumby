@@ -1375,6 +1375,24 @@ nav a {
   background-color: #5DA3B2;
   margin: 75px 0;
 }
+.homepage .contact_wrapper a {
+  background-color: #EBBC4E;
+  color: #2C2C2C;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  font-size: 20px !important;
+  margin-top: 3rem;
+  padding: 0 2.5rem !important;
+  border-radius: 3.3rem;
+  height: 5rem;
+  width: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homepage .contact_wrapper a:hover {
+  color: #5DA3B2;
+}
 .homepage .section_info h2 {
   color: #fff;
   font-size: 26px;
@@ -1395,10 +1413,10 @@ nav a {
   font-size: 18px;
 }
 .homepage .section_wrapper {
+  height: 350px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
 }
 .homepage .space {
   padding: 20px;
@@ -1407,30 +1425,36 @@ nav a {
 .homepage .contact {
   color: #fff;
   text-align: center;
-  margin: 2rem 0;
   font-size: 16px;
 }
 .homepage .job_title {
   font-size: 22px;
 }
 .homepage .lrg_wrapper {
-  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 @media screen and (min-width: 800px) {
+  .homepage .lrg_wrapper {
+    min-height: 450px;
+  }
   .homepage .section_header p {
     padding: 0;
   }
   .homepage .section_wrapper {
     width: 700px;
+    height: unset;
     flex-direction: row;
     justify-content: space-evenly;
   }
   .homepage .section_info {
+    height: 100%;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 }
 @media screen and (min-width: 1200px) {

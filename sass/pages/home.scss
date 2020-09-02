@@ -417,6 +417,25 @@
     padding: 5rem 1rem;
     background-color: #5DA3B2;
     margin: 75px 0;
+    
+    a {     
+      background-color: #EBBC4E;
+      color: #2C2C2C;
+      margin-bottom: 2rem;
+      padding: 1rem;
+      font-size: 20px !important;
+      margin-top: 3rem;
+      padding: 0 2.5rem !important;
+      border-radius: 3.3rem;
+      height: 5rem;
+      width: 16rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    a:hover {
+      color: #5DA3B2;
+    }
   }
   
   .section_info h2 {
@@ -443,11 +462,12 @@
   }
   
   .section_wrapper {
+    height: 350px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;;
+    justify-content: space-evenly;
   }
+
   .space {
     padding: 20px;
     overflow-wrap: break-word;
@@ -456,7 +476,6 @@
   .contact {
     color: #fff;
     text-align: center;
-    margin: 2rem 0;
     font-size: 16px;
   }
   
@@ -464,26 +483,32 @@
     font-size: 22px;
   }
   .lrg_wrapper {
-    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
   }
   @media screen and (min-width: 800px) {
+    .lrg_wrapper {
+      min-height: 450px;
+    }
     .section_header p {
       padding: 0;
     }
     .section_wrapper {
       width: 700px;
+      height: unset;
       flex-direction: row;
       justify-content: space-evenly;
     }
     .section_info {
-      text-align:left;
+      height: 100%;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
     }
-  }  
-  
+  }
     @media screen and (min-width: 1200px) {
     .contact_wrapper {
       flex-direction: column;
