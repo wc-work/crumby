@@ -51,12 +51,33 @@ get_header('transition');?>
 	</div>
 </div>
 
+<div class="container-fluid contact_wrapper ">
+	<h2>Get in Touch Today</h2>
+  <div class="lrg_wrapper">
+    <div class="section_header text-center">
+      <p>If you're wondering if a WordPress website will suit your company's needs, we can help answer your questions. Take a moment to tell us about your idea.</p>
+    </div>
+    <div class="section_wrapper">
+      <div class="section_info">
+        <h2>Floyd Muñoz</h2>
+        <h3 class="job_title">Business Developer<br>Management</h3>
+      </div>
+      <div class="contact">
+        <p>(415) 310-2317</p>
+        <p>fmunoz@geekwiseacademy.com</p>
+        <p>2721 Ventura St.
+        <br>
+        Suite 201
+        <br>
+        Fresno CA, 93721</p>
+      </div>
 
-<div class="button-container container-fluid">
-	<a href="https://square.site/book/GDH2KVERNEFSC/webcrumbs-fresno-ca" class="btn btn-lg meetingbtn" target="_blank"> 
-			<?php the_field('service_b'); ?>
-	</a>
-</div>
+		</div>
+		<div class="button_section d-flex flex-row justify-content-center mt-2">
+        <button type="button" class="btn btn-lg">Contact Us</button>
+      </div>
+  </div>     
+ </div>
 
 
 
@@ -82,7 +103,7 @@ get_header('transition');?>
 	
 	</div>
 	<!-- CARDS -->
-	<div class="container yellow mb-5">
+	<div class="container yellow">
 		<div class="row">
 			<div class="col-lg col-md">
 				<div class="cards d-flex flex-column align-items-center">
@@ -119,3 +140,4 @@ get_header('transition');?>
 </main>
 
 <?php get_footer(); ?>
+
