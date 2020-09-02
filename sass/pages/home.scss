@@ -330,7 +330,8 @@
 
   .yellow{
       background-color: $font-yellow;
-      margin-bottom: 0 !important;
+      margin-top: 75px;
+      margin-bottom: 75px;
   }
   .cards{
       background-color: $font-blue;
@@ -393,6 +394,127 @@
   @media (min-width:768px){
     .cards {
       min-height: 555px;
+    }
+  }
+  //ROB's contact section
+  .section_header p {
+    color: #fff;
+    margin: 2rem auto;
+    font-size: 22px;
+    padding: 0 4%;
+    max-width: 601px;
+  }
+  
+  .contact_wrapper > h2 {
+    color: #FAC759;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .contact_wrapper {
+    width: 100%;
+    padding: 5rem 1rem;
+    background-color: #5DA3B2;
+    margin: 75px 0;
+  }
+  
+  .section_info h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+  }
+  
+  .section_info {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .contact_info {
+    width: 50%;
+  }
+  
+  .contact_wrapper .btn {
+    background-color: #FAC759;
+    border-radius: 2rem;
+    margin-top: 2px;
+    width: 169px;
+    font-size: 18px;
+  }
+  
+  .section_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+  }
+  .space {
+    padding: 20px;
+    overflow-wrap: break-word;
+  }
+  
+  .contact {
+    color: #fff;
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 16px;
+  }
+  
+  .job_title {
+    font-size: 22px;
+  }
+  .lrg_wrapper {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  @media screen and (min-width: 800px) {
+    .section_header p {
+      padding: 0;
+    }
+    .section_wrapper {
+      width: 700px;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    .section_info {
+      text-align:left;
+    }
+  }  
+  
+    @media screen and (min-width: 1200px) {
+    .contact_wrapper {
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .section_header {
+      width: 700px;
+    }
+  
+    .section_header p {
+      // max-width: 400px;
+      font-size: 24px;
+    }
+  
+    // .section_wrapper{
+    //   width: 50%;
+    //   margin-top: 0px;
+    // }
+  
+    .lrg_wrapper {
+      width: 100%;
+      height: 450px;
+      max-width: 1200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      // background-color: midnightblue;
     }
   }
 
