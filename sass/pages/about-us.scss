@@ -1,6 +1,8 @@
 .about-us {
   // font-family: 'Open Sans', sans-serif;
-
+  .carousel .carousel-indicators {
+    z-index: 10;
+  }
   h1 {
     cursor: pointer;
   }

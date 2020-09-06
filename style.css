@@ -19,9 +19,13 @@ body {
   font-weight: regular;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   font-family: effra, sans-serif;
   font-weight: bold;
+}
+
+h3, h4, h5, h6 {
+  font-weight: 400;
 }
 
 /**
@@ -222,6 +226,11 @@ nav a {
   .footer .icon-alignment {
     max-width: 465px;
     padding: 25px 0;
+  }
+}
+@media (min-width: 768px) {
+  .footer .blue {
+    padding: 20px 0;
   }
 }
 @media (min-width: 992px) {
@@ -430,6 +439,9 @@ nav a {
   }
 }
 
+.about-us .carousel .carousel-indicators {
+  z-index: 10;
+}
 .about-us h1 {
   cursor: pointer;
 }
@@ -1605,6 +1617,9 @@ nav a {
   background-repeat: no-repeat;
 }
 
+.process .fa-8x {
+  font-size: 6em;
+}
 .process .title {
   font-size: 5rem;
   line-height: 5.2rem;
@@ -1646,6 +1661,8 @@ nav a {
   display: flex;
   width: 100%;
   padding: 20px 0px;
+  justify-content: center;
+  align-items: center;
 }
 .process .flow_chart_row:nth-of-type(odd) {
   flex-direction: row;
@@ -1657,12 +1674,15 @@ nav a {
 .process .flow_chart_row .icon_circle {
   background-color: #5DA3B2;
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 110px;
+  height: 110px;
   padding: 35px 0px;
   margin: 30px auto;
   text-align: center;
   color: #FDF8E1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .process .flow_chart_row .hidden-md {
   display: flex;
@@ -1688,6 +1708,16 @@ nav a {
   }
 }
 @media only screen and (min-width: 992px) {
+  .process .container {
+    max-width: 960px;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .process .fa-8x {
+    font-size: 8em;
+  }
   .process .title {
     display: flex;
     flex-direction: column;
@@ -1709,6 +1739,17 @@ nav a {
     text-align: center;
     background-color: transparent !important;
     position: relative;
+    align-items: flex-start;
+  }
+  .process .flow_chart_row .icon_circle {
+    background-color: #5DA3B2;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 35px 0px;
+    margin: 30px auto;
+    text-align: center;
+    color: #FDF8E1;
   }
   .process .m_auto {
     margin: inherit !important;
@@ -1723,30 +1764,12 @@ nav a {
   }
 }
 @media only screen and (min-width: 1200px) {
-  .process .flow_chart_row {
-    width: 50%;
-    flex-direction: row !important;
-    text-align: center;
-    background-color: transparent !important;
-    position: relative;
+  .process .container {
+    max-width: 80%;
+    height: 750px;
   }
   .process .flow_chart_row::before {
-    content: "";
-    width: 0%;
-    height: 6%;
-    border-bottom: none !important;
-    position: absolute;
-    top: 0%;
-  }
-  .process .flow_chart_row .text {
-    padding: 0% 15%;
-  }
-  .process .flow_chart_row .text h2 {
-    font-size: 3rem;
-    font-weight: 600;
-  }
-  .process .flow_chart_row .text h3 {
-    font-size: 2rem;
+    height: 160px;
   }
 }
 
