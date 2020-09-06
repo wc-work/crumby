@@ -15,7 +15,6 @@ html {
   font-size: 62.5%; //rem becomes 10px : 1rem, instead of 16px : 1rem. Easier to calculate.
 }
 body{
-  // font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
   font-family: $font;
   font-weight: regular;
@@ -46,5 +45,4 @@ h3, h4, h5, h6 {
 @import "pages/home.scss";
 @import "pages/single-wc-post.scss";
 @import "pages/blog.scss";
-// @import url("https://use.typekit.net/mck4rsq.css");
 @import "pages/page-process.scss";
