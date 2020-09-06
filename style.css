@@ -3,9 +3,7 @@
  * ---
  * Main `sass` file. Import here `sass` files
  */
-@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
-@import url("https://use.typekit.net/mck4rsq.css");
-@import url("https://use.typekit.net/mck4rsq.css");
+@import url("https://use.typekit.net/gtg5wlh.css");
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -16,12 +14,18 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
+  font-family: effra, sans-serif;
+  font-weight: regular;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: effra, sans-serif;
+  font-weight: bold;
 }
 
 /**
- * Typography
+ * Fonts
  */
 /**
  * Colors
@@ -309,9 +313,6 @@ nav a {
  * pages/contact-us
  * ---
  */
-.contact-page {
-  font-family: "Open Sans", sans-serif;
-}
 .contact-page a:link, .contact-page a:visited {
   text-decoration: none;
   color: #2C2C2C;
@@ -338,7 +339,6 @@ nav a {
   margin-top: 5rem;
   font-size: 5rem;
   padding: 0rem;
-  font-family: funkydori, sans-serif;
   font-weight: bold;
 }
 .contact-page .icon-text-container {
@@ -430,9 +430,6 @@ nav a {
   }
 }
 
-.about-us {
-  font-family: "Open Sans", sans-serif;
-}
 .about-us h1 {
   cursor: pointer;
 }
@@ -447,7 +444,6 @@ nav a {
   bottom: 0;
   padding: 15px 0 15px 15px;
   max-width: 50%;
-  font-family: funkydori, sans-serif;
 }
 .about-us .layer {
   width: 100%;
@@ -992,6 +988,10 @@ nav a {
 
 /*# sourceMappingURL=style.css.map */
 .homepage .banner {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   /* ---------------------------------------------- */
   /* Media Queries                                  */
   /* ---------------------------------------------- */
@@ -1007,7 +1007,7 @@ nav a {
   position: absolute;
   width: 100%;
   z-index: 5;
-  height: calc(90vh - 62px);
+  margin-top: 62px;
 }
 .homepage .banner .intro {
   width: 90vw;
@@ -1040,7 +1040,6 @@ nav a {
   display: none;
 }
 .homepage .banner .placeholder {
-  height: calc(90vh - 62px);
   min-height: -webkit-fill-available;
   background-position: center;
   background-repeat: no-repeat;
@@ -1054,7 +1053,10 @@ nav a {
   top: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.6);
-  height: inherit;
+  height: 100vh;
+}
+.homepage .banner .mov {
+  height: 100vh;
 }
 @media only screen and (min-width: 576px) {
   .homepage .banner .intro {
@@ -1167,6 +1169,7 @@ nav a {
 .homepage .services-sec img {
   height: 8rem;
   width: 8rem;
+  z-index: 5;
 }
 .homepage .services-sec .card {
   border: none;
@@ -1496,7 +1499,6 @@ nav a {
   min-width: 275px;
 }
 .blog .post-setup {
-  font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
 }
 .blog .post-title {
@@ -1530,7 +1532,6 @@ nav a {
 .blog .featured-title {
   position: absolute;
   font-size: 6rem;
-  font-family: funkydori, sans-serif;
   font-weight: 700;
   background-color: #FDF8E1;
   opacity: 70%;
@@ -1615,7 +1616,6 @@ nav a {
   bottom: 0;
   padding: 15px 0 15px 15px;
   max-width: 50%;
-  font-family: funkydori, sans-serif;
 }
 .process .layer {
   width: 100%;
