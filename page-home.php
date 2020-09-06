@@ -18,7 +18,7 @@ get_header('transition');?>
   <div id="big-video">
       <div class="mov-overlay"></div>
       <div class="mov" data-src="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-placeholder.png" 
-        data-video="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-take-1.mp4"
+        data-video="<?php echo get_template_directory_uri();?>/img/video/medium-webcrumbs-video-2020.mp4"
         data-placeholder="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-placeholder.png">
       </div>
     </div>
@@ -120,7 +120,7 @@ get_header('transition');?>
 			<div class="col-lg col-md">
 				<div class="cards d-flex flex-column align-items-center">
 					<div id="how" class="cards-h1 mb-3">How?</div>
-					<img src="<?php echo get_template_directory_uri();?>/img/wordpress-icon.svg" alt="Wordpress logo" class="cards-icon">
+					<img src="<?php echo get_template_directory_uri();?>/img/wordpress-icon.svg" alt="WordpPress logo" class="cards-icon">
 					<div class="cardheading">We use WordPress.</div>
 					<p id="card-p">We use WordPress, a self content management system.
 					</p>
@@ -130,7 +130,7 @@ get_header('transition');?>
 			<div class="col-lg col-md">
 				<div class="cards mb-5 d-flex flex-column align-items-center">
 					<div class="cards-h1">Why?</div>
-					<img src="<?php echo get_template_directory_uri();?>/img/whatcard-icon.svg" alt="Wordpress logo" class="cards-icon" alt="icon of website grid" alt="icon of a bell" class="cards-icon">
+					<img src="<?php echo get_template_directory_uri();?>/img/whatcard-icon.svg" alt="WordPress logo" class="cards-icon" alt="icon of website grid" alt="icon of a bell" class="cards-icon">
 					<div class="cardheading mt-3">It's in our values.</div>
 					<p id="card-p">We’re here to help, <br id="how"> we’re here for you. 
 					</p>

@@ -42,6 +42,8 @@
 						<br />
 						<?php the_sub_field('street_address')?>
 						<br />
+						<?php the_sub_field('suite')?>
+						<br />
 						<?php the_sub_field('city_state_zip')?>
 					<?php endwhile;?>	
 				<?php endif;?>

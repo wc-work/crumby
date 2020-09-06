@@ -18,8 +18,8 @@
 			// noVideo = $('.mov').data('src'),
 			el = '';
 
-		var mobile = "https://webcrumbs.dev/wp-content/themes/webcrumbs-v1.0/img/video/webcrumbs-mobile.jpg";		
-		var medium = "https://webcrumbs.dev/wp-content/themes/webcrumbs-v1.0/img/video/webcrumbs-medium.jpg";		
+		var mobile = "https://webcrumbs.dev/wp-content/themes/crumby-v1.2/img/video/webcrumbs-mobile-2020.jpg";		
+		var medium = "https://webcrumbs.dev/wp-content/themes/crumby-v1.2/img/video/webcrumbs-medium-2020.jpg";		
 
 		
 		if($(window).width() > 767 && !isIEOld && !isiPad) {
