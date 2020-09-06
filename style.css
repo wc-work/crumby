@@ -1588,122 +1588,20 @@ nav a {
   }
 }
 
-.blog-wrapper .layer {
+.overlay {
   width: 100%;
-  height: 90vh;
+  height: 65vh;
   background-color: rgba(223, 223, 223, 0.7);
   position: absolute;
 }
-.blog-wrapper .blog-img {
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.tester {
+  width: 100%;
+  height: 65vh;
+  background-image: url("http://localhost:8000/wp-content/themes/crumby-v1.2/img/joanna-kosinska-1_CMoFsPfso-unsplash%20(1).jpg");
   background-position: center;
-  height: 90vh;
-}
-.blog-wrapper .layout {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 15px;
-}
-.blog-wrapper .wrapper {
-  background-color: rgba(255, 255, 255, 0.8);
-  min-width: 290px;
-  z-index: 5;
-}
-.blog-wrapper .wrapper .blog-title {
-  font-size: 36px;
-  font-family: funkydori, sans-serif;
-  text-align: center;
-  line-height: 0.98;
-  z-index: 5;
-  padding: 50px 20px 0px;
-}
-.blog-wrapper .wrapper .excerpt {
-  font-family: open sans, sans-serif;
-  color: black;
-  z-index: 5;
-  font-size: 18px;
-  line-height: 24px;
-  padding: 15px;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-}
-.blog-wrapper a {
-  z-index: 5;
-  margin-top: 30px;
-  text-decoration: none;
-}
-.blog-wrapper button {
-  background-color: #EBBC4E;
-  color: #2C2C2C;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 3.3rem;
-  padding: 0 2.5rem;
-  z-index: 5;
-}
-.blog-wrapper .blog-button {
-  font-size: 21px;
-  height: 7.5rem;
-  width: 19rem;
-}
-@media only screen and (min-width: 500px) {
-  .blog-wrapper .wrapper {
-    max-width: 450px;
-  }
-  .blog-wrapper .excerpt {
-    max-width: 450px;
-    text-align: center;
-  }
-}
-@media only screen and (min-width: 762px) {
-  .blog-wrapper .blog-title {
-    max-width: 500px;
-    font-size: 65px;
-  }
-  .blog-wrapper .excerpt {
-    max-width: 480px;
-    font-size: 20px;
-  }
-  .blog-wrapper .layout {
-    justify-content: space-evenly;
-    padding: 5rem 0;
-  }
-}
-@media only screen and (min-width: 992px) {
-  .blog-wrapper .layer {
-    height: 68vh;
-  }
-  .blog-wrapper .blog-img {
-    height: 68vh;
-  }
-  .blog-wrapper .layout {
-    justify-content: flex-end;
-    padding: 4rem 4rem 2rem;
-  }
-  .blog-wrapper .blog-title {
-    max-width: 500px;
-    font-size: 65px;
-    text-align: center;
-  }
-  .blog-wrapper .excerpt {
-    max-width: 480px;
-    font-size: 20px;
-    text-align: left;
-    margin-bottom: 30px;
-  }
-}
-@media (min-width: 1200px) {
-  .blog-wrapper .wrapper {
-    min-width: 550px;
-    padding: 14px 14px 16px 26px;
-  }
-  .blog-wrapper .blog-title {
-    text-align: center;
-  }
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .process .title {

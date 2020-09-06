@@ -6,6 +6,11 @@
 get_header(); ?>
 <!-- section -->
     <main role="main">
+        <div class="overlay"></div>
+            <div class="tester">
+                <h1>Temp Title</h1>
+            </div>
+        
         <section class="blog-wrapper">
             <?php
                 // the query
@@ -13,12 +18,6 @@ get_header(); ?>
             <?php if ( $wpb_all_query->have_posts() ) : ?>
                 <!-- the loop -->
             <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
-                <!-- <div class="layer"></div>
-                <div class="blog-img layout mb-3" style="background-image:url(<?php echo get_the_post_thumbnail_url();?>);">
-                    <div class="blog-title p-5"> <?php the_title(); ?></div>
-                    <div class="excerpt px-5"><?php echo get_excerpt(140); ?></div>
-                    <a href="<?php the_permalink();?>"><button type="button" class="btn btn-lg blog-button">Read More</button></a>
-                </div> -->
                 <?php get_template_part('partials/blog-banner');?>
             <?php endwhile; ?>
                 <!-- end of the loop -->
