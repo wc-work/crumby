@@ -279,6 +279,77 @@ nav a {
   background-color: #5DA3B2;
 }
 
+.post-wrapper {
+  margin: 75px 0px;
+}
+.post-wrapper .post-info {
+  background-image: url(http://localhost:8000/wp-content/uploads/2020/03/marvin-meyer-webcrumbs-wordpress-scaled.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* width: 90vw; */
+  min-height: 200px;
+  margin: 20px;
+}
+.post-wrapper .post-date {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 20px 20px 10px;
+}
+.post-wrapper h3 {
+  font-size: 21px;
+  padding: 10px 20px;
+}
+.post-wrapper .byline {
+  font-size: 16px;
+}
+.post-wrapper .post-excerpt {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+.post-wrapper .btn {
+  background-color: #FAC759;
+  border-radius: 2rem;
+  margin: 10px 20px;
+  width: 140px;
+  font-size: 18px;
+  animation: moveInRight 3s ease-out;
+  color: #2C2C2C;
+}
+.post-wrapper .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.post-wrapper .btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 768px) {
+  .post-wrapper {
+    /* .post-wrapper class { */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .post-wrapper .post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    max-height: 500px;
+  }
+  .post-wrapper .post-info {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    max-height: 500px;
+  }
+}
+
 .docs {
   display: flex;
   justify-content: center;
@@ -1601,20 +1672,36 @@ nav a {
   }
 }
 
-.overlay {
+.blog-wrapper h1 {
+  font-size: 2.5rem;
+}
+.blog-wrapper .blog-intro {
+  position: absolute;
+  z-index: 10;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 15px;
+}
+.blog-wrapper .overlay {
   width: 100%;
   height: 65vh;
   background-color: rgba(223, 223, 223, 0.7);
   position: absolute;
 }
-
-.tester {
+.blog-wrapper .tester {
   width: 100%;
   height: 65vh;
   background-image: url("http://localhost:8000/wp-content/themes/crumby-v1.2/img/joanna-kosinska-1_CMoFsPfso-unsplash%20(1).jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+@media (min-width: 400px) {
+  .blog-wrapper h1 {
+    font-size: 3.5rem;
+  }
 }
 
 .process .fa-8x {

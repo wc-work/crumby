@@ -5,10 +5,14 @@
  */
 get_header(); ?>
 <!-- section -->
-    <main role="main">
+    <main role="main" class="blog-wrapper">
+        <div class="blog-intro">
+            <h1>Welcome to the WebCrumbs Blog</h1>
+            <br>
+            <h2>Read What's Good</h2>
+        </div>
         <div class="overlay"></div>
             <div class="tester">
-                <h1>Temp Title</h1>
             </div>
         
         <section class="blog-wrapper">
