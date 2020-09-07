@@ -498,11 +498,6 @@ nav a {
 .about-us .meetingbtn:hover {
   color: #5297a5;
 }
-.about-us .carousel-item-next {
-  padding: 0;
-  border: 0;
-  margin: none;
-}
 @media (max-width: 768px) {
   .about-us .meetingbtn {
     background-color: #EBBC4E;
@@ -618,7 +613,6 @@ nav a {
     text-align: center;
     color: #2c2c2c;
     text-shadow: none;
-    padding: 0;
   }
   .about-us .carousel .carousel-caption h1 {
     font-size: 8rem;
@@ -1732,23 +1726,6 @@ nav a {
   .process .flow_chart_row .text h3 {
     font-size: 2rem;
   }
-}
-
-/* Cookie Banner Custom CSS */
-#cookii-message {
-  padding: 25px 20px !important;
-}
-#gdpr-cookie-text {
-  margin: 20px 0 !important;
-  text-align: right !important;
-}
-#cookii-accept {
-  margin-right: 0 !important;
-  padding: 10px 20px !important;
-  float: right !important;
-}
-#cookii-message a {
-  border-bottom: 0px !important;
 }
 
 /*# sourceMappingURL=style.css.map */
