@@ -12,7 +12,7 @@ get_header(); ?>
             <h2>Read What's Good</h2>
         </div>
         <div class="overlay"></div>
-            <div class="tester">
+            <div class="banner-image">
             </div>
         
         <section class="blog-wrapper">
