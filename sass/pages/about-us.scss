@@ -1,6 +1,8 @@
 .about-us {
-  font-family: 'Open Sans', sans-serif;
-
+  // font-family: 'Open Sans', sans-serif;
+  .carousel .carousel-indicators {
+    z-index: 10;
+  }
   h1 {
     cursor: pointer;
   }
@@ -15,7 +17,7 @@
     bottom: 0;
     padding: 15px 0 15px 15px;
     max-width: 50%;
-    font-family: funkydori, sans-serif;
+    // font-family: funkydori, sans-serif;
   }
   .layer {
     width: 100%;

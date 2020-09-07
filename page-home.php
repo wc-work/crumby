@@ -18,7 +18,7 @@ get_header('transition');?>
   <div id="big-video">
       <div class="mov-overlay"></div>
       <div class="mov" data-src="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-placeholder.png" 
-        data-video="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-take-1.mp4"
+        data-video="<?php echo get_template_directory_uri();?>/img/video/medium-webcrumbs-video-2020.mp4"
         data-placeholder="<?php echo get_template_directory_uri();?>/img/video/webcrumbs-placeholder.png">
       </div>
     </div>
@@ -51,12 +51,36 @@ get_header('transition');?>
 	</div>
 </div>
 
+<div class="container-fluid contact_wrapper ">
+	<h2>Get in Touch Today</h2>
+  <div class="lrg_wrapper">
+    <div class="section_header text-center">
+      <p>If you're wondering if a WordPress website will suit your company's needs, we can help answer your questions. Take a moment to tell us about your idea.</p>
+    </div>
+    <div class="section_wrapper">
+      <div class="section_info">
+        <h2>Floyd Muñoz</h2>
+        <h3 class="job_title">Business Developer<br>Management</h3>
+      </div>
+      <div class="contact">
+        (415) 310-2317
+				<br>
+        fmunoz@geekwiseacademy.com
+        <p>
+					2721 Ventura St.
+					<br>
+					Suite 201
+					<br>
+					Fresno CA, 93721
+				</p>
+      </div>
 
-<div class="button-container container-fluid">
-	<a href="https://square.site/book/GDH2KVERNEFSC/webcrumbs-fresno-ca" class="btn btn-lg meetingbtn" target="_blank"> 
-			<?php the_field('service_b'); ?>
-	</a>
-</div>
+		</div>
+		<div class="button_section d-flex flex-row justify-content-center mt-2">
+			<a href="https://webcrumbs.dev/contact/" class="btn btn-lg learnbtn">Contact Us</a>
+    </div>
+  </div>     
+ </div>
 
 
 
@@ -82,7 +106,7 @@ get_header('transition');?>
 	
 	</div>
 	<!-- CARDS -->
-	<div class="container yellow mb-5">
+	<div class="container yellow">
 		<div class="row">
 			<div class="col-lg col-md">
 				<div class="cards d-flex flex-column align-items-center">
@@ -96,7 +120,7 @@ get_header('transition');?>
 			<div class="col-lg col-md">
 				<div class="cards d-flex flex-column align-items-center">
 					<div id="how" class="cards-h1 mb-3">How?</div>
-					<img src="<?php echo get_template_directory_uri();?>/img/wordpress-icon.svg" alt="Wordpress logo" class="cards-icon">
+					<img src="<?php echo get_template_directory_uri();?>/img/wordpress-icon.svg" alt="WordpPress logo" class="cards-icon">
 					<div class="cardheading">We use WordPress.</div>
 					<p id="card-p">We use WordPress, a self content management system.
 					</p>
@@ -106,7 +130,7 @@ get_header('transition');?>
 			<div class="col-lg col-md">
 				<div class="cards mb-5 d-flex flex-column align-items-center">
 					<div class="cards-h1">Why?</div>
-					<img src="<?php echo get_template_directory_uri();?>/img/whatcard-icon.svg" alt="Wordpress logo" class="cards-icon" alt="icon of website grid" alt="icon of a bell" class="cards-icon">
+					<img src="<?php echo get_template_directory_uri();?>/img/whatcard-icon.svg" alt="WordPress logo" class="cards-icon" alt="icon of website grid" alt="icon of a bell" class="cards-icon">
 					<div class="cardheading mt-3">It's in our values.</div>
 					<p id="card-p">We’re here to help, <br id="how"> we’re here for you. 
 					</p>

@@ -2,7 +2,12 @@
 .homepage {
   // VIDEO
   .banner {
-      #big-video {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;     
+    
+    #big-video {
         display: unset;
       }
       .boxed {
@@ -13,7 +18,7 @@
         position: absolute;
         width: 100%;
         z-index: 5;
-        height: calc(90vh - 62px);
+        margin-top: 62px;
       }
       .intro {
         width: 90vw;
@@ -48,7 +53,7 @@
         display: none;
       }
       .placeholder {
-        height: calc(90vh - 62px);
+        // height: calc(90vh - 62px);
         min-height: -webkit-fill-available;
         background-position: center;
         background-repeat: no-repeat;
@@ -61,9 +66,11 @@
         left: 0; right: 0;
         top: 0; bottom: 0;
         background: rgba(0,0,0,.6);
-        height: inherit;
+        height: 100vh;
       }
-    
+      .mov {
+        height: 100vh;
+      }
       /* ---------------------------------------------- */
       /* Media Queries                                  */
       /* ---------------------------------------------- */
@@ -128,12 +135,12 @@
           position: absolute;
           left: 0; right: 0;
           top: 0; bottom: 0;
-          background: rgba(0, 0, 0, 0.5);
+          background: rgba(0, 0, 0, 0.75);
           width: 100vw;
         }
         video {
-          width: 100%;
-          max-height: 730px;
+          width: 100vw;
+          // max-height: 730px;
         }
         .video-still {
           width: 100%;
@@ -186,6 +193,7 @@
     img{
       height: 8rem;
       width: 8rem;
+      z-index: 5;
     }
     .card{
       border: none;
@@ -330,7 +338,8 @@
 
   .yellow{
       background-color: $font-yellow;
-      margin-bottom: 0 !important;
+      margin-top: 75px;
+      margin-bottom: 75px;
   }
   .cards{
       background-color: $font-blue;
@@ -393,6 +402,151 @@
   @media (min-width:768px){
     .cards {
       min-height: 555px;
+    }
+  }
+  //ROB's contact section
+  .section_header p {
+    color: #fff;
+    margin: 2rem auto;
+    font-size: 22px;
+    padding: 0 4%;
+    max-width: 601px;
+  }
+  
+  .contact_wrapper > h2 {
+    color: #FAC759;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .contact_wrapper {
+    width: 100%;
+    padding: 5rem 1rem;
+    background-color: #5DA3B2;
+    margin: 75px 0;
+    
+    a {     
+      background-color: #EBBC4E;
+      color: #2C2C2C;
+      margin-bottom: 2rem;
+      padding: 1rem;
+      font-size: 20px !important;
+      margin-top: 3rem;
+      padding: 0 2.5rem !important;
+      border-radius: 3.3rem;
+      height: 5rem;
+      width: 16rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    a:hover {
+      color: #5DA3B2;
+    }
+  }
+  
+  .section_info h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+  }
+  
+  .section_info {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .contact_info {
+    width: 50%;
+  }
+  
+  .contact_wrapper .btn {
+    background-color: #FAC759;
+    border-radius: 2rem;
+    margin-top: 2px;
+    width: 169px;
+    font-size: 18px;
+  }
+  
+  .section_wrapper {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .space {
+    padding: 20px;
+    overflow-wrap: break-word;
+  }
+  
+  .contact {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .job_title {
+    font-size: 22px;
+  }
+  .lrg_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  @media screen and (min-width: 800px) {
+    .lrg_wrapper {
+      min-height: 450px;
+    }
+    .section_header p {
+      padding: 0;
+    }
+    .section_wrapper {
+      width: 700px;
+      height: unset;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    .section_info {
+      height: 100%;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  }
+    @media screen and (min-width: 1200px) {
+    .contact_wrapper {
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .section_header {
+      width: 700px;
+    }
+  
+    .section_header p {
+      // max-width: 400px;
+      font-size: 24px;
+    }
+  
+    // .section_wrapper{
+    //   width: 50%;
+    //   margin-top: 0px;
+    // }
+  
+    .lrg_wrapper {
+      width: 100%;
+      height: 450px;
+      max-width: 1200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
     }
   }
 

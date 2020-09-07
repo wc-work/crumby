@@ -5,55 +5,33 @@
 */
 get_header();  ?>
 <div class="post-setup blog">
-    <main role="main">
+    <main class="single-post-wrapper role="main">
         <!-- section -->
         <section>
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                 <!-- article -->
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                     <!-- post thumbnail -->
+                    <p class="date"><?php the_time('F jS, Y'); ?></p>
+                    <h1> <?php the_title(); ?></h1>
+                    <p class="byline"><?php _e('By', 'html5blank'); ?> <?php the_author_posts_link(); ?></p>
                     <?php if (has_post_thumbnail()) : // Check if Thumbnail exists ?>
-                        <!-- <div class="jumbotron p-0">
-                            <div class="thumbnail-block">
-                                <div class="featured-title"><?php the_title(); ?></div>
-                                <?php the_post_thumbnail('full-width', array('class' => 'featured-img-width')); // Fullsize image for the single post ?>
-                            </div>
-                        </div> -->
-                        <div class="blog-wrapper">
-                            <div class="layer"></div>
-                            <div class="blog-img layout mb-3" style="background-image:url(<?php echo get_the_post_thumbnail_url();?>);">
-                                <div class="info-wrapper">    
-                                    <div class="blog-title"> <?php the_title(); ?></div>
-                                    <p class="author"><?php _e('By', 'html5blank'); ?> <?php the_author_posts_link(); ?></p>
-							        <p class="date"><?php the_time('F jS, Y'); ?></p>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="post-thumbnail"style="background-image:url(<?php echo get_the_post_thumbnail_url();?>);"></div>
 
                     <?php endif; ?>
-                    <!-- /post thumbnail -->
-					<!-- post details -->
-					<!-- <div class="container-fluid">
-						<div class="post_details">
-							<p class="author"><?php _e('By', 'html5blank'); ?> <?php the_author_posts_link(); ?></p> |
-							<p class="date"><?php the_time('F jS, Y'); ?></p>
-						</div>
-					</div> -->
-					<!-- /post details -->
-                    <div class="container">
-						<div class="content">
-							<p><?php the_content(); // Dynamic Content?></p>
-						</div>
+
+                    <div class="the-content">
+					    <p><?php the_content();?></p>
                     </div>
                 </article>
                 <!-- /article -->
             <?php endwhile; ?>
 
-                <div class="container">
-                    <div class="row justify-content-around recent_blog_row m-3">
-						<div class="col-12">
-							<h2 class="text-center">More Articles . . .</h2>
-						</div>
+                <div class="spacing container">
+					<div class="col-12">
+						<h2 class="text-center">More Posts</h2>
+                    </div>
+                    <div class="more-posts">
                         <?php
                         $recent_post = new WP_Query(array(
                             'post_type' => 'post',
@@ -63,13 +41,12 @@ get_header();  ?>
                         ));
                         ?>
                        <?php while ($recent_post -> have_posts()) : $recent_post->the_post(); ?>
-                            <div class="col-lg-3 col-md-6 col-12 d-flex flex-column justify-content-center px-5 card full-card">
+                            <div class="spacing col-lg-3 col-md-6 col-12 d-flex flex-column justify-content-center px-5 card full-card">
                                 <div class="img-container d-flex justify-content-center">
 									<?php the_post_thumbnail('thumbnail', array('class' => 'card-img-top img-fluid')); ?>
 								</div>
                                 <div class="card-body my-4 text-center font-italic">
                                		<a class="card-title" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
-                                    <!-- <p class="card-text">This Pikachu is happy to see your face!</p> -->
                                 </div>
                             </div>
                         <?php endwhile; ?>
