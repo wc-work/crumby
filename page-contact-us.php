@@ -13,13 +13,13 @@ get_header(); ?>
         <!-- icon-text-container is to help align the icons and text together -->
             <div class="icon-text-container col-xs col-xl-12 d-flex flex-column justify-content-center align-items-center">
             <img class="icons" src="<?php bloginfo('template_url'); ?>/img/icons/phone.png" alt="An icon that depicts a cellphone">
-                <h2> 559-906-8945</h2>
+                <h2>(415)310-2317</h2>
             </div>
 
             <div class="icon-text-container col-xs col-xl-12">
                <a href="mailto:info.webcrumbs@gmail.com?Subject=Howdy!"> <img class="icons" src="<?php bloginfo('template_url'); ?>/img/icons/email.png" alt="An icon that depicts an envelope"></a>
                 <a href="mailto:info.webcrumbs@gmail.com?Subject=Howdy!">
-                    <h2> info.webcrumbs@gmail.com </h2>
+                    <h2>fmunoz@geekwiseacademy.com</h2>
                 </a>
             </div>
 

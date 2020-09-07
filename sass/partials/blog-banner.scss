@@ -1,0 +1,70 @@
+.post-wrapper {
+  margin: 75px 0px;
+  .post-info {
+    background-image: url(http://localhost:8000/wp-content/uploads/2020/03/marvin-meyer-webcrumbs-wordpress-scaled.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      /* width: 90vw; */
+      min-height: 200px;
+      margin: 20px;
+  }
+  .post-date {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 20px 20px 10px;
+  }
+  h3 {
+    font-size: 21px;
+    padding: 10px 20px;
+  }
+  .byline {
+    font-size: 16px;
+  }
+  .post-excerpt {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  .btn {
+    background-color: #FAC759;
+    border-radius: 2rem;
+    margin: 10px 20px;
+    width: 140px;
+    font-size: 18px;
+    animation: moveInRight 3s ease-out;
+    color: $font-black;
+  }
+  .btn:hover {
+    transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  }
+  .btn:active{
+      transform:translateY(-1px) ;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  }
+  @media (min-width:768px){
+    /* .post-wrapper class { */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+    .post {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      width: 100%;
+      max-width: 600px;
+      height: 300px;
+      max-height: 500px;
+    }
+
+    .post-info {
+      width: 100%;
+      max-width: 600px;
+      height: 300px;
+      max-height: 500px;
+    }
+  }
+}

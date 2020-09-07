@@ -3,21 +3,31 @@
  * ---
  * Main `sass` file. Import here `sass` files
  */
-// @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
-@import url("https://use.typekit.net/mck4rsq.css");
+@import url("https://use.typekit.net/gtg5wlh.css");
+$font: effra, sans-serif;
 
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+// Styles
 html {
   font-size: 62.5%; //rem becomes 10px : 1rem, instead of 16px : 1rem. Easier to calculate.
 }
 body{
-  font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
+  font-family: $font;
+  font-weight: regular;
 }
+h1, h2 {
+  font-family: $font;
+  font-weight: bold;
+}
+
+h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
 // Modules
 @import "modules/variables";
 
@@ -25,6 +35,7 @@ body{
 @import "partials/header";
 @import "partials/footer";
 @import "partials/pagination";
+@import "partials/blog-banner";
 
 // Templates
 @import "templates/docs";
@@ -35,5 +46,4 @@ body{
 @import "pages/home.scss";
 @import "pages/single-wc-post.scss";
 @import "pages/blog.scss";
-@import url("https://use.typekit.net/mck4rsq.css");
 @import "pages/page-process.scss";
