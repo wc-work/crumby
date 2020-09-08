@@ -60,7 +60,7 @@ get_header('transition');?>
     <div class="section_wrapper">
       <div class="section_info">
         <h2>Floyd Muñoz</h2>
-        <h3 class="job_title">Business Developer<br>Management</h3>
+        <h3 class="job_title">Business Developer<br>Manager</h3>
       </div>
       <div class="contact">
         (415) 310-2317
