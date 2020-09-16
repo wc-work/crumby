@@ -43,14 +43,19 @@
 					<img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/wc-site-logo.png" alt="Webcrumbs with digital crumbs on the bottom of the word 'crumbs'">
 				</a>
 			</div>
-
-				<div class="col icon2 d-lg-none d-md-none d-xl-none" id="flex-mlogo">
-					<a href="#">		
-						<a href="https://webcrumbs.dev/">
-							<img class="mobile-logo" id="flex-logo" src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="Webcrumbs alt logo. Digital bread with WC abbreviation in the middle.">
-						</a>
+			<div class="col icon2 d-lg-none d-md-none d-xl-none" id="flex-mlogo">
+				<a href="#">		
+					<a href="https://webcrumbs.dev/">
+						<img class="mobile-logo" id="flex-logo" src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="Webcrumbs alt logo. Digital bread with WC abbreviation in the middle.">
 					</a>
-				</div>
+				</a>
+				<div class="get-quote-small">
+				
+				<a href="https://webcrumbs.dev/contact" class="getAQuote ">
+					Get A Quote!
+				</a>
+			</div>
+			</div>
 
 		<?php
 			wp_nav_menu( array(
@@ -64,6 +69,11 @@
 				'walker'            => new WP_Bootstrap_Navwalker(),
 			) );
 		?>
+			<div class="d-none d-md-block">
+			<a href="https://webcrumbs.dev/contact" class="getAQuote">
+				Get A Quote!
+			</a>
+		</div>
 		</div>
 	</nav>
 </header>

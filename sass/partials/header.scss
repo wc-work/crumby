@@ -50,7 +50,19 @@
     color: $font-black !important;
   }
 }
+.getAQuote{
+  width: 4%;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color:#ecbc4d;
+}
 
+.get-quote-small{
+  margin-top: 5%;
+}
 
 .navbar-light .navbar-nav .nav-link:hover{
   color: $font-white !important;

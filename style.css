@@ -79,6 +79,20 @@ h3, h4, h5, h6 {
   color: #2C2C2C !important;
 }
 
+.getAQuote {
+  width: 4%;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: #ecbc4d;
+}
+
+.get-quote-small {
+  margin-top: 5%;
+}
+
 .navbar-light .navbar-nav .nav-link:hover {
   color: #FDF8E1 !important;
   background-color: transparent;
@@ -423,16 +437,10 @@ nav a {
 }
 .contact-page .icon-text-container {
   text-align: center;
-  margin-bottom: 4rem;
-}
-.contact-page .icon-wrapper {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 3.5rem;
 }
 .contact-page .icons {
-  width: 6rem;
-  height: 6rem;
+  width: 4rem;
+  height: 4rem;
   margin-bottom: 2rem;
 }
 .contact-page .btn-lg {
@@ -456,10 +464,10 @@ nav a {
 }
 .contact-page input[type=submit],
 .contact-page input[type=value] {
-  background-color: #5DA3B2;
+  background-color: #EBBC4E;
   box-sizing: border-box;
-  border: 2px solid #5DA3B2;
-  border-radius: 6px;
+  border: none;
+  border-radius: 30px;
   color: #FDF8E1;
   padding: 16px 32px;
   margin: 4px 2px;
@@ -490,8 +498,7 @@ nav a {
     display: unset;
   }
   .contact-page .icon-wrapper {
-    height: 100vh;
-    margin-top: unset;
+    margin-top: 5%;
   }
   .contact-page .contact-title {
     margin-top: unset;
@@ -1647,6 +1654,42 @@ nav a {
 .blog-wrapper h1 {
   font-size: 2.5rem;
 }
+.blog-wrapper .title {
+  font-size: 50px;
+  line-height: 5.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 100%;
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  padding: 15px 0 15px 15px;
+  max-width: 50%;
+  margin-left: 2%;
+}
+.blog-wrapper .subtitle {
+  font-size: 30px;
+}
+.blog-wrapper .layer {
+  width: 100%;
+  height: 65vh;
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  z-index: 5;
+}
+.blog-wrapper .banner {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.blog-wrapper .banner img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  object-fit: cover;
+  height: 65vh;
+}
 .blog-wrapper .blog-intro {
   position: absolute;
   z-index: 10;
@@ -1698,11 +1741,6 @@ nav a {
   position: absolute;
   z-index: 5;
 }
-.process .copy {
-  font-size: 2rem;
-  padding-top: 30px;
-  padding-bottom: 50px;
-}
 .process .banner {
   position: relative;
   margin: 0;
@@ -1715,6 +1753,11 @@ nav a {
   width: 100%;
   object-fit: cover;
   height: 65vh;
+}
+.process .copy {
+  font-size: 2rem;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 .process .flow_chart_row {
   display: flex;
@@ -1829,6 +1872,118 @@ nav a {
   }
   .process .flow_chart_row::before {
     height: 160px;
+  }
+}
+
+/**
+ * pages/portfolio
+ * ---
+ */
+.content {
+  width: 100%;
+}
+.content__text {
+  margin: 10 0;
+  font-size: 1.7rem;
+}
+.content__grid {
+  margin: 100px 0px;
+}
+.content__grid--item {
+  width: 25%;
+  margin: 30px 15px;
+}
+.content__img {
+  width: 100%;
+  height: 275px;
+  margin-bottom: 10px;
+}
+
+.travel {
+  background: url("http://localhost:8000/wp-content/themes/crumby/img/travel.png");
+  background-size: contain;
+}
+
+.travel:hover {
+  background: url("http://localhost:8000/wp-content/themes/crumby/img/video/travel-minded.gif");
+  background-size: contain;
+}
+
+.flower {
+  background: url("http://localhost:8000/wp-content/themes/crumby/img/flower.png");
+  background-size: contain;
+}
+
+.flower:hover {
+  background: url("http://localhost:8000/wp-content/themes/crumby/img/video/flower.gif");
+  background-size: contain;
+}
+
+.backpack {
+  background: url("http://localhost:8000/wp-content/themes/crumby/img/backpackers.png");
+  background-size: contain;
+}
+
+.backpack:hover {
+  background: url("http://localhost:8000/wp-content/themes/crumby/img/video/backpackers.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sideye {
+  background: url("http://localhost:8000/wp-content/themes/crumby/img/sideye.png");
+  background-size: contain;
+}
+
+.sideye:hover {
+  background: url("http://localhost:8000/wp-content/themes/crumby/img/video/sideye.gif");
+  background-size: contain;
+}
+
+.caruthers {
+  background: url("http://localhost:8000/wp-content/themes/crumby/img/caruthers.png");
+  background-size: contain;
+}
+
+.caruthers:hover {
+  background: url("http://localhost:8000/wp-content/themes/crumby/img/video/caruthers.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-container {
+  margin-top: 6%;
+}
+
+.carousel .carousel-item {
+  height: 600px;
+}
+
+.arrow-icons {
+  height: 20px;
+  margin: 5px 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .content__grid {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 5%;
+  }
+  .content__grid--item {
+    width: auto;
+  }
+
+  .carousel .carousel-item {
+    height: 300px;
   }
 }
 

@@ -6,14 +6,19 @@
 get_header(); ?>
 <!-- section -->
     <main role="main" class="blog-wrapper">
-        <div class="blog-intro">
-            <h1>Welcome to the WebCrumbs Blog</h1>
+        <section class="banner">
+            <div class="title">Welcome to the WebCrumbs Blog <br> <div class="subtitle">Read whats good </div></div>
+            
+            <div class="layer"></div>
+            <img src="<?php echo get_the_post_thumbnail_url();?>">
+	    </section>
+        <!-- <div class="blog-intro">
+            <h1 class="title">Welcome to the WebCrumbs Blog</h1>
             <br>
-            <h2>Read What's Good</h2>
-        </div>
-        <div class="overlay"></div>
-            <div class="banner-image">
-            </div>
+            <h2 class="subtitle">Read What's Good</h2>
+        </div> -->
+        
+            
         
         <section class="blog-wrapper">
             <?php

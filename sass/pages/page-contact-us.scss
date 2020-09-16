@@ -36,23 +36,21 @@
   }
   .icon-text-container {
     text-align: center;
-    margin-bottom: 4rem;
+    
   }
-  .icon-wrapper {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 3.5rem;
-  }
+  
   .icons {
-    width: 6rem;
-    height: 6rem;
+    width: 4rem;
+    height: 4rem;
     margin-bottom: 2rem;
+
   }
   .btn-lg {
     padding: 0.5rem 5rem;
     font-size: 2.25rem;
     line-height: 1.5;
     border-radius: 2.3rem;
+    
   }
   input[type="text"],
   input[type="email"],
@@ -69,10 +67,10 @@
   }
   input[type="submit"],
   input[type="value"] {
-    background-color: $font-blue;
+    background-color: $font-yellow;
     box-sizing: border-box;
-    border: 2px solid $font-blue;
-    border-radius: 6px;
+    border:none;
+    border-radius: 30px;
     color: $font-white;
     padding: 16px 32px;
     margin: 4px 2px;
@@ -96,17 +94,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     height: 100%;
 
     .map {
       display: unset;
     }
     .icon-wrapper {
-      height: 100vh;
-      margin-top: unset;
+      margin-top: 5%;
     }
-
     .contact-title {
       margin-top: unset;
       padding-top: 7rem;
