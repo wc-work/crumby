@@ -11,23 +11,27 @@ get_header(); ?>
     <div class="container-fluid contact-us row">
         <div class="row icon-wrapper col-sm-6">
         <!-- icon-text-container is to help align the icons and text together -->
-            <div class="icon-text-container col-xs col-xl-12 d-flex flex-column justify-content-center align-items-center">
-            <img class="icons" src="<?php bloginfo('template_url'); ?>/img/icons/phone.png" alt="An icon that depicts a cellphone">
-                <h2>(415)310-2317</h2>
+
+            <div class="icon-text-container col-xs col-xl-12 d-flex justify-content-between ">
+                <a href="tel:14153102317"><img class="icons" src="<?php bloginfo('template_url'); ?>/img/icons/phone.png" alt="An icon that depicts a cellphone"></a>
+                <div class="d-flex w-100 justify-content-center">
+                    <a  href="tel:14153102317"><h2 class="contact-number">(415)310-2317</h2></a>
+                </div>
             </div>
 
-            <div class="icon-text-container col-xs col-xl-12">
-               <a href="mailto:info.webcrumbs@gmail.com?Subject=Howdy!"> <img class="icons" src="<?php bloginfo('template_url'); ?>/img/icons/email.png" alt="An icon that depicts an envelope"></a>
-                <a href="mailto:info.webcrumbs@gmail.com?Subject=Howdy!">
-                    <h2>fmunoz@geekwiseacademy.com</h2>
-                </a>
-            </div>
-
-            <div class="icon-text-container col-xs col-xl-12">
+            <div class="icon-text-container d-flex col-xs col-xl-12 justify-content-between">
+                <a href="mailto:fmunoz@geekwiseacademy.com?Subject=Howdy!"> <img class="icons " src="<?php bloginfo('template_url'); ?>/img/icons/email.png" alt="An icon that depicts an envelope"></a>
+                <div class="d-flex w-100 justify-content-center">
+                    <a href="mailto:fmunoz@geekwiseacademy.com?Subject=Howdy!">
+                        <h2 class="contact-email">fmunoz@geekwiseacademy.com</h2>
+                    </a>
+                </div>
                 
+            </div>
 
-                <img class="icons" src="<?php bloginfo('template_url'); ?>/img/icons/location-solid.png" alt="An icon that symbolizes locations">
-                <a href="https://goo.gl/maps/9A9otZuTM4n55z1GA" target="_blank">
+            <div class="icon-text-container d-flex col-xs col-xl-12">
+                <a href="https://goo.gl/maps/9A9otZuTM4n55z1GA" target="_blank"><img class="icons" src="<?php bloginfo('template_url'); ?>/img/icons/location-solid.png" alt="An icon that symbolizes locations"></a>
+                <a href="https://goo.gl/maps/9A9otZuTM4n55z1GA" class=" w-100" target="_blank">
                     <h2 class="addy"> 
                         <p>
                         WebCrumbs
